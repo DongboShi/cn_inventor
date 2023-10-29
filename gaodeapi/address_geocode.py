@@ -9,8 +9,8 @@ def connection():
     conn = MySQLdb.Connect(
         host = "202.120.15.230",
         port = 3306,
-        user = "danxiwang",
-        passwd = "Wdx19930909",
+        user = "",
+        passwd = "",
         db = "business",
         charset = "utf8"
     )
