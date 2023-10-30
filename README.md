@@ -102,9 +102,11 @@ disambiguate inventors of Chinese patents
 3. 使用科学家名字先筛选发明人查询的名单
 
 4. 计算已经可以计算的feature
+
 5. 支线任务，从google patents获取所有专利的description的数据（岩钧）
 
-具体来说，就是通过专利号和谷歌专利的网址页规律，直接进入谷歌专利网页，直接从静态网页中得到相关内容即可
+具体来说，就是通过专利号和谷歌专利的网址页规律，直接进入谷歌专利网页，直接从静态网页中得到相关内容即可。
 
+包括专利的description和引用信息，专利引用解析Patent Citations和Family Cites Families这两个表。
 
 
