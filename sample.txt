@@ -1,0 +1,2992 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>CN101551481B - 滤色片制造方法 
+        - Google Patents</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta name="referrer" content="origin-when-crossorigin">
+    <link rel="canonical" href="https://patents.google.com/patent/CN101551481B/zh">
+    <meta name="description" content="
+     本发明提供下述滤色片制造方法及利用该方法得到的滤色片以及液晶显示装置，该方法是为了提高电压保持率、得到高品质的图像，其为在基板上具有色相互不相同的2种颜色以上的被图案化的着色像素以及位于该着色像素周围的黑矩阵的滤色片的制造方法，其特征在于，为了形成着色像素或黑矩阵，在基板上形成着色液体组合物，预烘烤后的着色液体组合物层的残留溶剂量为10μL/m 2 以下，并且用于形成各色着色像素以及黑矩阵的着色液体组合物层的残留溶剂量的总和为40μL/m 2 以下。 
+   
+   ">
+    
+    <meta name="DC.type" content="patent">
+    
+    <meta name="DC.title" content="滤色片制造方法 
+       ">
+    
+    <meta name="DC.date" content="2009-03-25" scheme="dateSubmitted">
+    
+    <meta name="DC.description" content="
+     本发明提供下述滤色片制造方法及利用该方法得到的滤色片以及液晶显示装置，该方法是为了提高电压保持率、得到高品质的图像，其为在基板上具有色相互不相同的2种颜色以上的被图案化的着色像素以及位于该着色像素周围的黑矩阵的滤色片的制造方法，其特征在于，为了形成着色像素或黑矩阵，在基板上形成着色液体组合物，预烘烤后的着色液体组合物层的残留溶剂量为10μL/m 2 以下，并且用于形成各色着色像素以及黑矩阵的着色液体组合物层的残留溶剂量的总和为40μL/m 2 以下。 
+   
+   ">
+    
+    <meta name="citation_patent_application_number" content="CN:2009101277538A">
+    
+    <meta name="citation_pdf_url" content="https://patentimages.storage.googleapis.com/e7/16/30/2f28a741b86444/CN101551481B.pdf">
+    
+    <meta name="citation_patent_number" content="CN:101551481:B">
+    
+    <meta name="DC.date" content="2012-11-21" scheme="issue">
+    
+    <meta name="DC.contributor" content="竹田明彦" scheme="inventor">
+    
+    <meta name="DC.contributor" content="中泽隆浩" scheme="inventor">
+    
+    <meta name="DC.contributor" content="Fujifilm Corp" scheme="assignee">
+    
+    <meta name="DC.relation" content="CN:1542067:A" scheme="references">
+    
+    <meta name="DC.relation" content="CN:101081941:A" scheme="references">
+    
+    <meta name="citation_reference" content="JP特开2005-181859A 2005.07.07" scheme="references">
+    
+    <meta name="citation_reference" content="JP特开2005-292306A 2005.10.20" scheme="references">
+    
+    <meta name="citation_reference" content="JP特开平7-35915A 1995.02.07" scheme="references">
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,400italic,500,500italic,700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Product+Sans">
+    <style>
+      body { transition: none; }
+    </style>
+
+    <script>
+      window.version = 'patent-search.search_20231027_RC00';
+
+      function sendFeedback() {
+        userfeedback.api.startFeedback({
+          'productId': '713680',
+          'bucket': 'patent-search-web',
+          'productVersion': window.version,
+        });
+      }
+
+      window.experiments = {};
+      window.experiments.patentCountries = "ae,ag,al,am,ao,ap,ar,at,au,aw,az,ba,bb,bd,be,bf,bg,bh,bj,bn,bo,br,bw,bx,by,bz,ca,cf,cg,ch,ci,cl,cm,cn,co,cr,cs,cu,cy,cz,dd,de,dj,dk,dm,do,dz,ea,ec,ee,eg,em,ep,es,fi,fr,ga,gb,gc,gd,ge,gh,gm,gn,gq,gr,gt,gw,hk,hn,hr,hu,ib,id,ie,il,in,ir,is,it,jo,jp,ke,kg,kh,km,kn,kp,kr,kw,kz,la,lc,li,lk,lr,ls,lt,lu,lv,ly,ma,mc,md,me,mg,mk,ml,mn,mo,mr,mt,mw,mx,my,mz,na,ne,ng,ni,nl,no,nz,oa,om,pa,pe,pg,ph,pl,pt,py,qa,ro,rs,ru,rw,sa,sc,sd,se,sg,si,sk,sl,sm,sn,st,su,sv,sy,sz,td,tg,th,tj,tm,tn,tr,tt,tw,tz,ua,ug,us,uy,uz,vc,ve,vn,wo,yu,za,zm,zw";
+      
+      
+      
+      window.experiments.keywordWizard = true;
+      
+      
+      
+      
+
+      window.Polymer = {
+        dom: 'shady',
+        lazyRegister: true,
+      };
+    </script>
+
+    <script src="//www.gstatic.com/patent-search/frontend/patent-search.search_20231027_RC00/scs/compiled_dir/webcomponentsjs/webcomponents-lite.min.js"></script>
+    <link rel="import" href="//www.gstatic.com/patent-search/frontend/patent-search.search_20231027_RC00/scs/compiled_dir/search-app-vulcanized.html">
+  </head>
+  <body unresolved>
+    <script src="//www.gstatic.com/patent-search/frontend/patent-search.search_20231027_RC00/scs/compiled_dir/search-app-vulcanized.js"></script>
+    <search-app>
+      
+      
+
+      <article class="result" itemscope itemtype="http://schema.org/ScholarlyArticle">
+  <h1 itemprop="pageTitle">CN101551481B - 滤色片制造方法 
+        - Google Patents</h1>
+  <span itemprop="title">滤色片制造方法 
+       </span>
+
+  <meta itemprop="type" content="patent">
+  <a href="https://patentimages.storage.googleapis.com/e7/16/30/2f28a741b86444/CN101551481B.pdf" itemprop="pdfLink">Download PDF</a>
+  <h2>Info</h2>
+
+  <dl>
+    <dt>Publication number</dt>
+    <dd itemprop="publicationNumber">CN101551481B</dd>
+    <meta itemprop="numberWithoutCodes" content="101551481">
+    <meta itemprop="kindCode" content="B">
+    <meta itemprop="publicationDescription" content="Granted patent for invention">
+    
+    <span>CN101551481B</span>
+    
+    <span>CN2009101277538A</span>
+    
+    <span>CN200910127753A</span>
+    
+    <span>CN101551481B</span>
+    
+    <span>CN 101551481 B</span>
+    
+    <span>CN101551481 B</span>
+    
+    <span>CN 101551481B</span>
+    
+    <span>CN 2009101277538 A</span>
+    
+    <span>CN2009101277538 A</span>
+    
+    <span>CN 2009101277538A</span>
+    
+    <span>CN 200910127753 A</span>
+    
+    <span>CN200910127753 A</span>
+    
+    <span>CN 200910127753A</span>
+    
+    <span>CN 101551481 B</span>
+    
+    <span>CN101551481 B</span>
+    
+    <span>CN 101551481B</span>
+    
+
+    <dt>Authority</dt>
+    <dd itemprop="countryCode">CN</dd>
+    <dd itemprop="countryName">China</dd>
+
+    <dt>Prior art keywords</dt>
+    
+    <dd itemprop="priorArtKeywords" repeat>acid</dd>
+    <dd itemprop="priorArtKeywords" repeat>compound</dd>
+    <dd itemprop="priorArtKeywords" repeat>communique</dd>
+    <dd itemprop="priorArtKeywords" repeat>color filter</dd>
+    <dd itemprop="priorArtKeywords" repeat>patent laid</dd>
+
+    <dt>Prior art date</dt>
+    <dd><time itemprop="priorArtDate" datetime="2008-03-31">2008-03-31</time></dd>
+
+    <dt>Legal status (The legal status is an assumption and is not a legal conclusion. Google has not performed a legal analysis and makes no representation as to the accuracy of the status listed.)</dt>
+    <dd itemprop="legalStatusIfi" itemscope>
+      <span itemprop="status">Expired - Fee Related</span>
+    </dd>
+  </dl>
+
+  <dt>Application number</dt>
+  <dd itemprop="applicationNumber">CN2009101277538A</dd>
+
+  <dt>Other languages</dt>
+  <dd itemprop="otherLanguages" itemscope repeat>
+    <a href="/patent/CN101551481B/en">
+      <span itemprop="name">English</span> (<span itemprop="code">en</span>)
+    </a>
+  </dd>
+
+  <dt>Other versions</dt>
+  <dd itemprop="directAssociations" itemscope repeat>
+    
+    <a href="/patent/CN101551481A/zh">
+      <span itemprop="publicationNumber">CN101551481A</span>
+      (<span itemprop="primaryLanguage">zh</span>
+    </a>
+  </dd>
+
+  <dt>Inventor</dt>
+  <dd itemprop="inventor" repeat>竹田明彦</dd>
+  <dd itemprop="inventor" repeat>中泽隆浩</dd>
+  <dt>Current Assignee (The listed assignees may be inaccurate. Google has not performed a legal analysis and makes no representation or warranty as to the accuracy of the list.)</dt>
+  <dd itemprop="assigneeCurrent" repeat>
+    Fujifilm Corp
+  </dd>
+
+  <dt>Original Assignee</dt>
+  <dd itemprop="assigneeOriginal" repeat>Fujifilm Corp</dd>
+
+  <dt>Priority date (The priority date is an assumption and is not a legal conclusion. Google has not performed a legal analysis and makes no representation as to the accuracy of the date listed.)</dt>
+  <dd><time itemprop="priorityDate" datetime="2008-03-31">2008-03-31</time></dd>
+
+  <dt>Filing date</dt>
+  <dd><time itemprop="filingDate" datetime="2009-03-25">2009-03-25</time></dd>
+
+  <dt>Publication date</dt>
+  <dd><time itemprop="publicationDate" datetime="2012-11-21">2012-11-21</time></dd>
+
+  
+
+  
+  <dd itemprop="events" itemscope repeat>
+    
+    <time itemprop="date" datetime="2009-03-25">2009-03-25</time>
+    
+    <span itemprop="title">Application filed by Fujifilm Corp</span>
+    <span itemprop="type">filed</span>
+    
+    <span itemprop="critical" content="true" bool>Critical</span>
+    
+    
+    
+    
+    
+    <span itemprop="assigneeSearch">Fujifilm Corp</span>
+    
+    
+  </dd>
+  
+  <dd itemprop="events" itemscope repeat>
+    
+    <time itemprop="date" datetime="2009-10-07">2009-10-07</time>
+    
+    <span itemprop="title">Publication of CN101551481A</span>
+    <span itemprop="type">publication</span>
+    
+    <span itemprop="critical" content="true" bool>Critical</span>
+    
+    
+    
+    
+    <span itemprop="documentId">patent/CN101551481A/zh</span>
+    
+    
+    
+  </dd>
+  
+  <dd itemprop="events" itemscope repeat>
+    
+    <time itemprop="date" datetime="2012-11-21">2012-11-21</time>
+    
+    <span itemprop="title">Application granted</span>
+    <span itemprop="type">granted</span>
+    
+    <span itemprop="critical" content="true" bool>Critical</span>
+    
+    
+    
+    
+    
+    
+  </dd>
+  
+  <dd itemprop="events" itemscope repeat>
+    
+    <time itemprop="date" datetime="2012-11-21">2012-11-21</time>
+    
+    <span itemprop="title">Publication of CN101551481B</span>
+    <span itemprop="type">publication</span>
+    
+    <span itemprop="critical" content="true" bool>Critical</span>
+    
+    
+    
+    
+    <span itemprop="documentId">patent/CN101551481B/zh</span>
+    
+    
+    
+  </dd>
+  
+  <dd itemprop="events" itemscope repeat>
+    
+    <time itemprop="date">Status</time>
+    
+    <span itemprop="title">Expired - Fee Related</span>
+    <span itemprop="type">legal-status</span>
+    
+    <span itemprop="critical" content="true" bool>Critical</span>
+    
+    
+    <span itemprop="current" content="true" bool>Current</span>
+    
+    
+    
+    
+    
+  </dd>
+  
+  <dd itemprop="events" itemscope repeat>
+    
+    <time itemprop="date" datetime="2029-03-25">2029-03-25</time>
+    
+    <span itemprop="title">Anticipated expiration</span>
+    <span itemprop="type">legal-status</span>
+    
+    <span itemprop="critical" content="true" bool>Critical</span>
+    
+    
+    
+    
+    
+    
+  </dd>
+  
+
+  <h2>Links</h2>
+
+  <ul>
+    
+
+    <li itemprop="links" itemscope repeat>
+        <meta itemprop="id" content="espacenetLink">
+        <a href="https://worldwide.espacenet.com/publicationDetails/biblio?CC=CN&amp;NR=101551481B&amp;KC=B&amp;FT=D" itemprop="url" target="_blank"><span itemprop="text">Espacenet</span></a>
+      </li>
+      
+
+    
+
+    
+        <li itemprop="links" itemscope repeat>
+          <meta itemprop="id" content="globalDossierLink">
+          <a href="https://globaldossier.uspto.gov/#/result/publication/CN/101551481/1" itemprop="url" target="_blank"><span itemprop="text">Global Dossier</span></a>
+        </li>
+
+      
+
+      
+
+      
+
+      
+        <li itemprop="links" itemscope repeat>
+          <meta itemprop="id" content="stackexchangeLink">
+          <a href="https://patents.stackexchange.com/questions/tagged/CN101551481B" itemprop="url"><span itemprop="text">Discuss</span></a>
+        </li>
+  </ul>
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  <section itemprop="abstract" itemscope>
+    <h2>Abstract</h2>
+    
+    <div itemprop="content" html><abstract mxw-id="PA363848960" lang="ZH" load-source="patent-office">
+    <div num="0001" class="abstract">本发明提供下述滤色片制造方法及利用该方法得到的滤色片以及液晶显示装置，该方法是为了提高电压保持率、得到高品质的图像，其为在基板上具有色相互不相同的2种颜色以上的被图案化的着色像素以及位于该着色像素周围的黑矩阵的滤色片的制造方法，其特征在于，为了形成着色像素或黑矩阵，在基板上形成着色液体组合物，预烘烤后的着色液体组合物层的残留溶剂量为10μL/m<sup>2</sup>以下，并且用于形成各色着色像素以及黑矩阵的着色液体组合物层的残留溶剂量的总和为40μL/m<sup>2</sup>以下。</div>
+  </abstract>
+  </div>
+  </section>
+
+  <section itemprop="description" itemscope>
+    <h2>Description</h2>
+    
+    <div itemprop="content" html><div mxw-id="PDES394887098" lang="ZH" load-source="patent-office" class="description">
+    <invention-title lang="ZH" id="tilte1">滤色片制造方法</invention-title>
+    <technical-field>
+      <div id="p0001" num="0001" class="description-paragraph">技术领域
+	</div>
+      <div id="p0002" num="0002" class="description-paragraph">本发明涉及具有例如在玻璃等基板上以矩阵状配置红(R)、绿(G)、蓝(B)等点状像素的黑矩阵(K)的滤色片及其制造方法以及液晶显示装置。 
+	</div>
+    </technical-field>
+    <background-art>
+      <div id="p0003" num="0003" class="description-paragraph">背景技术
+	</div>
+      <div id="p0004" num="0004" class="description-paragraph">滤色片是液晶显示器和固体摄像元件中不可或缺的构成部件。 
+	</div>
+      <div id="p0005" num="0005" class="description-paragraph">例如，液晶显示器逐渐应用于电视机，因此液晶显示器(LCD)用滤色片与目前的笔记本电脑、监视器中使用的滤色片相比，要求具有更高品质的画质。 
+	</div>
+      <div id="p0006" num="0006" class="description-paragraph">关于上述画质的提高，就滤色片的制造方法而言，目前已知有(1)染色法；(2)印刷法；(3)通过着色的感光性树脂液的涂布、曝光及显影，来形成已着色的图案图像的方法(着色抗蚀剂法；例如参照日本专利特开昭63-298304号公报、日本专利特开昭63-309916号公报、日本专利特开平1-152449号公报)；(4)将已着色的感光性树脂液预先涂布等在临时支撑体上来事先形成感光性着色层，将该感光性树脂直接转印到最终或临时的基材上，曝光，显影，来形成着色图案的方法(转印法)(例如参照日本专利特开昭61-99102号公报)。此外，还已知有采用喷墨法的方法(例如参照日本专利特开平8-227012号公报)。 
+	</div>
+      <div id="p0007" num="0007" class="description-paragraph">另外，还公开有为了解决图像显示时的显示不良而使用含有电压保持率为80％以上的颜料的感光性组合物作为RGB像素形成用涂布组合物的技术(例如参照日本专利特开2000-329929号公报)。此外，还公开了由感光性组合物形成的层中的残留溶剂量为0.001％～0.2％的转印薄膜的技术。 
+	</div>
+      <div id="p0008" num="0008" class="description-paragraph">但是，虽然在日本专利特开2000-329929号公报中记载的方法中，通过使用使电压保持率为80％以上而选择或处理后的颜料来改善显示不良，在日本专利特开2005-181858号公报所述的方法中，通过使用由感光性组 合物形成的层中的残留溶剂量为0.001％～0.2％的转印薄膜，来改善转印性，但均未公开感光性组合物的残留溶剂影响电压保持率。另外，也未公开感光性组合物的残留溶剂影响显影性。 
+	</div>
+    </background-art>
+    <disclosure>
+      <div id="p0009" num="0009" class="description-paragraph">发明内容
+	</div>
+      <div id="p0010" num="0010" class="description-paragraph">本发明鉴于上述情况，其目的在于通过降低刚预烘烤后的着色液体组合物层中的残留溶剂量提供一种在显影性得到提高的同时能够使所得到的滤色片的电压保持率提高、能得到高品质图像的滤色片制造方法及由该方法得到的滤色片以及利用了该滤色片的液晶显示装置。 
+	</div>
+      <div id="p0011" num="0011" class="description-paragraph">为了实现上述课题的具体方法如下所述。 
+	</div>
+      <div id="p0012" num="0012" class="description-paragraph">&lt;1&gt; 
+	</div>
+      <div id="p0013" num="0013" class="description-paragraph">一种滤色片的制造方法，其为在基板上具有色相互不相同的2种颜色以上的被图案化的着色像素以及位于该着色像素周围的黑矩阵的滤色片的制造方法，其特征在于， 
+	</div>
+      <div id="p0014" num="0014" class="description-paragraph">将至少1种的着色液体组合物层的残留溶剂量控制为10μL/m<sup>2</sup>以下，且将用于形成各色的着色像素以及黑矩阵的所述着色液体组合物层的残留溶剂量的总和控制为40μL/m<sup>2</sup>以下，所述着色液体组合物层是为了形成着色像素或黑矩阵而在基板上形成着色液体组合物并将其刚预烘烤后的层。 
+	</div>
+      <div id="p0015" num="0015" class="description-paragraph">&lt;2&gt; 
+	</div>
+      <div id="p0016" num="0016" class="description-paragraph">根据&lt;1&gt;所述的滤色片的制造方法，其特征在于，上述着色液体组合物的形成方法为旋涂法以及狭缝涂布法中的任一种。 
+	</div>
+      <div id="p0017" num="0017" class="description-paragraph">&lt;3&gt; 
+	</div>
+      <div id="p0018" num="0018" class="description-paragraph">根据&lt;1&gt;所述的滤色片的制造方法，其特征在于，上述预烘烤温度为60℃以上、140℃以下，预烘烤时间为30秒以上、300秒以下。 
+	</div>
+      <div id="p0019" num="0019" class="description-paragraph">&lt;4&gt; 
+	</div>
+      <div id="p0020" num="0020" class="description-paragraph">一种滤色片，其通过&lt;1&gt;所述的制造方法得到。 
+	</div>
+      <div id="p0021" num="0021" class="description-paragraph">&lt;5&gt; 
+	</div>
+      <div id="p0022" num="0022" class="description-paragraph">一种由&lt;1&gt;所述的制造方法获得的滤色片，其特征在于，上述着色液体组合物的溶剂含有30重量％～70重量％的沸点为100℃以上的溶剂。 
+	</div>
+      <div id="p0023" num="0023" class="description-paragraph">&lt;6&gt; 
+	</div>
+      <div id="p0024" num="0024" class="description-paragraph">一种由&lt;1&gt;所述的制造方法获得的滤色片，其特征在于，上述着色液体组合物的溶剂为选自丙二醇单甲醚乙酸酯、环己酮、甲乙酮以及3-乙氧基乙基丙酸酯中的至少1种。 
+	</div>
+      <div id="p0025" num="0025" class="description-paragraph">&lt;7&gt; 
+	</div>
+      <div id="p0026" num="0026" class="description-paragraph">一种由&lt;1&gt;所述的制造方法获得的滤色片，其特征在于，上述着色液体组合物含有在侧链具有羧酸的聚合物。 
+	</div>
+      <div id="p0027" num="0027" class="description-paragraph">&lt;8&gt; 
+	</div>
+      <div id="p0028" num="0028" class="description-paragraph">根据&lt;7&gt;所述的滤色片，其特征在于，上述着色液体组合物还含有环氧树脂。 
+	</div>
+      <div id="p0029" num="0029" class="description-paragraph">&lt;9&gt; 
+	</div>
+      <div id="p0030" num="0030" class="description-paragraph">一种由&lt;1&gt;所述的制造方法获得的滤色片，其特征在于，上述着色液体组合物含有平均粒子大小为10nm以上、100nm以下的着色剂。 
+	</div>
+      <div id="p0031" num="0031" class="description-paragraph">&lt;10&gt; 
+	</div>
+      <div id="p0032" num="0032" class="description-paragraph">一种由&lt;1&gt;所述的制造方法获得的滤色片，其特征在于，上述着色液体组合物含有具有至少1个乙烯性不饱和双键的加聚性化合物。 
+	</div>
+      <div id="p0033" num="0033" class="description-paragraph">&lt;11&gt; 
+	</div>
+      <div id="p0034" num="0034" class="description-paragraph">一种由&lt;1&gt;所述的制造方法获得的滤色片，其特征在于，上述着色液体组合物含有至少1种光聚合引发剂。 
+	</div>
+      <div id="p0035" num="0035" class="description-paragraph">&lt;12&gt; 
+	</div>
+      <div id="p0036" num="0036" class="description-paragraph">一种由&lt;1&gt;所述的制造方法获得的滤色片，其特征在于，上述着色液体组合物含有至少1种高分子分散剂。 
+	</div>
+      <div id="p0037" num="0037" class="description-paragraph">&lt;13&gt; 
+	</div>
+      <div id="p0038" num="0038" class="description-paragraph">一种液晶显示装置，其具有由&lt;1&gt;所述的制造方法获得的滤色片。 
+	</div>
+      <div id="p0039" num="0039" class="description-paragraph">本发明通过降低刚预烘烤后的着色液体组合物层中的残留溶剂量提供一种在显影性得到提高的同时能够使得到的滤色片的电压保持率提高、能得到高品质图像的滤色片制造方法及通过该方法得到的滤色片以及利用了该滤色片的液晶显示装置。 
+	</div>
+    </disclosure>
+    <mode-for-invention>
+      <div id="p0040" num="0040" class="description-paragraph">具体实施方式
+	</div>
+      <div id="p0041" num="0041" class="description-paragraph">以下，对本发明的滤色片及其制造方法以及液晶显示装置进行详细说 明。 
+	</div>
+      <div id="p0042" num="0042" class="description-paragraph">&lt;滤色片的制造方法&gt; 
+	</div>
+      <div id="p0043" num="0043" class="description-paragraph">本发明的滤色片的制造方法是在基板上具有色相互不相同的2色以上的被图案化的着色像素(以下有时称为着色图案)以及在其周围具有黑矩阵的滤色片的制造方法，其中，将至少1种的着色液体组合物层的残留溶剂量控制为10μL/m<sup>2</sup>以下，且将用于形成各色的着色像素以及黑矩阵的所述着色液体组合物层的残留溶剂量的总和控制为40μL/m<sup>2</sup>以下，所述着色液体组合物层是为了形成着色像素或黑矩阵而在基板上形成着色液体组合物并将其刚预烘烤后的层。 
+	</div>
+      <div id="p0044" num="0044" class="description-paragraph">更具体而言，例如本发明的滤色片的制造方法可以如下构成：具有黑矩阵形成工序和着色图案形成工序，根据需要进一步设置其他工序。而且，在该黑矩阵形成工序和着色图案形成工序中，如上所述对为了形成该黑矩阵以及着色图案而在基板上刚形成着色液体组合物(黑矩阵时相当于感光性黑色组合物，着色图案时相当于感光性着色组合物)后的感光性黑色组合物层(感光性黑色组合物层、感光性着色组合物层)的残留溶剂量进行控制。 
+	</div>
+      <div id="p0045" num="0045" class="description-paragraph">本发明的滤色片的制造方法中，通过降低刚预烘烤后的着色液体组合物层中的残留溶剂量，使其显影性提高的同时，可使得到的滤色片的电压保持率提高，能得到高品质的图像。 
+	</div>
+      <div id="p0046" num="0046" class="description-paragraph">这里，刚预烘烤后的着色液体组合物层的残留溶剂量是指涂布着色液体组合物后，实施预烘烤，加热·干燥后5分钟以内的着色液体组合物层(曝光·显影前的层)的残留溶剂量。另外，着色液体组合物层的残留溶剂量的总和是指用于形成形成于滤色片的所有颜色的着色图案以及黑矩阵的各着色液体组合物层的残留溶剂量的总和。 
+	</div>
+      <div id="p0047" num="0047" class="description-paragraph">关于该残留溶剂量的测定而言，在与滤色片的制造过程相同的条件下，在基板上涂布作为目标的着色液体组合物后，加热实施预烘烤，制作着色液体组合物层的样品，将其准确冲切成10cm×10cm，裁剪成细段。将裁剪物装入小瓶中并封口，注入气相色谱，根据预先测定的校正曲线，算出残留溶剂量。 
+	</div>
+      <div id="p0048" num="0048" class="description-paragraph">本发明的滤色片的制造方法中，关于着色液体组合物的溶剂，优选含有30～70重量％的沸点100℃以上的溶剂，更优选为40～60重量％。近 年来，随着LCD面板的大型化，例如有人提出狭缝涂布机，该狭缝涂布机使狭缝喷嘴移动的同时，从狭缝喷嘴向基板表面提供着色液体组合物，此时，若沸点100℃以上的溶剂相对于着色液体组合物中的含量在上述范围以上，则易于防止着色液体组合物在狭缝喷嘴顶端干燥而堵塞喷嘴，另一方面，若含量在上述范围以下，则易于降低着色液体组合物层的预烘烤条件的温度及时间，在实现低成本化·短期化的同时，还能减少残留溶剂量。 
+	</div>
+      <div id="p0049" num="0049" class="description-paragraph">另外，着色液体组合物的溶剂优选为选自丙二醇单甲基醚乙酸酯、环己酮以及3-乙氧基乙基丙酸酯中的至少1种。从着色液体组合物中的有机颜料的分散稳定化以及使用狭缝涂布机时防止狭缝喷嘴顶端因着色液体组合物干燥引起的喷嘴堵塞的观点出发，优选这些溶剂为沸点100℃以上的溶剂。另外，对于甲乙酮，沸点虽然为80℃，但从提高着色液体组合物中的粘合剂聚合物的溶解性的观点出发成为优选。 
+	</div>
+      <div id="p0050" num="0050" class="description-paragraph">以下，将本发明的滤色片的制造方法分成黑矩阵形成工序和着色图案形成工序来详细说明。 
+	</div>
+      <div id="p0051" num="0051" class="description-paragraph">[黑矩阵形成工序] 
+	</div>
+      <div id="p0052" num="0052" class="description-paragraph">在本发明的黑矩阵形成工序中，至少通过在涂布感光性黑色组合物后实施预烘烤，在基板上形成感光性黑色组合物层(感光性黑色组合物层形成工序)，将上述感光性黑色组合物层曝光(曝光工序)，将上述曝光后的上述感光性黑色组合物层显影(显影工序)，形成黑矩阵图案，将形成的黑矩阵图案烘烤(烘烤工序)，由此形成黑矩阵。黑矩阵形成工序除上述各工序外，还可以根据需要设置其他工序。
+	</div>
+      <div id="p0053" num="0053" class="description-paragraph">-黑矩阵- 
+	</div>
+      <div id="p0054" num="0054" class="description-paragraph">本发明中，黑矩阵的光学浓度(OD值)优选为2.0以上、8.0以下，更优选为3.0以上、最优选为4.0～6.0。若光学浓度为2.0以上，则可以抑制对比度下降等显示装置的显示品质的下降。 
+	</div>
+      <div id="p0055" num="0055" class="description-paragraph">另外，这里所谓的光学浓度是指ISO Visual透射光学浓度。作为ISOVisual透射光学浓度的测定中能使用的测定仪，例如可以举出SAKATAINX ENG.株式会社的X-Rite 361T(V)。 
+	</div>
+      <div id="p0056" num="0056" class="description-paragraph">黑矩阵的线宽(夹于着色图案之间的、与黑矩阵长度方向正交的方向 上的长度)，从高开口率能确保亮度的观点出发，优选为5μm～30μm。黑矩阵的厚度(黑矩阵的基板法线方向上的长度)，从减少黑矩阵与着色图案相重叠的重叠部的凸起(优选为0.5μm以下)的观点出发，优选为0.2μm～2.0μm，进一步优选为0.2μm～1.5μm，更优选为0.5μm～1.2μm。在该厚度范围内，能适当维持设有黑矩阵的基板的凹凸即黑矩阵的形成区域与非形成区域的高度差，黑矩阵形成后也能以高精度在其上形成RGB等着色图案(着色像素)。 
+	</div>
+      <div id="p0057" num="0057" class="description-paragraph">-感光性黑色组合物层形成工序- 
+	</div>
+      <div id="p0058" num="0058" class="description-paragraph">在本工序中，涂布感光性黑色组合物后实施预烘烤，在基板上形成感光性黑色组合物层。 
+	</div>
+      <div id="p0059" num="0059" class="description-paragraph">作为本工序中能使用的基板，例如可以举出用于液晶显示元件等的无碱玻璃、钠玻璃、Pyrex(注册商标)玻璃、石英玻璃及在上述基板附着有透明导电膜的基板、或用于固体摄像元件等的光电转化元件基板、例如硅基板等。此外，还可以是塑料基板。在这些基板首先形成将各像素隔离的成格子状等的黑矩阵，在格子的空隙部分形成着色像素。 
+	</div>
+      <div id="p0060" num="0060" class="description-paragraph">这些基板上也可以根据需要而设置下涂层用来改善与上部层的密合性、防止物质扩散或使基板表面平坦化。从进一步发挥本发明效果的观点出发，基板优选为大型(大约每边为1m以上)基板。 
+	</div>
+      <div id="p0061" num="0061" class="description-paragraph">作为在基板上形成感光性黑色组合物层的方法，例如有通过涂布等向基板上赋予感光性黑色组合物的方法。 
+	</div>
+      <div id="p0062" num="0062" class="description-paragraph">作为向基板上赋予感光性黑色组合物的方法，可以使用狭缝涂布法、旋转涂布法、喷墨法、转动涂布法、流延涂布法、辊涂布法、丝网印刷法等各种赋予方法。其中，从精度和速度的观点出发，优选狭缝涂布法、旋转涂布法。 
+	</div>
+      <div id="p0063" num="0063" class="description-paragraph">基板上形成的感光性黑色组合物层的预烘烤温度优选为60～140℃，更优选为80～120℃。预烘烤时间优选为30～300秒，更优选为80～200秒。 
+	</div>
+      <div id="p0064" num="0064" class="description-paragraph">在基板上赋予感光性黑色组合物时的厚度(例如涂布厚度)可以根据形成的黑矩阵的厚度的设计值而适当调整，一般优选为0.2～2.2μm，更优选为0.2～1.6μm，最优选为0.5～1.3μm。 
+	</div>
+      <div id="p0065" num="0065" class="description-paragraph">-曝光工序- 
+	</div>
+      <div id="p0066" num="0066" class="description-paragraph">在曝光工序中，将上述感光性黑色组合物层形成工序中形成的感光性黑色组合物层隔着规定的掩模图案进行曝光，形成图案(负型时，仅使被光照射的涂布膜部分固化)。作为曝光时能使用的放射线，特别优选使用g线、h线、i线等紫外线。照射量优选为5～500mJ/cm<sup>2</sup>，进一步优选为10～300mJ/cm<sup>2</sup>，最优选10～200mJ/cm<sup>2</sup>。 
+	</div>
+      <div id="p0067" num="0067" class="description-paragraph">曝光机可以使用接近式(proximity)曝光机、镜像投影式(mirrorprojection)曝光机以及步进式(stepper)曝光机。 
+	</div>
+      <div id="p0068" num="0068" class="description-paragraph">-显影工序- 
+	</div>
+      <div id="p0069" num="0069" class="description-paragraph">接着，通过进行碱显影处理，例如当感光性黑色组合物为负型时，可以使上述曝光中的光未照射部分溶于碱水溶液中，仅使光固化部分残留。 
+	</div>
+      <div id="p0070" num="0070" class="description-paragraph">作为显影液，使用有机碱显影液及无机碱显影液或其混合液。 
+	</div>
+      <div id="p0071" num="0071" class="description-paragraph">作为显影液中使用的碱剂，例如可以举出将氢氧化钠、氢氧化钾、碳酸钠、碳酸氢钠、硅酸钠、偏硅酸钠、氨水、乙胺、二乙胺、二甲基乙醇胺、四甲基氢氧化铵、四乙基氢氧化铵、胆碱、吡咯、哌啶、1，8-二氮杂双环-[5，4，0]-7-十一碳烯(1，8-diazabicyclo-[5，4，0]-7-undecene)等有机碱性化合物。优选将这些碱剂用纯水按照浓度达到0.001～10质量％、优选为0.01～1质量％的方式稀释而得到的碱性水溶液作为显影液使用。另外，当使用这种由碱性水溶液形成的显影液时，通常在显影后用纯水洗涤(rinse；淋洗)。 
+	</div>
+      <div id="p0072" num="0072" class="description-paragraph">另外，在本发明的黑矩阵形成工序中，在上述显影工序后、上述烘烤(后烘烤)工序前，根据需要还可以包括通过曝光将所形成的黑矩阵固化的工序。 
+	</div>
+      <div id="p0073" num="0073" class="description-paragraph">[着色图案形成工序] 
+	</div>
+      <div id="p0074" num="0074" class="description-paragraph">本发明在着色图案形成工序中，至少通过在形成有烘烤后的感光性黑色组合物层(黑矩阵)的基板上，涂布感光性着色组合物后实施预烘烤，形成感光性着色组合物层(感光性着色组合物层形成工序)，将上述感光性着色组合物层曝光(着色层曝光工序)，将曝光后的上述感光性着色组合物层显影(着色层显影工序)，将显影后的上述感光性着色组合物层烘烤(着色层烘烤工序)，从而形成该烘烤后的、与上述黑矩阵相重叠的重 叠部的黑矩阵宽度方向上的距离为1.0～12μm的着色图案。着色图案形成工序除上述各工序外，还可以根据需要设置其他工序。 
+	</div>
+      <div id="p0075" num="0075" class="description-paragraph">-感光性着色组合物层形成工序- 
+	</div>
+      <div id="p0076" num="0076" class="description-paragraph">在感光性着色组合物层形成工序中，在形成有烘烤后的感光性黑色组合物层(黑矩阵)的基板上，涂布感光性着色组合物后实施预烘烤，形成感光性着色组合物层。 
+	</div>
+      <div id="p0077" num="0077" class="description-paragraph">作为在形成了黑矩阵的基板上形成感光性着色组合物层的方法，可以使用与在基板上形成感光性黑色组合物层的方法同样的方法、即涂布法。 
+	</div>
+      <div id="p0078" num="0078" class="description-paragraph">其中，从精度和速度的观点出发，优选利用狭缝涂布法或旋转涂布法在形成了黑矩阵的基板前面涂布感光性着色组合物的方法。 
+	</div>
+      <div id="p0079" num="0079" class="description-paragraph">基板上形成的感光性着色组合物层的预烘烤温度优选为60～140℃，更优选为80～120℃。预烘烤时间优选为30～300秒，更优选为80～200秒。 
+	</div>
+      <div id="p0080" num="0080" class="description-paragraph">为了得到充分的颜色再现区域并得到充分的面板亮度，感光性着色组合物层的层厚优选为0.5～3.0μm，更优选为1.0～2.5μm的范围。 
+	</div>
+      <div id="p0081" num="0081" class="description-paragraph">-着色层曝光工序- 
+	</div>
+      <div id="p0082" num="0082" class="description-paragraph">在着色层曝光工序中，将上述感光性着色组合物层曝光。 
+	</div>
+      <div id="p0083" num="0083" class="description-paragraph">感光性着色组合物层的曝光处理可以与感光性黑色组合物层的曝光工序同样来进行。当形成多种颜色的着色图案时，经由各色的规定的掩模图案，将各色分别曝光，即可将被光照射的各色的感光性着色组合物层图案化(负型时、固化)。 
+	</div>
+      <div id="p0084" num="0084" class="description-paragraph">-着色层显影工序- 
+	</div>
+      <div id="p0085" num="0085" class="description-paragraph">在着色层显影工序中，将曝光后的上述感光性着色组合物层显影。 
+	</div>
+      <div id="p0086" num="0086" class="description-paragraph">曝光后的感光性着色组合物层的显影处理可以进行与感光性黑色组合物层的显影工序的说明中所述的操作同样的操作，可以优选使用上述显影工序中所述的显影液。 
+	</div>
+      <div id="p0087" num="0087" class="description-paragraph">-着色层烘烤工序- 
+	</div>
+      <div id="p0088" num="0088" class="description-paragraph">在着色层烘烤工序中，将显影后的上述感光性着色组合物层烘烤。 
+	</div>
+      <div id="p0089" num="0089" class="description-paragraph">将显影后的感光性着色组合物层烘烤的方法可以使用与将上述感光性黑色组合物层烘烤的烘烤工序同样的方法。 
+	</div>
+      <div id="p0090" num="0090" class="description-paragraph">另外，当形成RGB 3色相等多种色相的着色图案时，可以仅按所希望的色相数重复进行感光性着色组合物层的形成、曝光、显影以及烘烤的循环，也可以对应各色相分别进行感光性着色组合物层的形成、曝光以及显影后，最后对全部色相一起进行烘烤。由此，制作具有黑矩阵和由所希望的色相形成的着色像素的滤色片。 
+	</div>
+      <div id="p0091" num="0091" class="description-paragraph">接着，对本发明的滤色片的制造方法中使用的感光性着色组合物以及感光性黑色组合物进行详细说明。 
+	</div>
+      <div id="p0092" num="0092" class="description-paragraph">&lt;感光性着色组合物&gt; 
+	</div>
+      <div id="p0093" num="0093" class="description-paragraph">本发明的滤色片的着色图案形成用感光性着色组合物是放射线敏感性组合物(例如为负型时，在光的作用下固化的放射线敏感性组合物)，优选含有(A-1)着色剂、(B)粘合剂聚合物、(C-1)聚合性化合物、(D)光聚合引发剂以及(E)溶剂，根据需要，还可以含有高分子分散剂及表面活性剂等其他添加物。 
+	</div>
+      <div id="p0094" num="0094" class="description-paragraph">-(A-1)着色剂- 
+	</div>
+      <div id="p0095" num="0095" class="description-paragraph">着色剂可以从染料·颜料系中适当选择，作为着色剂使用的颜料可以是无机颜料也可以是有机颜料，但考虑到优选为高透射率，尽可能优选使用粒子尺寸小的颜料。平均粒子尺寸优选为0.01～100nm，更优选为10～50nm的范围。在本发明使用的感光性着色组合物中由于使用后述的高分子分散剂，即使在着色剂的尺寸小的情况下，颜料分散性、分散稳定性也很好，因此能形成膜厚薄但颜色纯度优异的着色像素。 
+	</div>
+      <div id="p0096" num="0096" class="description-paragraph">作为能用作着色图案(着色像素)形成用着色剂的无机颜料，可以举出金属氧化物、金属络盐等金属化合物。具体而言，可以举出铁、钴、铝、镉、铅、铜、钛、镁、铬、锌、锑等的金属氧化物及上述金属的复合氧化物等。 
+	</div>
+      <div id="p0097" num="0097" class="description-paragraph">作为上述有机颜料，例如可以举出： 
+	</div>
+      <div id="p0098" num="0098" class="description-paragraph">C.I.颜料黄11、24、31、53、83、93、99、108、109、110、138、139、147、150、151、154、155、167、180、185、199； 
+	</div>
+      <div id="p0099" num="0099" class="description-paragraph">C.I.颜料橙36、38、43、71； 
+	</div>
+      <div id="p0100" num="0100" class="description-paragraph">C.I.颜料红81、105、122、149、150、155、171、175、176、177、209、220、224、242、254、255、264、270； 
+	</div>
+      <div id="p0101" num="0101" class="description-paragraph">C.I.颜料紫19、23、32、37、39； 
+	</div>
+      <div id="p0102" num="0102" class="description-paragraph">C.I.颜料蓝1、2、15、15:1、15:3、15；6、16、22、60、66； 
+	</div>
+      <div id="p0103" num="0103" class="description-paragraph">C.I.颜料绿7、36、37； 
+	</div>
+      <div id="p0104" num="0104" class="description-paragraph">C.I.颜料棕25、28； 
+	</div>
+      <div id="p0105" num="0105" class="description-paragraph">C.I.颜料黑1等。 
+	</div>
+      <div id="p0106" num="0106" class="description-paragraph">在本发明中虽没有特殊限制，但更优选下述颜料。 
+	</div>
+      <div id="p0107" num="0107" class="description-paragraph">C.I.颜料黄11、24、108、109、110、138、139、150、151、154、167、180、185； 
+	</div>
+      <div id="p0108" num="0108" class="description-paragraph">C.I.颜料橙36、71； 
+	</div>
+      <div id="p0109" num="0109" class="description-paragraph">C.I.颜料红122、150、171、175、177、209、224、242、254、255、264； 
+	</div>
+      <div id="p0110" num="0110" class="description-paragraph">C.I.颜料紫19、23、37； 
+	</div>
+      <div id="p0111" num="0111" class="description-paragraph">C.I.颜料蓝15；1、15:3、15:6、16、22、60、66； 
+	</div>
+      <div id="p0112" num="0112" class="description-paragraph">C.I.颜料绿7、36、37。 
+	</div>
+      <div id="p0113" num="0113" class="description-paragraph">这些有机颜料可以单独使用，也可以多种组合使用以提高颜色纯度。组合的具体例子如以下所示。 
+	</div>
+      <div id="p0114" num="0114" class="description-paragraph">例如，作为红色相(R)用的颜料，可以将蒽醌系颜料、苝系颜料、二酮基吡咯并吡咯系颜料单独使用或使用其中的至少1种与双偶氮系黄色颜料、异吲哚啉系黄色颜料、喹酞酮系黄色颜料或苝系红色颜料的混合等。例如，作为蒽醌系颜料，可以举出C.I.颜料红177，作为苝系颜料，可以举出C.I.颜料红155、C.I.颜料红224，作为二酮基吡咯并吡咯系颜料，可以举出C.I.颜料红254，从颜色再现性的观点考虑，优选与C.I.颜料黄139的混合。从得到充分的颜色纯度以及抑制从NTSC基准的色相偏离的观点出发，红色颜料与黄色颜料的质量比优选为100∶5～100∶50。特别是上述质量比以100∶10～100∶30的范围为最佳。另外，当红色颜料之间彼此组合时，可以对照色度进行调节。 
+	</div>
+      <div id="p0115" num="0115" class="description-paragraph">另外，作为绿色相(G)用的颜料，可以单独使用卤代酞菁系颜料，或者使用该卤代酞菁系颜料与双偶氮系黄色颜料、喹酞酮系黄色颜料、偶氮甲碱系(azomethine)黄色颜料或异吲哚啉系黄色颜料的混合。例如，作为上述例子，优选C.I.颜料绿7、36、37与C.I.颜料黄83、C.I.颜料黄138、 C.I.颜料黄139、C.I.颜料黄150、C.I.颜料黄180或C.I.颜料黄185的混合。从得到充分的颜色纯度以及抑制从NTSC基准的色相偏离的观点出发，绿色颜料与黄色颜料的质量比优选为100∶5～100∶150。作为质量比，特别优选100∶30～100∶120的范围。 
+	</div>
+      <div id="p0116" num="0116" class="description-paragraph">作为蓝色相(B)用的颜料，可以单独使用酞菁系颜料，也可以使用酞菁系颜料与二噁嗪系紫色颜料的混合。例如，优选C.I.颜料蓝15:6与C.I.颜料紫23的混合。蓝色颜料与紫色颜料的质量比优选为100∶0～100∶50，更优选为100∶5～100∶30。 
+	</div>
+      <div id="p0117" num="0117" class="description-paragraph">作为本发明使用的感光性着色组合物层中的(A-1)着色剂(颜料)的含量，相对于该组合物的总固体成分(质量)，优选为25～75质量％，更优选为32～70质量％。若(A-1)着色剂(颜料)的含量在上述范围内，则颜色浓度充分并能有效地确保优异的颜色特性。 
+	</div>
+      <div id="p0118" num="0118" class="description-paragraph">-(B)粘合剂聚合物- 
+	</div>
+      <div id="p0119" num="0119" class="description-paragraph">为了提高被膜特性、赋予显影特性等，本发明的上述感光性着色组合物优选含有粘合剂聚合物。作为粘合剂聚合物，可以使用下述碱可溶性树脂。 
+	</div>
+      <div id="p0120" num="0120" class="description-paragraph">作为本发明使用的碱可溶性树脂，为线状有机高分子聚合物，可以从在分子(优选以丙烯酸系共聚物、苯乙烯系共聚物为主链的分子)中具有至少1个促进碱可溶性的基团(例如羧基、磷酸基、磺酸基、羟基等)的碱可溶性树脂中适当选择。 
+	</div>
+      <div id="p0121" num="0121" class="description-paragraph">作为更优选的上述碱可溶性树脂，优选侧链具有羧酸的聚合物，例如可以举出日本专利特开昭59-44615号公报、日本专利特公昭54-34327号公报、日本专利特公昭58-12577号公报、日本专利特公昭54-25957号公报、日本专利特开昭59-53836号公报、日本专利特开昭59-71048号公报的各公报中记载的、甲基丙烯酸共聚物、丙烯酸共聚物、衣康酸共聚物、丁烯酸共聚物、马来酸共聚物、部分酯化马来酸共聚物等、以及在侧链具有羧酸的酸性纤维素衍生物以及具有羟基的聚合物与酸酐的加成物等的丙烯酸共聚物等。 
+	</div>
+      <div id="p0122" num="0122" class="description-paragraph">上述碱可溶性树脂的酸值为10～200mgKOH/g、优选为30～180mgKOH/g、更优选为50～150mgKOH/g的范围。 
+	</div>
+      <div id="p0123" num="0123" class="description-paragraph">关于碱可溶性树脂的具体结构单元，特别优选(甲基)丙烯酸和能与其共聚的其他单体的共聚物。作为能与上述(甲基)丙烯酸共聚的其他单体，可以举出(甲基)丙烯酸烷基酯、(甲基)丙烯酸芳基酯、乙烯基化合物等。这里，烷基及芳基的氢原子可以被取代基取代。 
+	</div>
+      <div id="p0124" num="0124" class="description-paragraph">作为上述(甲基)丙烯酸烷基酯及(甲基)丙烯酸芳酯的例子，可以列举由CH<sub>2</sub>＝C(R<sup>1</sup>)(COOR<sup>3</sup>)[其中，R<sup>1</sup>表示氢原子或碳原子数为1～5的烷基，R<sup>3</sup>表示碳原子数为1～8的烷基或碳原子数为6～12的芳烷基。]表示的化合物，具体可以举出(甲基)丙烯酸甲酯、(甲基)丙烯酸乙酯、(甲基)丙烯酸丙酯、(甲基)丙烯酸丁酯、(甲基)丙烯酸异丁酯、(甲基)丙烯酸戊酯、(甲基)丙烯酸己酯、(甲基)丙烯酸辛酯、(甲基)丙烯酸苯酯、(甲基)丙烯酸苄酯、(甲基)丙烯酸甲苯酯、(甲基)丙烯酸萘酯、(甲基)丙烯酸环己酯、(甲基)丙烯酸羟基烷基酯(烷基是碳原子数为1～8的烷基)、甲基丙烯酸羟基缩水甘油酯和甲基丙烯酸四氢呋喃酯等。 
+	</div>
+      <div id="p0125" num="0125" class="description-paragraph">另外，还优选分子侧链具有聚环氧烷链的树脂。作为上述聚环氧烷链，可以采用聚氧乙烯链、聚环氧丙烷链或聚四亚甲基二醇链或将它们合用，末端为氢原子、直链或支链的烷基。 
+	</div>
+      <div id="p0126" num="0126" class="description-paragraph">聚氧乙烯链、聚环氧丙烷链的重复单元优选为1～20，进一步优选为2～12。作为这些侧链具有聚环氧烷链的丙烯酸系共聚物，例如可以举出以聚乙二醇(甲基)丙烯酸一酯、聚丙二醇(甲基)丙烯酸一酯以及聚(乙二醇-丙二醇)(甲基)丙烯酸一酯等以及它们的末端OH基被烷基封链后的化合物例如甲氧基聚乙二醇(甲基)丙烯酸一酯、乙氧基聚丙二醇(甲基)丙烯酸一酯、甲氧基聚(乙二醇-丙二醇)(甲基)丙烯酸一酯等为共聚成分的丙烯酸系共聚物。 
+	</div>
+      <div id="p0127" num="0127" class="description-paragraph">作为上述乙烯基化合物，可以列举由CH<sub>2</sub>＝CR<sup>1</sup>R<sup>2</sup>(其中，R<sup>1</sup>表示氢原子或碳原子数为1～5的烷基，R<sup>2</sup>表示碳原子数为6～10的芳香族烃环。)表示的化合物，具体可以举出苯乙烯、α-甲基苯乙烯、乙烯基甲苯、丙烯腈、乙酸乙烯酯、N-乙烯基吡咯烷酮、聚苯乙烯大分子单体、聚甲基丙烯酸甲酯大分子单体等。 
+	</div>
+      <div id="p0128" num="0128" class="description-paragraph">能共聚的其他单体可以单独使用1种，或2种以上组合使用。其中，特别优选(甲基)丙烯酸苄酯/(甲基)丙烯酸共聚物以及由(甲基)丙烯 酸苄酯/(甲基)丙烯酸/其他单体形成的多元共聚物。 
+	</div>
+      <div id="p0129" num="0129" class="description-paragraph">如上所述，丙烯酸系树脂具有20～200mgKOH/g的范围的酸值。若酸值在200以下，则丙烯酸系树脂在碱中的溶解性不会过大，能防止显影适宜范围(显影宽容度)变窄。另一方面，若在20以上，则由于在碱中的溶解性不易减小，因而能防止显影时间较长。 
+	</div>
+      <div id="p0130" num="0130" class="description-paragraph">关于丙烯酸系树脂的重均分子量Mw(用GPC法测定的聚苯乙烯换算值)，为了实现易于在涂布感光性着色组合物等工序上使用的粘度范围，并确保膜强度，优选为2000～100000，进一步优选为3000～50000。 
+	</div>
+      <div id="p0131" num="0131" class="description-paragraph">为了提高本发明的感光性着色组合物的交联效率，可以单独使用碱可溶性树脂具有聚合性基团的树脂或与不含聚合性基团的碱可溶性树脂合用，可以使用侧链含有芳基、(甲基)丙烯基或芳氧基烷基等的聚合物等。具有聚合性双键的碱可溶性树脂能在碱显影液中显影，还具有光固性和热固性。这些含有聚合性基团的聚合物的例子如下所示，只要在1分子中含有COOH基、OH基等碱可溶性基团和碳-碳间不饱和键即可，不限于下述物质。 
+	</div>
+      <div id="p0132" num="0132" class="description-paragraph">(1)事先使异氰酸酯基与OH反应并残留1个未发应的异氰酸酯基且含有至少1个(甲基)丙烯酰基的化合物与含有羧基的丙烯酸树脂反应得到的氨基甲酸乙酯改性的含聚合性双键丙烯酸树脂、 
+	</div>
+      <div id="p0133" num="0133" class="description-paragraph">(2)含有羧基的丙烯酸树脂与分子内同时具有环氧基和聚合性双键的化合物的反应得到的含不饱和基的丙烯酸树脂、 
+	</div>
+      <div id="p0134" num="0134" class="description-paragraph">(3)ACID-PENDANT型环氧丙烯酸酯树脂、 
+	</div>
+      <div id="p0135" num="0135" class="description-paragraph">(4)含有OH基的丙烯酸树脂与具有聚合性双键的二元酸酐反应得到的含聚合性双键丙烯酸树脂。 
+	</div>
+      <div id="p0136" num="0136" class="description-paragraph">其中，上述树脂中特别优选(1)和(2)的树脂。 
+	</div>
+      <div id="p0137" num="0137" class="description-paragraph">作为具体例子，可以列举使具有OH基的例如丙烯酸-2-羟乙酯与含有COOH基的例如甲基丙烯酸、能与它们共聚的丙烯酸系或乙烯基系化合物等单体的共聚物与含有对OH基具有反应性的环氧环和碳碳不饱和键的化合物(例如丙烯酸缩水甘油酯等化合物)反应得到的化合物等。在与OH基的反应中，除环氧环外，还可以使用酸酐、具有异氰酸酯基、丙烯酰基的化合物。 
+	</div>
+      <div id="p0138" num="0138" class="description-paragraph">另外，还可以使用日本专利特开平6-102669号公报、日本专利特开平6-1938号公报中记载的由具有环氧环的化合物和丙烯酸之类的不饱和羧酸反应得到的化合物与饱和或不饱和多元酸酐反应得到的反应物。 
+	</div>
+      <div id="p0139" num="0139" class="description-paragraph">作为兼具COOH基之类的碱可溶性基团和碳碳不饱和基团的化合物，例如可以举出DIANAL NR系列(三菱丽阳株式会社(Mitsubishi Rayon Co.，Ltd.)制)；Photomer 6173(含COOH基的聚氨酯丙烯酸低聚物、DiamondShamrock Co.Ltd.制)；VISCOTE R-264、KS抗蚀剂106(均为大阪有机化学工业株式会社制)；CYCLOMER P系列、PLACCEL CF200系列(均为大赛璐化学工业株式会社制)；Ebecryl 3800(DAICEL UCB株式会社制)等。 
+	</div>
+      <div id="p0140" num="0140" class="description-paragraph">作为碱可溶性树脂的添加量，优选为感光性着色组合物层的总固体成分中的3～30质量％的范围，进一步优选为5～20质量％。 
+	</div>
+      <div id="p0141" num="0141" class="description-paragraph">在感光性着色组合物的制备时，作为粘合剂聚合物，除上述碱可溶性树脂外，优选进一步添加下述环氧树脂。作为环氧树脂，可以举出双酚A型、甲酚线型酚醛型、联苯型以及脂环式环氧化合物等在分子中具有2个以上环氧环的化合物。 
+	</div>
+      <div id="p0142" num="0142" class="description-paragraph">例如，作为双酚A型环氧树脂，可以列举EPOTOHTO YD-115、YD-118T、YD-127、YD-128、YD-134、YD-8125、YD-7011R、ZX-1059、YDF-8170、YDF-170等(以上均为东都化成株式会社制)、DENACOLEX-1101、EX-1102、EX-1103等(以上均为Nagase化成株式会社制)、PLACCEL GL-61、GL-62、G101、G102(以上均为大赛璐化学工业株式会社制)等，此外，作为可以使用的环氧树脂，还可以列举与它们类似的双酚F型、双酚S型环氧树脂。 
+	</div>
+      <div id="p0143" num="0143" class="description-paragraph">另外，也可以使用Ebecryl 3700、3701、600(以上均为DAICEL UCB株式会社制)等环氧丙烯酸酯。作为甲酚线型酚醛型，可以列举EPOTOHTO YDPN-638、YDPN-701、YDPN-702、YDPN-703、YDPN-704等(以上均为东都化成株式会社制)、DENACOL EM-125等(以上为Nagase化成制)，作为联苯型环氧化合物，可以列举3，5，3’，5’-四甲基-4，4’-二缩水甘油基联苯等，作为脂环式环氧化合物，可以列举CELLOXIDE2021、2081、2083、2085、EPOLEAD GT-301、GT-302、GT-401、GT-403、 EHPE-3105(以上为大赛璐化学工业株式会社制)、SANTOHTO ST-3000、ST-4000、ST-5080、ST-5100等(以上为东都化成株式会社制)、Epiclon430、Epiclon673、Epiclon 695、Epiclon 850S、Epiclon 4032(以上为大日本油墨化学工业株式会社制)等。另外，还可以使用1，1，2，2-四(对氧化缩水甘油基苯基)乙烷、三(对氧化缩水甘油基苯基)甲烷、三缩水甘油基三(羟乙基)异氰酸酯、邻苯二甲酸二缩水甘油酯、对苯二甲酸二缩水甘油酯、作为胺型环氧树脂的EPOTOHTO YH-434、YH-434L以及在双酚A型环氧树脂的骨架中经过二聚酸改性得到的缩水甘油酯等。 
+	</div>
+      <div id="p0144" num="0144" class="description-paragraph">其中，优选的树脂“分子量/环氧环的数目”为100以上，进一步优选为130～500。若“分子量/环氧环的数目”小，则固化性高，固化时的收缩大，若过大，则固化性不足，可靠性欠佳，平坦性变差。 
+	</div>
+      <div id="p0145" num="0145" class="description-paragraph">作为具体的优选化合物，可以举出EPOTOHTO YD-115、118T、127、YDF-170、YDPN-638、YDPN-701、PLACCEL GL-61、GL-62、3，5，3’，5’-四甲基-4，4’-二缩水甘油基联苯、CELLOXIDE 2021、2081、EPOLEADGT-302、GT-403、EHPE-3150等。 
+	</div>
+      <div id="p0146" num="0146" class="description-paragraph">-(C-1)聚合性化合物- 
+	</div>
+      <div id="p0147" num="0147" class="description-paragraph">本发明使用的感光性着色组合物优选含有(C-1)聚合性化合物。 
+	</div>
+      <div id="p0148" num="0148" class="description-paragraph">本发明能使用的聚合性化合物从具有至少1个乙烯性不饱和双键的加聚性化合物且具有至少1个、优选2个以上末端乙烯性不饱和键的化合物中选择。这种化合物组在本领域广为人知，在本发明中均可以使用而无特殊限制。它们具有例如单体、预聚物即二聚物、三聚物及低聚物、或它们的混合物以及它们的共聚物等化学形态。作为单体及其共聚物的例子，可以列举不饱和羧酸(例如丙烯酸、甲基丙烯酸、衣康酸、丁烯酸、异丁烯酸、马来酸等)及其酯类、酰胺类，优选使用不饱和羧酸与脂肪族多元醇化合物的酯、不饱和羧酸与脂肪族多元胺化合物的酰胺类。另外，还优选使用具有羟基、氨基、巯基等亲核性取代基的不饱和羧酸酯或酰胺类与单官能或多官能异氰酸酯类或单官能或多官能环氧类的加成反应产物以及与单官能或多官能羧酸的脱水缩合反应产物等。另外，还优选具有异氰酸酯基或环氧基等亲电性取代基的不饱和羧酸酯或酰胺类与单官能或多官能醇类、胺类、硫醇类的加成反应物、以及具有卤基或甲苯磺酰氧基等离 去性取代基的不饱和羧酸酯或酰胺类与单官能或多官能醇类、胺类或硫醇类的取代反应物。作为其他例子，还可以使用将上述不饱和羧酸置换成不饱和膦酸、苯乙烯或乙烯基醚等而得到的化合物组。 
+	</div>
+      <div id="p0149" num="0149" class="description-paragraph">作为脂肪族多元醇化合物与不饱和羧酸的酯的单体的具体例子，作为丙烯酸酯，可以列举乙二醇二丙烯酸酯、三甘醇二丙烯酸酯、1，3-丁二醇二丙烯酸酯、四亚甲基二醇二丙烯酸酯、丙二醇二丙烯酸酯、新戊二醇二丙烯酸酯、三羟甲基丙烷三丙烯酸酯、三羟甲基丙烷三(丙烯酰氧基丙基)醚、三羟甲基乙烷三丙烯酸酯、己二醇二丙烯酸酯、1，4-环己二醇二丙烯酸酯、四甘醇二丙烯酸酯、季戊四醇二丙烯酸酯、季戊四醇三丙烯酸酯、季戊四醇四丙烯酸酯、二季戊四醇二丙烯酸酯、二季戊四醇六丙烯酸酯、山梨糖醇三丙烯酸酯、山梨糖醇四丙烯酸酯、山梨糖醇五丙烯酸酯、山梨糖醇六丙烯酸酯、三(丙烯酰氧基乙基)异氰酸酯、聚酯丙烯酸酯低聚物、三聚异氰酸EO改性三丙烯酸酯等。 
+	</div>
+      <div id="p0150" num="0150" class="description-paragraph">作为甲基丙烯酸酯，可以列举四亚甲基二醇二甲基丙烯酸酯、三甘醇二甲基丙烯酸酯、新戊二醇二甲基丙烯酸酯、三羟甲基丙烷三甲基丙烯酸酯、三羟甲基乙烷三甲基丙烯酸酯、乙二醇二甲基丙烯酸酯、1，3-丁二醇二甲基丙烯酸酯、己二醇二甲基丙烯酸酯、季戊四醇二甲基丙烯酸酯、季戊四醇三甲基丙烯酸酯、季戊四醇四甲基丙烯酸酯、二季戊四醇二甲基丙烯酸酯、二季戊四醇六甲基丙烯酸酯、山梨糖醇三甲基丙烯酸酯、山梨糖醇四甲基丙烯酸酯、双〔对-(3-甲基丙烯酰氧基-2-羟基丙氧基)苯基〕二甲基甲烷以及双〔对-(甲基丙烯酰氧基乙氧基)苯基〕二甲基甲烷等。 
+	</div>
+      <div id="p0151" num="0151" class="description-paragraph">作为衣康酸酯，可以列举乙二醇二衣康酸酯、丙二醇二衣康酸酯、1，3-丁二醇二衣康酸酯、1，4-丁二醇二衣康酸酯、四亚甲基二醇二衣康酸酯、季戊四醇二衣康酸酯、山梨糖醇四衣康酸酯等。作为丁烯酸酯，可以列举乙二醇二丁烯酸酯、四亚甲基二醇二丁烯酸酯、季戊四醇二丁烯酸酯、山梨糖醇四丁烯酸酯等。作为异丁烯酸酯，可以列举乙二醇二异丁烯酸酯、季戊四醇二异丁烯酸酯、山梨糖醇四异丁烯酸酯等。作为马来酸酯，可以列举乙二醇二马来酸酯、三甘醇二马来酸酯、季戊四醇二马来酸酯以及山梨糖醇四马来酸酯等。 
+	</div>
+      <div id="p0152" num="0152" class="description-paragraph">作为其他酯的例子，优选使用例如日本专利特公昭51-47334号公报、 日本专利特开昭57-196231号公报中记载的脂肪族醇系酯类、日本专利特开昭59-5240号公报、日本专利特开昭59-5241号公报、日本专利特开平2-226149号公报中记载的具有芳香族系骨架的酯、日本专利特开平1-165613号公报中记载的含有氨基的酯等。此外，上述酯单体还可以作为混合物使用。 
+	</div>
+      <div id="p0153" num="0153" class="description-paragraph">作为脂肪族多元胺化合物与不饱和羧酸的酰胺的单体的具体例子，可以列举亚甲基双丙烯酰胺、亚甲基双甲基丙烯酰胺、1，6-六亚甲基双丙烯酰胺、1，6-六亚甲基双甲基丙烯酰胺、二亚乙基三胺三丙烯酰胺、亚二甲苯基双丙烯酰胺以及亚二甲苯基双甲基丙烯酰胺等。作为其他优选的酰胺系单体的例子，可以列举日本专利特公昭54-21726号公报中记载的具有亚环己基结构的酰胺。 
+	</div>
+      <div id="p0154" num="0154" class="description-paragraph">另外，还优选用异氰酸酯与羟基的加成反应制造的氨基甲酸乙酯系加聚性化合物，作为其具体例子，可以列举例如日本专利特公昭48-41708号公报中记载的1分子中具有2个以上异氰酸酯基的聚异氰酸酯化合物与下述通式(V)表示的含有羟基的乙烯基单体加成得到的1分子中含有2个以上聚合性乙烯基的乙烯基氨基甲酸乙酯化合物等。 
+	</div>
+      <div id="p0155" num="0155" class="description-paragraph">CH<sub>2</sub>＝C(R<sup>4</sup>)COOCH<sub>2</sub>CH(R<sup>5</sup>)OH  (V) 
+	</div>
+      <div id="p0156" num="0156" class="description-paragraph">(但是，R<sup>4</sup>和R<sup>5</sup>分别独立地表示H或CH<sub>3</sub>。) 
+	</div>
+      <div id="p0157" num="0157" class="description-paragraph">优选日本专利特开昭51-37193号公报、日本专利特公平2-32293号公报、日本专利特公平2-16765号公报中记载的氨基甲酸乙酯丙烯酸酯类、日本专利特公昭58-49860号公报、日本专利特公昭56-17654号公报、日本专利特公昭62-39417号公报、日本专利特公昭62-39418号公报中记载的具有环氧乙烷系骨架的氨基甲酸乙酯化合物类。此外，通过使用日本专利特开昭63-277653号公报、日本专利特开昭63-260909号公报、日本专利特开平1-105238号公报中记载的分子内具有氨基结构或硫化物结构的加聚性化合物类，能得到感光速度非常快的光聚合性组合物。 
+	</div>
+      <div id="p0158" num="0158" class="description-paragraph">作为其他例子，可以列举日本专利特开昭48-64183号公报、日本专利特公昭49-43191号公报、日本专利特公昭52-30490号公报的各公报中记载的聚酯丙烯酸酯类、环氧树脂与(甲基)丙烯酸反应得到的环氧丙烯酸酯类等多官能丙烯酸酯和甲基丙烯酸酯。另外，还可以列举日本专利特公 昭46-43946号公报、日本专利特公平1-40337号公报、日本专利特公平1-40336号公报中记载的特定的不饱和化合物、日本专利特开平2-25493号公报中记载的乙烯基膦酸系化合物等。在某些情况下，优选使用日本专利特开昭61-22048号公报中记载的含有全氟烷基的结构。此外，还可以使用在日本胶粘协会志vol.20、No.7、300～308页(1984年)中介绍的光固性单体和低聚物。 
+	</div>
+      <div id="p0159" num="0159" class="description-paragraph">关于这些聚合性化合物的结构、单独使用还是合用、添加量等使用方法的详细内容，可以根据最终的感光性材料的性能设计来任意设定。例如，可以基于以下的观点来选择。 
+	</div>
+      <div id="p0160" num="0160" class="description-paragraph">在灵敏度方面，优选每一分子的不饱和基团含量多的结构，多数情况下，优选2官能以上。为了提高着色图像部即感光性着色组合物层的强度，以3官能以上为宜，此外，通过合用不同官能数·不同聚合性基团(例如丙烯酸酯、甲基丙烯酸酯、苯乙烯系化合物、乙烯基醚系化合物)的聚合性化合物来调节灵敏度和强度这两者的方法也很有效。从固化灵敏度的观点出发，优选使用含有2个以上(甲基)丙烯酸酯结构的化合物，进一步优选使用含有3个以上的化合物，最优选使用含有4个以上的化合物。从固化灵敏度以及未曝光部的显影性的观点出发，优选含有EO改性体。从固化灵敏度以及曝光部强度的观点出发，优选含有氨基甲酸乙酯键。 
+	</div>
+      <div id="p0161" num="0161" class="description-paragraph">对于与感光性着色组合物层中的其他成分(例如粘合剂聚合物、引发剂、着色剂(颜料、染料等))的相溶性、分散性，加聚化合物的选择·使用方法是重要因素，例如，使用低纯度化合物或2种以上合用，有时能提高相溶性。为了提高与基板的密合性，还可以选择特定的结构。 
+	</div>
+      <div id="p0162" num="0162" class="description-paragraph">基于以上观点，作为优选的例子，可以列举双酚A二丙烯酸酯、双酚A二丙烯酸酯EO改性体、三羟甲基丙烷三丙烯酸酯、三羟甲基丙烷三(丙烯酰氧基丙基)醚、三羟甲基乙烷三丙烯酸酯、四甘醇二丙烯酸酯、季戊四醇二丙烯酸酯、季戊四醇三丙烯酸酯、季戊四醇四丙烯酸酯、二季戊四醇四丙烯酸酯、二季戊四醇五丙烯酸酯、二季戊四醇六丙烯酸酯、山梨糖醇三丙烯酸酯、山梨糖醇四丙烯酸酯、山梨糖醇五丙烯酸酯、山梨糖醇六丙烯酸酯、三(丙烯酰氧基乙基)异氰酸酯、季戊四醇四丙烯酸酯EO改性体以及二季戊四醇六丙烯酸酯EO改性体等，作为市售品，优选氨基甲 酸乙酯低聚物UAS-10、UAB-140(山阳国策PULP公司制)、DPHA(日本化药公司制)、UA-306H、UA-306T、UA-306I、AH-600、T-600、AI-600(共荣社制)。 
+	</div>
+      <div id="p0163" num="0163" class="description-paragraph">其中，进一步优选双酚A二丙烯酸酯EO改性体、季戊四醇三丙烯酸酯、季戊四醇四丙烯酸酯、二季戊四醇五丙烯酸酯、二季戊四醇六丙烯酸酯、三(丙烯酰氧基乙基)异氰酸酯、季戊四醇四丙烯酸酯EO改性体、二季戊四醇六丙烯酸酯EO改性体等以及作为市售品的DPHA(日本化药公司制)、UA-306H、UA-306T、UA-306I、AH-600、T-600、AI-600(共荣社制)。 
+	</div>
+      <div id="p0164" num="0164" class="description-paragraph">(C-1)聚合性化合物的含量，优选为本发明的感光性着色组合物层中的总固体成分中的5～55质量％，进一步优选为10～50质量％，更优选为15～45质量％。 
+	</div>
+      <div id="p0165" num="0165" class="description-paragraph">-(D)光聚合引发剂- 
+	</div>
+      <div id="p0166" num="0166" class="description-paragraph">本发明的感光性着色组合物优选含有(D)光聚合引发剂。 
+	</div>
+      <div id="p0167" num="0167" class="description-paragraph">上述光聚合引发剂是在光的作用下分解并引发和促进上述(C-1)聚合性化合物聚合的化合物，优选在波长300～500nm的区域有吸收。上述光聚合引发剂可以单独使用或2种以上合用。 
+	</div>
+      <div id="p0168" num="0168" class="description-paragraph">作为上述光聚合引发剂，例如可以列举有机卤化物、噁二唑化合物、羰基化合物、缩酮化合物、苯偶姻化合物、吖啶化合物、有机过氧化物、偶氮化合物、香豆素化合物、叠氮化合物、茂金属化合物、六芳基双咪唑化合物、有机硼酸化合物、二磺酸化合物、肟酯化合物、鎓盐化合物、酰基膦(氧化物)化合物。 
+	</div>
+      <div id="p0169" num="0169" class="description-paragraph">作为有机卤化物，具体可以列举在若林等“Bull Chem.Soc Japan”42、2924(1969)、美国专利第3905815号说明书、日本专利特公昭46-4605号公报、日本专利特开昭48-36281号公报、日本专利特开昭55-32070号公报、日本专利特开昭60-239736号公报、日本专利特开昭61-169835号公报、日本专利特开昭61-169837号公报、日本专利特开昭62-58241号公报、日本专利特开昭62-212401号公报、日本专利特开昭63-70243号公报、日本专利特开昭63-298339号公报、M.P.Hutt“Journal of HeterocyclicChemistry”1(No3)，(1970)”等中记载的化合物，特别是三卤代甲基取代 的噁唑化合物、s-三嗪化合物。 
+	</div>
+      <div id="p0170" num="0170" class="description-paragraph">作为s-三嗪化合物，更优选在s-三嗪环上结合至少1个一卤代、二卤代或三卤代甲基的s-三嗪衍生物，具体可以列举2，4，6-三(一氯甲基)-s-三嗪、2，4，6-三(二氯甲基)-s-三嗪、2，4，6-三(三氯甲基)-s-三嗪、2-甲基-4，6-双(三氯甲基)-s-三嗪、2-正丙基-4，6-双(三氯甲基)-s-三嗪、2-(α，α，β-三氯乙基)-4，6-双(三氯甲基)-s-三嗪、2-苯基-4，6-双(三氯甲基)-s-三嗪、2-(对甲氧基苯基)-4，6-双(三氯甲基)-s-三嗪、2-(3，4-环氧基苯基)-4、6-双(三氯甲基)-s-三嗪、2-(对氯苯基)-4，6-双(三氯甲基)-s-三嗪、2-〔1-(对甲氧基苯基)-2，4-丁二烯基〕-4，6-双(三氯甲基)-s-三嗪、2-苯乙烯基-4，6-双(三氯甲基)-s-三嗪、2-(对甲氧基苯乙烯基)-4，6-双(三氯甲基)-s-三嗪、2-(对异丙基氧基苯乙烯基)-4、6-双(三氯甲基)-s-三嗪、2-(对甲苯基)-4，6-双(三氯甲基)-s-三嗪、2-(4-甲氧基萘基)-4，6-双(三氯甲基)-s-三嗪、2-苯基硫代-4，6-双(三氯甲基)-s-三嗪、2-苄基硫代-4，6-双(三氯甲基)-s-三嗪、4-(o-溴-p-N，N-(二乙氧基羰基氨基)-苯基)-2，6-双(三氯甲基)-s-三嗪、2，4，6-三(二溴甲基)-s-三嗪、2，4，6-三(三溴甲基)-s-三嗪、2-甲基-4，6-双(三溴甲基)-s-三嗪、2-甲氧基-4，6-双(三溴甲基)-s-三嗪等。 
+	</div>
+      <div id="p0171" num="0171" class="description-paragraph">作为噁二唑化合物的例子，可以列举2-三氯甲基-5-苯乙烯基-1，3，4-噁二唑、2-三氯甲基-5-(氰基苯乙烯基)-1，3，4-噁二唑、2-三氯甲基-5-(萘-1-基)-1，3，4-噁二唑、2-三氯甲基-5-(4-苯乙烯基)苯乙烯基-1，3，4-噁二唑等。 
+	</div>
+      <div id="p0172" num="0172" class="description-paragraph">作为羰基化合物，可以列举二苯甲酮、米氏酮、2-甲基二苯甲酮、3-甲基二苯甲酮、4-甲基二苯甲酮、2-氯二苯甲酮、4-溴二苯甲酮、2-羧基二苯甲酮等二苯甲酮衍生物、2，2-二甲氧基-2-苯基苯乙酮、2，2-二乙氧基苯乙酮、1-羟基环己基苯基酮、α-羟基-2-甲基苯基丙酮、1-羟基-1-甲基乙基-(p-异丙基苯基)酮、1-羟基-1-(p-十二烷基苯基)酮、2-甲基-1-(4’-(甲基硫代)苯基)-2-吗啉代-1-丙酮、2-苄基-2-二甲基氨基-1-(4-吗啉代苯基)-丁酮-1、2，4，6-三甲基苯甲酰-二苯基-膦氧化物、1，1，1-三氯甲基-(p-丁基苯基)酮、2-苄基-2-二甲基氨基-4-吗啉代苯丁酮等苯乙酮衍 生物、噻吨酮、2-乙基噻吨酮、2-异丙基噻吨酮、2-氯噻吨酮、2，4-二甲基噻吨酮、2，4-二乙基噻吨酮以及2，4-二异丙基噻吨酮等噻吨酮衍生物、p-二甲基氨基苯甲酸乙酯、p-二乙基氨基苯甲酸乙酯等苯甲酸酯衍生物等。 
+	</div>
+      <div id="p0173" num="0173" class="description-paragraph">作为缩酮化合物，可以列举苄基二甲基缩酮、苄基-β-甲氧基乙基乙基缩醛等。 
+	</div>
+      <div id="p0174" num="0174" class="description-paragraph">作为苯偶姻化合物，可以列举间苯偶姻异丙基醚、苯偶姻异丁基醚、苯偶姻甲基醚和邻苯偶姻苯甲酸甲酯等。 
+	</div>
+      <div id="p0175" num="0175" class="description-paragraph">作为吖啶化合物，可以列举9-苯基吖啶、9-吡啶基吖啶、9-吡嗪基吖啶、1，2-二(9-吖啶基)乙烷、1，3-二(9-吖啶基)丙烷、1，4-二(9-吖啶基)丁烷、1，5-二(9-吖啶基)戊烷、1，6-二(9-吖啶基)己烷、1，7-二(9-吖啶基)庚烷、1，8-二(9-吖啶基)辛烷、1，9-二(9-吖啶基)壬烷、1，10-二(9-吖啶基)癸烷、1，11-二(9-吖啶基)十一烷、1，12-二(9-吖啶基)十二烷等二(9-吖啶基)烷等。 
+	</div>
+      <div id="p0176" num="0176" class="description-paragraph">作为有机过氧化物，可以列举三甲基环己酮过氧化物、乙酰丙酮过氧化物、1，1-双(叔丁基过氧化)-3，3，5-三甲基环己烷、1，1-双(叔丁基过氧化)环己烷、2，2-双(叔丁基过氧化)丁烷、叔丁基过氧化氢、过氧化氢异丙苯(cumene hydroperoxide)、二异丙基苯过氧化物、2，5-二甲基己烷-2，5-二过氧化物、1，1，3，3-四甲基丁基过氧化物、过氧化叔丁基异丙苯、过氧化二异丙苯(dicumyl peroxide)、2，5-二甲基-2，5-二(叔丁基过氧化)己烷、过氧化琥珀酸、过氧化苯甲酰、2，4-二氯苯甲酰过氧化物、过氧化二碳酸二异丙酯、过氧化二碳酸二-2-乙基己酯、过氧化二碳酸二-2-乙氧基乙酯、过氧化碳酸二甲氧基异丙酯、过氧化二碳酸二(3-甲基-3-甲氧基丁基)酯、过氧化乙酸叔丁酯、过氧化新戊酸叔丁酯、过氧化新癸酸叔丁酯、过氧化辛酸叔丁酯、过氧化月桂酸叔丁酯、3，3’，4，4’-四(叔丁基过氧化羰基)二苯甲酮、3，3’，4，4’-四(叔己基过氧化羰基)二苯甲酮、3，3’，4，4’-四(p-异丙基异丙苯基过氧化羰基)二苯甲酮、羰基二(叔丁基过氧化二氢二邻苯二甲酸酯)以及羰基二(叔己基过氧化二氢二邻苯二甲酸酯)等。 
+	</div>
+      <div id="p0177" num="0177" class="description-paragraph">作为偶氮化合物，例如可以列举日本专利特开平8-108621号公报中记载的偶氮化合物等。 
+	</div>
+      <div id="p0178" num="0178" class="description-paragraph">作为香豆素化合物，例如可以列举3-甲基-5-氨基-((s-三嗪-2-基)氨基)-3-苯基香豆素、3-氯-5-二乙基氨基-((s-三嗪-2-基)氨基)-3-苯基香豆素、3-丁基-5-二甲基氨基-((s-三嗪-2-基)氨基)-3-苯基香豆素等。 
+	</div>
+      <div id="p0179" num="0179" class="description-paragraph">作为叠氮化合物，可以列举在美国专利第2848328号说明书、美国专利第2852379号说明书以及美国专利第2940853号说明书中记载的有机叠氮化合物、2，6-双(4-叠氮苯亚甲基)-4-乙基环己酮(BAC-E)等。 
+	</div>
+      <div id="p0180" num="0180" class="description-paragraph">作为茂金属化合物的例子，可以列举在日本专利特开昭59-152396号公报、日本专利特开昭61-151197号公报、日本专利特开昭63-41484号公报、日本专利特开平2-249号公报、日本专利特开平2-4705号公报、日本专利特开平5-83588号公报中记载的各种二茂钛(titanocene)化合物、例如二环戊二烯基-Ti-联苯、二环戊二烯基-Ti-双-2，6-二氟苯-1-基、二环戊二烯基-Ti-双-2，4-二-氟苯-1-基、二环戊二烯基-Ti-双-2，4，6-三氟苯-1-基、二环戊二烯基-Ti-双-2，3，5，6-四氟苯-1-基、二环戊二烯基-Ti-双-2，3，4，5，6-五氟苯-1-基、二-甲基环戊二烯基-Ti-双-2，6-二氟苯-1-基、二-甲基环戊二烯基-Ti-双-2，4，6-三氟苯-1-基、二-甲基环戊二烯基-Ti-双-2，3，5，6-四氟苯-1-基、二-甲基环戊二烯基-Ti-双-2，3，4，5，6-五氟苯-1-基、日本专利特开平1-304453号公报、日本专利特开平1-152109号公报中记载的铁-芳烃络合物等。 
+	</div>
+      <div id="p0181" num="0181" class="description-paragraph">作为六芳基双咪唑化合物，例如可以列举日本专利特公平6-29285号公报、美国专利第3479185号、美国专利第4311783号、美国专利第4622286号等各说明书中记载的各种化合物，具体可以列举2，2’-双(邻氯苯基)-4，4’，5，5’-四苯基双咪唑、2，2’-双(邻溴苯基)-4，4’，5，5’-四苯基双咪唑、2，2’-双(邻，对-二氯苯基)-4，4’，5，5’-四苯基双咪唑、2，2’-双(邻氯苯基)-4，4’，5，5’-四(间甲氧基苯基)双咪唑、2，2’-双(o，o’-二氯苯基)-4，4’，5，5’-四苯基双咪唑、2，2’-双(邻硝基苯基)-4，4’，5，5’-四苯基双咪唑、2，2’-双(邻甲基苯基)-4，4’，5，5’-四苯基双咪唑、2，2’-双(邻三氟苯基)-4，4’，5，5’-四苯基双咪唑等。 
+	</div>
+      <div id="p0182" num="0182" class="description-paragraph">作为有机硼酸盐化合物，具体例子例如日本专利特开昭62-143044号公报、日本专利特开昭62-150242号公报、日本专利特开平9-188685号公报、日本专利特开平9-188686号公报、日本专利特开平9-188710号公报、 日本专利特开2000-131837号公报、日本专利特开2002-107916号公报、专利第2764769号公报、日本专利特开2002-116539号公报等各公报以及Kunz，Martin“Rad Tech’98.Proceeding April 19-22，1998，Chicago”等中记载的有机硼酸盐、日本专利特开平6-157623号公报、日本专利特开平6-175564号公报、日本专利特开平6-175561号公报中记载的有机硼锍络合物或有机硼氧锍络合物、日本专利特开平6-175554号公报、日本专利特开平6-175553号公报中记载的有机硼碘鎓络合物、日本专利特开平9-188710号公报中记载的有机硼鏻络合物、日本专利特开平6-348011号公报、日本专利特开平7-128785号公报、日本专利特开平7-140589号公报、日本专利特开平7-306527号公报、日本专利特开平7-292014号公报等中记载的有机硼过渡金属配位络合物等。 
+	</div>
+      <div id="p0183" num="0183" class="description-paragraph">作为二磺酸化合物的例子，可以列举日本专利特开昭61-166544号公报、日本专利特开2002-328465号说明书等中记载的化合物等。 
+	</div>
+      <div id="p0184" num="0184" class="description-paragraph">作为肟酯化合物，可以列举在J.C.S.Perkin II(1979)1653-1660、J.C.S.Perkin II(1979)156-162、Journal of Photopolymer Science andTechnology(1995)202-232、日本专利特开2000-66385号公报中记载的化合物、在日本专利特开2000-80068号公报、日本专利特表2004-534797号公报中记载的化合物等。作为具体例子，优选汽巴精化公司制的IRGACURE OXE-01、OXE-02等。 
+	</div>
+      <div id="p0185" num="0185" class="description-paragraph">作为鎓盐化合物，例如可以列举在S.I.Schlesinger，Photogr.Sci.Eng.，18，387(1974)、T.S.Bal et al，Polymer，21，423(1980)中记载的重氮(diazonium)盐、美国专利第4069055号说明书、日本专利特开平4-365049号公报等中记载的铵盐、美国专利第4069055号说明书、美国专利第4069056号说明书的各说明书中记载的鏻盐、欧洲专利第104143号说明书、美国专利第339049号说明书、同第410201号说明书的各说明书、日本专利特开平2-150848号公报、日本专利特开平2-296514号公报的各公报中记载的碘鎓盐等。 
+	</div>
+      <div id="p0186" num="0186" class="description-paragraph">本发明能优选使用的碘鎓盐是二芳基碘鎓盐，从稳定性的观点出发，优选被2个以上烷基、烷氧基、芳氧基等给电子基所取代。另外，作为其他优选的锍盐的形态，优选三芳基锍盐的一个取代基具有香豆素、蒽醌结 构、在300nm以上有吸收的碘鎓盐。 
+	</div>
+      <div id="p0187" num="0187" class="description-paragraph">作为本发明能优选使用的锍盐，可以列举在欧洲专利第370693号说明书、欧洲专利第390214号说明书、欧洲专利第233567号说明书、欧洲专利第297443号说明书、欧洲专利第297442号说明书、美国专利第4933377号说明书、美国专利第161811号说明书、美国专利第410201号说明书、美国专利第339049号说明书、美国专利第4760013号说明书、美国专利第4734444号说明书、美国专利第2833827号说明书、德国专利第2904626号说明书、德国专利3604580号说明书、德国专利3604581号说明书的各说明书中记载的锍盐，从稳定性和灵敏度的观点出发，该锍盐优选被吸电子基取代。吸电子基的哈密特值优选大于0。作为优选的吸电子基，可以列举卤原子、羧酸等。 
+	</div>
+      <div id="p0188" num="0188" class="description-paragraph">作为其他优选的锍盐，可以列举三芳基锍盐的一个取代基具有香豆素或蒽醌结构且在300nm以上有吸收的锍盐。作为另一优选锍盐的例子，还可以列举三芳基锍盐具有芳氧基或芳硫基作为取代基、且在300nm以上具有吸收的锍盐。 
+	</div>
+      <div id="p0189" num="0189" class="description-paragraph">作为鎓盐化合物，可以列举在J.V.Crivello et al，Macromolecules，10(6)，1307(1977)、J.V.Crivello et al，J.Polymer Sci.，Polymer Chem.Ed.，17，1047(1979)中记载的硒鎓盐以及在C.S.Wen et al，Teh，Proc.Conf.Rad.Curing ASIA，p478 Tokyo，Oct(1988)中记载的鉮盐等鎓盐等。 
+	</div>
+      <div id="p0190" num="0190" class="description-paragraph">作为酰基膦(氧化物)化合物，可以列举汽巴精化公司制的IRUGACURE819、DAROCURE 4265、DAROCURE TPO等。 
+	</div>
+      <div id="p0191" num="0191" class="description-paragraph">作为(D)光聚合引发剂，从曝光灵敏度的观点出发，优选选自三卤代甲基三嗪系化合物、苄基二甲基缩酮化合物、α-羟基酮化合物、α-氨基酮化合物、酰基膦系化合物、氧化膦系化合物、茂金属化合物、肟系化合物、三芳基咪唑二聚物、鎓盐系化合物、苯并噻唑系化合物、二苯甲酮系化合物、苯乙酮系化合物及其衍生物、环戊二烯-苯-铁络合物及其盐、卤代甲基噁二唑化合物、3-芳基取代香豆素化合物中的化合物。 
+	</div>
+      <div id="p0192" num="0192" class="description-paragraph">更优选三卤代甲基三嗪系化合物、α-氨基酮化合物、酰基膦系化合物、氧化膦系化合物、肟系化合物、三芳基咪唑二聚物、鎓盐系化合物、二苯 甲酮系化合物、苯乙酮系化合物，最优选选自三卤代甲基三嗪系化合物、α-氨基酮化合物、肟系化合物、三芳基咪唑二聚物、二苯甲酮系化合物中的至少1种化合物。 
+	</div>
+      <div id="p0193" num="0193" class="description-paragraph">(D)光聚合引发剂的含量，相对于感光性着色组合物层中的总固体成分优选为0.1～20质量％，进一步优选为0.5～15质量％，特别优选为1～10质量％。在该范围内，可以得到良好的灵敏度和图案形成性。 
+	</div>
+      <div id="p0194" num="0194" class="description-paragraph">-(E)溶剂- 
+	</div>
+      <div id="p0195" num="0195" class="description-paragraph">本发明使用的感光性着色组合物一般可以使用溶剂来制备。 
+	</div>
+      <div id="p0196" num="0196" class="description-paragraph">作为溶剂，可以列举酯类，例如乙酸乙酯、乙酸正丁酯、乙酸异丁酯、甲酸戊酯、乙酸异戊酯、乙酸异丁酯、丙酸丁酯、丁酸异丙酯、丁酸乙酯、丁酸丁酯、烷基酯类、乳酸甲酯、乳酸乙酯、羟基乙酸甲酯、羟基乙酸乙酯、羟基乙酸丁酯、甲氧基乙酸甲酯、甲氧基乙酸乙酯、甲氧基乙酸丁酯、乙氧基乙酸甲酯、乙氧基乙酸乙酯、以及3-氧基丙酸甲酯以及3-氧基丙酸乙酯等3-氧基丙酸烷基酯(例如3-甲氧基丙酸甲酯、3-甲氧基丙酸乙酯、3-乙氧基丙酸甲酯、3-乙氧基丙酸乙酯等)、2-羟基丙酸甲酯、2-羟基丙酸乙酯以及2-羟基丙酸丙酯等2-羟基丙酸烷基酯类(例如2-甲氧基丙酸甲酯、2-甲氧基丙酸乙酯、2-甲氧基丙酸丙酯、2-乙氧基丙酸甲酯、2-乙氧基丙酸乙酯、2-氧基-2-甲基丙酸甲酯、2-氧基-2-甲基丙酸乙酯、2-甲氧基-2-甲基丙酸甲酯、2-乙氧基-2-甲基丙酸乙酯等)、丙酮酸甲酯、丙酮酸乙酯、丙酮酸丙酯、乙酰乙酸甲酯、乙酰乙酸乙酯、2-氧代丁酸甲酯、2-氧代丁酸乙酯、1，3-丁二醇二乙酸酯等； 
+	</div>
+      <div id="p0197" num="0197" class="description-paragraph">醚类，例如二甘醇二甲基醚、四氢呋喃、乙二醇一甲基醚、乙二醇一乙基醚、甲基溶纤剂乙酸酯、乙基溶纤剂乙酸酯、二甘醇一甲基醚、二甘醇一乙基醚、二甘醇一丁基醚、丙二醇甲基醚乙酸酯、丙二醇乙基醚乙酸酯、丙二醇丙基醚乙酸酯、二甘醇二乙基醚、二甘醇一乙基醚乙酸酯、二甘醇一丁基醚、二甘醇一丁基醚乙酸酯、丙二醇正丙基醚乙酸酯、丙二醇二乙酸酯、丙二醇正丁基醚乙酸酯、丙二醇苯基醚、丙二醇苯基醚乙酸酯、二丙二醇单甲醚乙酸酯、二丙二醇正丙基醚乙酸酯、二丙二醇正丁基醚乙酸酯、三丙二醇一正丁基醚以及三丙二醇甲基醚乙酸酯等； 
+	</div>
+      <div id="p0198" num="0198" class="description-paragraph">酮类，例如丙酮、甲乙酮、环己酮、2-庚酮、3-庚酮等； 
+	</div>
+      <div id="p0199" num="0199" class="description-paragraph">醇类，例如乙醇、异丙醇、丙二醇甲基醚、丙二醇一正丙基醚、丙二醇一正丁基醚； 
+	</div>
+      <div id="p0200" num="0200" class="description-paragraph">芳香族烃类，例如甲苯、二甲苯等。 
+	</div>
+      <div id="p0201" num="0201" class="description-paragraph">其中，作为溶剂，如上所述优选沸点为100℃以上的溶剂(含有30～70质量％)，特别优选选自丙二醇单甲醚乙酸酯、环己酮、甲乙酮以及3-乙氧基乙基丙酸酯中的至少1种。 
+	</div>
+      <div id="p0202" num="0202" class="description-paragraph">溶剂可以单独使用，也可以2种以上组合使用。 
+	</div>
+      <div id="p0203" num="0203" class="description-paragraph">-其他添加物- 
+	</div>
+      <div id="p0204" num="0204" class="description-paragraph">另外，在本发明使用的感光性着色组合物中，除上述成分外，还可以根据目的使用各种公知的添加剂。 
+	</div>
+      <div id="p0205" num="0205" class="description-paragraph">以下，对这样的添加剂进行说明。 
+	</div>
+      <div id="p0206" num="0206" class="description-paragraph">(分散剂) 
+	</div>
+      <div id="p0207" num="0207" class="description-paragraph">本发明的感光性着色组合物优选含有高分子分散剂。该高分子分散剂是重均分子量在3000～100000范围内的树脂。此外，优选酸值为20～300mg/g。以下有时将这种特定的高分子分散剂简称为“分散树脂”。 
+	</div>
+      <div id="p0208" num="0208" class="description-paragraph">本发明的分散树脂是作为在上述(A-1)着色剂中列举的颜料的分散剂、或后述的黑矩阵形成用感光性黑色组合物中的遮光剂(黑矩阵形成用颜料)的分散剂起作用的化合物。 
+	</div>
+      <div id="p0209" num="0209" class="description-paragraph">分散树脂由于必须具有特定的酸值，因此优选具有酸性基的高分子化合物。 
+	</div>
+      <div id="p0210" num="0210" class="description-paragraph">作为该高分子化合物的高分子骨架，优选从由乙烯基单体的聚合物或共聚物、酯系聚合物、醚系聚合物、氨基甲酸乙酯系聚合物、酰胺系聚合物、环氧系聚合物、有机硅系聚合物以及它们的改性物或共聚物[例如包含聚醚/聚氨酯共聚物、聚醚/乙烯基单体的聚合物的共聚物等(无规共聚物、嵌段共聚物、接枝共聚物中的任一种)]构成的组中选择的至少1种，进一步优选从由乙烯基单体的聚合物或乙烯基单体的共聚物、酯系聚合物、醚系聚合物、氨基甲酸乙酯系聚合物以及它们的改性物或共聚物构成的组中选择的至少1种，特别优选乙烯基单体的聚合物或乙烯基单体的共聚物。 
+	</div>
+      <div id="p0211" num="0211" class="description-paragraph">作为在上述高分子骨架中导入酸性基的方法，例如可以列举在上述高分子骨架聚合时使含有酸性基的单体共聚的方法、或在上述高分子骨架聚 合后通过高分子反应而导入的方法。 
+	</div>
+      <div id="p0212" num="0212" class="description-paragraph">作为含有酸性基的单体，例如可以列举(甲基)丙烯酸、丁烯酸、衣康酸、马来酸、富马酸、肉桂酸、丙烯酸二聚物、乙烯基苯甲酸、苯乙烯磺酸、2-丙烯酰胺-2-甲基丙磺酸、磷酸一(甲基)丙烯酰基乙酯或甲基丙烯酸-2-羟乙酯等含醇性羟基单体与马来酸酐或富马酸酐等环状酸酐等反应而得到的单体等。 
+	</div>
+      <div id="p0213" num="0213" class="description-paragraph">此外，具有酸性基的高分子化合物还可以是由乙烯基单体成分共聚得到的物质。 
+	</div>
+      <div id="p0214" num="0214" class="description-paragraph">作为上述乙烯基单体，没有特殊限制，例如优选(甲基)丙烯酸酯类、丁烯酸酯类、乙烯基酯类、马来酸二酯类、富马酸二酯类、衣康酸二酯类、(甲基)丙烯酰胺类、乙烯基醚类、乙烯基醇的酯类、苯乙烯类、(甲基)丙烯腈等。 
+	</div>
+      <div id="p0215" num="0215" class="description-paragraph">作为上述“酸性基”，例如可以优选列举羧酸基、磺酸基、一硫酸酯 基、磷酸基、一磷酸酯基、硼酸基，进一步优选羧酸基、磺酸基、一硫酸酯基、磷酸基以及一磷酸酯基，特别优选羧酸基、磺酸基、磷酸基。 
+	</div>
+      <div id="p0216" num="0216" class="description-paragraph">为了提高分散性，还优选含有具有碱性氮原子的基团。作为上述具有碱性氮原子的基团，例如可以优选列举氨基(-NH<sub>2</sub>)、取代亚氨基(-NHR<sup>8</sup>或-NR<sup>9</sup>R<sup>10</sup>；这里，R<sup>8</sup>、R<sup>9</sup>和R<sup>10</sup>分别独立地表示碳原子数为1～20的烷基、碳原子数为6以上的芳基或碳原子数为7以上的芳烷基)、下述化学式(a1)表示的胍基或下述化学式(a2)表示的脒基等。 
+	</div>
+      <div id="p0217" num="0217" class="description-paragraph">
+        <span class="patent-image-not-available"></span>
+      </div>
+      <div id="p0218" num="0218" class="description-paragraph">上述化学式(a1)中，R<sup>11</sup>和R<sup>12</sup>分别独立地表示碳原子数为1～20的烷基、碳原子数为6以上的芳基或碳原子数为7以上的芳烷基。 
+	</div>
+      <div id="p0219" num="0219" class="description-paragraph">上述化学式(a2)中，R<sup>13</sup>和R<sup>14</sup>分别独立地表示碳原子数为1～20的烷基、碳原子数为6以上的芳基或碳原子数为7以上的芳烷基。 
+	</div>
+      <div id="p0220" num="0220" class="description-paragraph">其中，氨基(-NH<sub>2</sub>)、取代亚氨基(-NHR<sup>8</sup>或-NR<sup>9</sup>R<sup>10</sup>；这里，R<sup>8</sup>、R<sup>9</sup>和R<sup>10</sup>分别独立地表示碳原子数为1～10的烷基、苯基或苄基)、上述化学式(a1)表示的胍基[化学式(a1)中，R<sup>11</sup>和R<sup>12</sup>分别独立地表示碳原子 数为1～10的烷基、苯基或苄基]、上述化学式(a2)表示的脒基[化学式(a2)中，R<sup>13</sup>和R<sup>14</sup>分别独立地表示碳原子数为1～10的烷基、苯基或苄基1等还含有由1～200个氢原子以及0～20个硫原子形成的基团，它们可以是未取代，也可以进一步具有取代基。 
+	</div>
+      <div id="p0221" num="0221" class="description-paragraph">(其他的分散剂) 
+	</div>
+      <div id="p0222" num="0222" class="description-paragraph">本发明使用的感光性着色组合物还可以将上述分散树脂和目前公知的分散剂(颜料分散剂)合用。 
+	</div>
+      <div id="p0223" num="0223" class="description-paragraph">作为公知的分散剂(颜料分散剂)，可以列举高分子分散剂(例如聚酰胺胺及其盐、高分子量不饱和酸酯、改性聚氨酯、改性聚酯、改性聚(甲基)丙烯酸酯、(甲基)丙烯酸系共聚物)、聚氧乙烯烷基磷酸酯、聚氧乙烯烷基胺、烷醇胺以及颜料衍生物等。 
+	</div>
+      <div id="p0224" num="0224" class="description-paragraph">高分子分散剂从其结构上可以进一步分为直链状高分子、末端改性型高分子、接枝型高分子以及嵌段型高分子。 
+	</div>
+      <div id="p0225" num="0225" class="description-paragraph">高分子分散剂吸附于颜料的表面，起防止再凝集的作用。因此，作为优选的结构，可以列举具有针对颜料表面的锚定部位的末端改性型高分子、接枝型高分子或嵌段型高分子。另一方面，颜料衍生物具有通过对颜料表面进行改性来促进高分子分散剂吸附的效果。 
+	</div>
+      <div id="p0226" num="0226" class="description-paragraph">作为本发明能使用的公知的分散剂(颜料分散剂)的具体例子，可以列举BYK Chemie公司制的“Disperbyk-107(羧酸酯)、130(聚酰胺)、161、162、163、164、165、166、170(高分子共聚物)”、EFKA公司制的“EFKA4047、4050、4010、4165(聚氨酯系)、EFKA4330、4340(嵌段共聚物)、4400、4402(改性聚丙烯酸酯)、5010(聚酯酰胺)、6220(脂肪酸聚酯)、6745(酞菁衍生物)、6750(偶氮颜料衍生物)”、味之素精细化学公司(Ajinomoto Fine-Techno Co.，Inc.)制的“AJISPER PB821、PB822”、共荣社化学公司制的“FLOWLEN TG-710(氨基甲酸乙酯低聚物)”、“POLYFLOW No.50E、No.300(丙烯酸系共聚物)”、楠本化成公司制的“DISPARLON #7004(聚醚酯)、DA-703-50、DA-705、DA-725”、花王公司制的“EMULGEN920、930、935、985(聚氧乙烯壬基苯基醚)”、“ACETAMIN 86(十八烷胺乙酸酯)”、路博润公司制的“SOLSPERSE 5000(酞菁衍生物)、22000(偶氮颜料衍生物)、13240(聚酯胺)、3000、17000、 27000(末端部具有功能部的高分子)、24000、28000、32000、38500(接枝型高分子)”、日光化学公司制的“NIKKOL T106(聚氧乙烯山梨糖醇酐单油酸酯)、MYS-IEX(聚氧乙烯单硬脂酸酯)”等。 
+	</div>
+      <div id="p0227" num="0227" class="description-paragraph">上述公知的分散剂可以根据需要在相对于分散树脂为10～100质量％即1/10～1/1(等量)的范围内使用。 
+	</div>
+      <div id="p0228" num="0228" class="description-paragraph">(表面活性剂) 
+	</div>
+      <div id="p0229" num="0229" class="description-paragraph">若颜料浓度增大，则涂布液的触变性一般会变大，因此在基板上涂布或转印感光性着色组合物而形成感光性着色组合物层(着色层涂膜)后的膜厚易产生不均。特别是通过狭缝涂布法形成感光性着色组合物层(着色层涂膜)时，感光性着色组合物层形成用涂布液在干燥前流平形成均一厚度的涂膜很重要。因此，在上述感光性着色组合物中优选含有合适的表面活性剂。作为上述表面活性剂，可以优选列举日本专利特开2003-337424号公报、日本专利特开平11-133600号公报中公开的表面活性剂。 
+	</div>
+      <div id="p0230" num="0230" class="description-paragraph">作为用于提高涂布性的表面活性剂，可以添加非离子型表面活性剂、氟系表面活性剂、有机硅系表面活性剂等。 
+	</div>
+      <div id="p0231" num="0231" class="description-paragraph">作为非离子型表面活性剂，例如优选聚氧乙烯二醇类、聚氧丙烯二醇类、聚氧乙烯烷基醚类、聚氧乙烯烷基芳基醚类、聚氧乙烯烷基酯类、聚氧丙烯烷基醚类、聚氧丙烯烷基芳基醚类、聚氧丙烯烷基酯类、山梨糖醇酐烷基酯类、一甘油烷基酯类等非离子型表面活性剂。 
+	</div>
+      <div id="p0232" num="0232" class="description-paragraph">具体而言，可以列举聚氧乙烯二醇、聚氧丙烯二醇等聚氧化烯二醇类；聚氧乙烯十二烷基醚、聚氧丙烯十八烷基醚、聚氧乙烯油基醚等聚氧化烯烷基醚类；聚氧乙烯辛基苯基醚、聚氧乙烯聚苯乙烯化醚、聚氧乙烯三苄基苯基醚、聚氧乙烯-丙烯聚苯乙烯化醚、聚氧乙烯壬基苯基醚等聚氧乙烯芳基醚類；聚氧乙烯二月桂酸酯、聚氧乙烯二硬脂酸酯等聚氧化烯二烷基酯；山梨糖醇酐脂肪酸酯；以及聚氧化烯山梨糖醇酐脂肪酸酯类等非离子型表面活性剂。 
+	</div>
+      <div id="p0233" num="0233" class="description-paragraph">作为具体例子，可以列举ADEKAPLURONIC系列、ADEKANOL系列、TETRONIC系列(以上为ADEKA株式会社制)、EMULGEN系列、RHEODOL系列(以上为花王株式会社制)、ELEMINOL系列、NONIPOL系列、OCTAPOL系列、DODECAPOL系列、NEWPOL系列(以上为三 洋化成株式会社制)、PIONIN系列(以上为竹本油脂株式会社制)、NISSANNONION系列(以上为日本油脂株式会社制)等。可以适当使用它们的市售品。优选的HLB值为8～20，更优选10～17。 
+	</div>
+      <div id="p0234" num="0234" class="description-paragraph">作为氟系表而活性剂，可以优选使用在末端、主链和侧链中的至少任一部位具有氟代烷基或氟代亚烷基的化合物。 
+	</div>
+      <div id="p0235" num="0235" class="description-paragraph">作为具体的市售品，例如可以列举MEGAFAC F142D、MEGAFACF172、MEGAFAC F173、MEGAFAC F176、MEGAFAC F177、MEGAFACF183、MEGAFAC 780、MEGAFAC 781、MEGAFAC R30、MEGAFAC R08(大日本油墨株式会社制)、FLUORAD FC-135、FLUORAD FC-170C、FLUORAD FC-430、FLUORAD FC-431(住友3M株式会社制)、SURFLONS-112、SURFLON S-113、SURFLON S-131、SURFLON S-141、SURFLONS-145、SURFLON S-382、SURFLON SC-101、SURFLON SC-102、SURFLON SC-103、SURFLON SC-104、SURFLON SC-105、SURFLONSC-106(旭硝子株式会社制)、EFTOP EF351、EFTOP 352、EFTOP 801、EFTOP 802(JEMCO株式会社制)等。 
+	</div>
+      <div id="p0236" num="0236" class="description-paragraph">作为有机硅系表面活性剂，例如可以列举Toray Silicone DC3PA、ToraySilicone DC7PA、Toray Silicone SH11PA、Toray Silicone SH21PA、ToraySilicone SH28PA、Toray Silicone SH29PA、Toray Silicone SH30PA、ToraySilicone SH-190、Toray Silicone SH-193、Toray Silicone SZ-6032、ToraySilicone SF-8428、Toray Silicone DC-57、Toray Silicone DC-190(以上为东丽·道康宁·有机硅株式会社制)、TSF-4440、TSF-4300、TSF-4445、TSF-4446、TSF-4460、TSF-4452(以上为GE东芝有机硅株式会社制)等。 
+	</div>
+      <div id="p0237" num="0237" class="description-paragraph">这些表面活性剂的用量，相对于用于形成感光性着色组合物层的涂布液100质量份，优选为5质量份以下，进一步优选为2质量份以下。当表面活性剂的量超过5质量份时，涂布干燥易使表面粗糙，平滑性容易下降。 
+	</div>
+      <div id="p0238" num="0238" class="description-paragraph">为了促进未固化部的碱溶解性以进一步提高光固性组合物的显影性，可以添加有机羧酸、优选分子量为1000以下的低分子量有机羧酸。具体而言，例如可以列举甲酸、乙酸、丙酸、丁酸、戊酸、特戊酸、己酸、二乙基乙酸、庚酸、辛酸等脂肪族一元羧酸；草酸、丙二酸、琥珀酸、戊二酸、己二酸、庚二酸、辛二酸、壬二酸、癸二酸、巴西基酸、甲基丙二酸、 乙基丙二酸、二甲基丙二酸、甲基琥珀酸、四甲基琥珀酸、柠康酸等脂肪族二元羧酸；丙三酸、乌头酸、樟脑三酸等脂肪族三元羧酸；苯甲酸、甲苯酸、枯酸、2，3-二甲基苯甲酸、均三甲苯酸等芳香族一元羧酸；邻苯二甲酸、间苯二甲酸、对苯二甲酸、偏苯三甲酸、均苯三甲酸、偏苯四甲酸、均苯四甲酸等芳香族多元羧酸；苯基乙酸、苯氧基乙酸、甲氧基苯氧基乙酸、氢化阿托酸、氢化肉桂酸、扁桃酸、苯基琥珀酸、阿托酸、肉桂酸、肉桂酸甲酯、肉桂酸苄酯、亚肉桂基乙酸、香豆酸、伞形酸等其他羧酸。 
+	</div>
+      <div id="p0239" num="0239" class="description-paragraph">(烷氧基硅烷化合物) 
+	</div>
+      <div id="p0240" num="0240" class="description-paragraph">从提高与基板的密合性的观点出发，本发明使用的感光性着色组合物还可以使用烷氧基硅烷化合物、如硅烷偶联剂。 
+	</div>
+      <div id="p0241" num="0241" class="description-paragraph">硅烷偶联剂优选具有烷氧基甲硅烷基作为能与无机材料化学结合的水解性基团，优选为能与有机树脂相互作用或成键而显示亲和性的(甲基)丙烯酰基、苯基、巯基、环氧基硅烷，其中进一步优选(甲基)丙烯酰基丙基三甲氧基硅烷。 
+	</div>
+      <div id="p0242" num="0242" class="description-paragraph">使用硅烷偶联剂时的添加量，优选为本发明使用的感光性着色组合物层中的总固体成分中的0.2～5.0质量％的范围，进一步优选为0.5～3.0质量％。 
+	</div>
+      <div id="p0243" num="0243" class="description-paragraph">(共增感剂) 
+	</div>
+      <div id="p0244" num="0244" class="description-paragraph">本发明使用的感光性着色组合物还优选根据需要含有共增感剂。本发明的共增感剂具有进一步提高增感色素、引发剂对活性放射线的灵敏度、或抑制氧对聚合性化合物的阻聚等作用。 
+	</div>
+      <div id="p0245" num="0245" class="description-paragraph">作为该共增感剂的例子，可以列举胺类例如M.R.Sander等著《Journalof Polymer Society》第10卷3173页(1972)、日本专利特公昭44-20189号公报、日本专利特开昭51-82102号公报、日本专利特开昭52-134692号公报、日本专利特开昭59-138205号公报、日本专利特开昭60-84305号公报、日本专利特开昭62-18537号公报、日本专利特开昭64-33104号公报、Research Disclosure 33825号记载的化合物等，具体可以列举三乙醇胺、对二甲基氨基苯甲酸乙酯、对甲酰基二甲基苯胺、对甲基硫代二甲基苯胺等。 
+	</div>
+      <div id="p0246" num="0246" class="description-paragraph">作为共增感剂的其他例子，可以列举硫醇和硫化物类，例如日本专利 特开昭53-702号公报、日本专利特公昭55-500806号公报、日本专利特开平5-142772号公报记载的硫醇化合物、日本专利特开昭56-75643号公报的二硫化物化合物等，具体可以列举2-巯基苯并噻唑、2-巯基苯并噁唑、2-巯基苯并咪唑、2-巯基-4(3H)-喹唑啉、β-巯基萘等。 
+	</div>
+      <div id="p0247" num="0247" class="description-paragraph">作为共增感剂的其他例子，可以列举氨基酸化合物(例如N-苯基甘氨酸等)、日本专利特公昭48-42965号公报记载的有机金属化合物(例如乙酸三丁基锡等)、日本专利特公昭55-34414号公报记载的供氢体、日本专利特开平6-308727号公报记载的硫化合物(例如三噻烷等)等。 
+	</div>
+      <div id="p0248" num="0248" class="description-paragraph">从提高聚合成长速度和链转移平衡的固化速度的观点出发，这些共增感剂的含量优选为固化性组合物的总固体成分的质量的0.1～30质量％的范围，进一步优选为1～25质量％的范围，更优选为0.5～20质量5％的范围。 
+	</div>
+      <div id="p0249" num="0249" class="description-paragraph">(阻聚剂) 
+	</div>
+      <div id="p0250" num="0250" class="description-paragraph">本发明中，在感光性着色组合物的制造中或保存中，为了阻止具有能聚合的乙烯性不饱和双键的化合物的不必要的热聚合，优选添加少量热阻聚剂。 
+	</div>
+      <div id="p0251" num="0251" class="description-paragraph">作为本发明能使用的热阻聚剂，可以列举氢醌、对甲氧基苯酚、二叔丁基对甲酚、邻苯三酚、叔丁基儿茶酚、苯醌、4，4’-硫代双(3-甲基-6-叔丁基苯酚)、2，2’-亚甲基双(4-甲基-6-叔丁基苯酚)、N-亚硝基苯基羟胺亚铈盐等。 
+	</div>
+      <div id="p0252" num="0252" class="description-paragraph">热阻聚剂的添加量，相对于感光性着色组合物层中的质量，优选为约0.01质量％～约5质量％。另外，还可以根据需要添加二十二烷酸或二十二烷酰胺等高级脂肪酸衍生物等以防止由氧引起的阻聚，在涂布后的干燥过程中偏聚于感光层的表面。高级脂肪酸衍生物的添加量优选为总组合物的约0.5质量％～约10质量％。 
+	</div>
+      <div id="p0253" num="0253" class="description-paragraph">(增塑剂) 
+	</div>
+      <div id="p0254" num="0254" class="description-paragraph">在本发明中，还可以添加无机填充剂或增塑剂以改善感光性着色组合物层的物性或添加能提高感光层表面的油墨着壁性的感脂化剂等。 
+	</div>
+      <div id="p0255" num="0255" class="description-paragraph">作为增塑剂，例如可以列举邻苯二甲酸二辛酯、邻苯二甲酸二(十二烷基)酯、三甘醇二辛酸酯、二甲基二醇邻苯二甲酸酯、磷酸三甲酚酯、 己二酸二辛酯、癸二酸二丁酯、三乙酸甘油酯等，在使用粘合剂的情况下，可以添加相对于具有乙烯性不饱和双键的化合物和粘合剂的总质量为10质量％以下的增塑剂。 
+	</div>
+      <div id="p0256" num="0256" class="description-paragraph">通过使用上述成分，本发明的感光性着色组合物以高灵敏度固化且保存稳定性也很好。另外，还显示对基板的高密合性。因此，含有上述各种成分的感光性着色组合物可以优选用于滤色片。 
+	</div>
+      <div id="p0257" num="0257" class="description-paragraph">&lt;感光性黑色组合物&gt; 
+	</div>
+      <div id="p0258" num="0258" class="description-paragraph">本发明使用的感光性黑色组合物优选含有(A-2)遮光剂、(B)粘合剂聚合物、(C-2)聚合性化合物、(D)光聚合引发剂以及(E)溶剂，还可以根据需要含有分散剂或表面活性剂等其他添加剂。 
+	</div>
+      <div id="p0259" num="0259" class="description-paragraph">-(A-2)遮光剂- 
+	</div>
+      <div id="p0260" num="0260" class="description-paragraph">作为(A-2)遮光剂，除上述(A-1)着色剂外，还可以列举炭黑、钛黑、金属微粒、金属氧化物、硫化物的微粒等。其中，特别优选遮光性和成本的平衡良好的炭黑。 
+	</div>
+      <div id="p0261" num="0261" class="description-paragraph">它们可以根据需要单独使用或多种组合使用。例如，炭黑单独使用，或与有机颜料混合，或将炭黑与有机颜料合用等。 
+	</div>
+      <div id="p0262" num="0262" class="description-paragraph">作为遮光用材料，一直以来将至少2种以上作为黑色着色剂的屏蔽可见光区域的颜料合用。作为这些颜料，可以列举日本专利特开2005-17716号公报[0038]～[0040]、日本专利特开2005-17521号公报[0080]～[0088]中记载的颜料，关于使用这些颜料形成遮光层的方法，公开在日本专利特开平7-271020等。 
+	</div>
+      <div id="p0263" num="0263" class="description-paragraph">为了进一步增大遮光效果，在日本专利特开2000-147240、日本专利特开2000-143985、日本专利特开2005-338328、日本专利特开2006-154849等中开发了炭黑、钛黑或石墨等作为理想的遮光材料。在本发明中，从遮光性和成本的观点出发，炭黑是理想的遮光材料之一。 
+	</div>
+      <div id="p0264" num="0264" class="description-paragraph">作为炭黑的例子，优选颜料黑7(炭黑)。作为炭黑，例如可以列举三菱化学公司制的炭黑#2400、#2350、#2300、#2200、#1000、#980、#970、#960、#950、#900、#850、MCF88、#650、MA600、MA7、MA8、MA11、MA100、MA220、IL30B、IL31B、IL7B、IL11B、IL52B、#4000、#4010、#55、#52、#50、#47、#45、#44、#40、#33、#32、#30、#20、#10、#5、 CF9、#3050、#3150、#3250、#3750、#3950、DIABLACK A、DIABLACKN220M、DIABLACK N234、DIABLACK I、DIABLACK LI、DIABLACKII、DIABLACK N339、DIABLACK SH、DIABLACK SHA、DIABLACK LH、DIABLACK H、DIABLACK HA、DIABLACK SF、DIABLACK N550M、DIABLACK E、DIABLACK G、DIABLACK R、DIABLACK N760M、DIABLACK LP；Degussa公司制的炭黑Color Black FW200、Color BlackFW2、Color Black FW1、Color Black FW18、Color Black S170、ColorBlack S160、Special Black6、Special Black5、Special Black4、Special Black4A、Printex U、Printex V、Printex 140U、Printex 140V、Printex 35；Cabot公司制的炭黑REGAL 400、REGAL 400R、REGAL XC72、VULCANXC72R、MOGUL L、MONARCH 1400、MONARCH 1000、BLACK PEARLS1400；Asahi Carbon公司制的炭黑SUNBLACK900、SUNBLACK910、SUNBLACK930、SUNBLACK960、SUNBLACK970等。为了增大电阻，作为优选的例子还可以列举将这些炭黑用高分子化合物覆盖后的物质。这些炭黑的优选单粒子的大小为10～100nm，进一步优选为10～50nm。 
+	</div>
+      <div id="p0265" num="0265" class="description-paragraph">-(C-2)聚合性化合物- 
+	</div>
+      <div id="p0266" num="0266" class="description-paragraph">作为黑矩阵形成用感光性黑色组合物中的(C-2)聚合性化合物，也可以优选列举在上述感光性着色组合物中使用的(C-1)聚合性化合物，特别优选下述化合物。 
+	</div>
+      <div id="p0267" num="0267" class="description-paragraph">作为感光性黑色组合物中的聚合性化合物，优选具有2个以上乙烯性不饱和双键并在光的照射下加聚的单体或低聚物。作为这样的单体和低聚物，可以列举分子中具有至少1个加聚性乙烯性不饱和基团且常压下的沸点为100℃以上的化合物。作为其例子，可以列举聚乙二醇一(甲基)丙烯酸酯、聚丙二醇一(甲基)丙烯酸酯及苯氧基乙基(甲基)丙烯酸酯等单官能丙烯酸酯和单官能甲基丙烯酸酯；聚乙二醇二(甲基)丙烯酸酯、聚丙二醇二(甲基)丙烯酸酯、三羟甲基乙烷三丙烯酸酯、三羟甲基丙烷三(甲基)丙烯酸酯、三羟甲基丙烷二丙烯酸酯、新戊二醇二(甲基)丙烯酸酯、季戊四醇四(甲基)丙烯酸酯、季戊四醇三(甲基)丙烯酸酯、二季戊四醇六(甲基)丙烯酸酯、二季戊四醇五(甲基)丙烯酸酯、己二醇二(甲基)丙烯酸酯、三羟甲基丙烷三(丙烯酰氧基丙基)醚、三(丙 烯酰氧基乙基)异氰酸酯、三(丙烯酰氧基乙基)异氰酸酯、甘油三(甲基)丙烯酸酯；以及三羟甲基丙烷或甘油等多官能醇与环氧乙烷或环氧丙烷加成后(甲基)丙烯酸酯化得到的物质等多官能丙烯酸酯或多官能甲基丙烯酸酯。 
+	</div>
+      <div id="p0268" num="0268" class="description-paragraph">作为优选的例子，还可以列举酸性多官能光固性化合物。作为酸性多官能光固性化合物，可以列举(1)通过用二元酸酐将具有羟基和3个以上光固性官能团的单体或低聚物改性而导入羧基所得到的化合物、(2)通过使具有羟基和3个以上光固性官能团的单体或低聚物与具有缩水甘油基或异氰酸酯基和COOH基的化合物等加成来导入羧基所得到的化合物、或(3)通过用浓硫酸或发烟硫酸将具有3个以上光固性官能团的芳香族化合物改性来导入磺酸基所得到的化合物等。另外，还可以将含有酸性多官能光固性化合物单体作为重复单元的低聚物作为酸性多官能光固性化合物使用。 
+	</div>
+      <div id="p0269" num="0269" class="description-paragraph">作为酸性多官能光固性化合物的优选例子，可以列举下述通式(i)或通式(ii)表示的化合物。另外，在通式(i)和通式(ii)中，当T或G为氧化烯基时，碳原子侧的末端与R、X及W结合。 
+	</div>
+      <div id="p0270" num="0270" class="description-paragraph">
+        <div class="patent-image"><a href="https://patentimages.storage.googleapis.com/22/d5/7e/08c0d9b7d95889/G2009101277538D00351.png"><img he="331" wi="700" file="G2009101277538D00351.GIF" img-content="drawing" img-format="gif" orientation="portrait" inline="no" width="2800" height="1324" alt="Figure G2009101277538D00351" class="patent-full-image" src="https://patentimages.storage.googleapis.com/22/d5/7e/08c0d9b7d95889/G2009101277538D00351.png"/></a></div>
+      </div>
+      <div id="p0271" num="0271" class="description-paragraph">通式(i)中，R表示(甲基)丙烯酰氧基，X表示-COOH基或-OPO<sub>3</sub>H<sub>2</sub>基。T表示氧化烯基，这里，亚烷基的碳原子数为1～4。n为0～20。 
+	</div>
+      <div id="p0272" num="0272" class="description-paragraph">通式(ii)中，W与通式(i)中的R或X同义，6个W中有3个以 上的W与R同义。G与通式(i)中的T同义。Z表示-O-或-OC＝ONH(CH<sub>2</sub>) <sub>q</sub>NHCOO-。p为0～20，q为1～8。一分子内多个存在的R、X、T、G可以分别相同，也可以不同。 
+	</div>
+      <div id="p0273" num="0273" class="description-paragraph">作为通式(i)和通式(ii)表示的酸性多官能光固性化合物的市售品，例如可以列举东亚合成株式会社制的含羧基3官能丙烯酸酯TO-756以及含羧基的5官能丙烯酸酯TO-1382等。 
+	</div>
+      <div id="p0274" num="0274" class="description-paragraph">作为更具体的例子，可以列举日本专利特公昭48-41708号公报、日本专利特公昭50-6034号公报以及日本专利特开昭51-37193号公报中记载的氨基甲酸乙酯丙烯酸酯类；日本专利特开昭48-64183号公报、日本专利特公昭49-43191号公报以及日本专利特公昭52-30490号公报中记载的聚酯丙烯酸酯类；作为环氧树脂与(甲基)丙烯酸的反应产物的环氧丙烯酸酯类等多官能丙烯酸酯及甲基丙烯酸酯。其中，优选三羟甲基丙烷三(甲基)丙烯酸酯、季戊四醇四(甲基)丙烯酸酯、二季戊四醇六(甲基)丙烯酸酯、二季戊四醇五(甲基)丙烯酸酯、上述含羧基5官能丙烯酸酯等。此外，还可以优选列举日本专利特开平11-133600号公报中记载的“聚合性化合物B”。 
+	</div>
+      <div id="p0275" num="0275" class="description-paragraph">黑矩阵形成用感光性黑色组合物中的(C-2)聚合性化合物的含量，优选为感光性黑色组合物层的总固体成分中的5～50质量％，进一步优选为7～40质量％，更优选为10～35质量％。 
+	</div>
+      <div id="p0276" num="0276" class="description-paragraph">感光性黑色组合物中使用的(B)粘合剂聚合物、(D)聚合引发剂、(E)溶剂、其他添加剂等与上述着色图案形成用感光性着色组合物中的相同，优选的含量也相同。 
+	</div>
+      <div id="p0277" num="0277" class="description-paragraph">&lt;滤色片&gt; 
+	</div>
+      <div id="p0278" num="0278" class="description-paragraph">本发明的滤色片是用上述本发明的滤色片制造方法制造的滤色片。使用上述本发明的滤色片制造方法制造的滤色片，例如能抑制细线变细，良好地形成着色像素(着色图案)，良好地进行显影，抑制着色像素的空白。另外，用上述本发明的滤色片制造方法制造的滤色片由于使电压保持率提高，因此例如具有95％以上的电压保持率。 
+	</div>
+      <div id="p0279" num="0279" class="description-paragraph">&lt;液晶显示装置&gt; 
+	</div>
+      <div id="p0280" num="0280" class="description-paragraph">本发明的液晶显示装置是具有本发明滤色片的液晶显示装置。因此， 能显示高品质的图像。 
+	</div>
+      <div id="p0281" num="0281" class="description-paragraph">关于显示装置的定义和各显示装置的说明，例如在“电子显示器(佐佐木昭夫著、株式会社工业调查会1990年发行)”、“显示器(伊吹顺章著、产业图书株式会社、平成元年发行)”等中有记载。另外，关于液晶显示装置，例如在“次世代液晶显示技术(内田龙男编辑、株式会社工业调查会1994年发行)”中有记载。能使用本发明的液晶显示装置没有特殊限制，例如可以应用于上述的“次世代液晶显示技术”中记载的各种方式的液晶显示装置。 
+	</div>
+      <div id="p0282" num="0282" class="description-paragraph">其中，本发明对于彩色TFT方式的液晶显示装置特别有效。关于彩色TFT方式的液晶显示装置，例如在“彩色TFT液晶显示器(共立出版株式会社1996年发行)”中有记载。此外，本发明还可以应用于IPS等的横向电场驱动方式、MVA等的像素分割方式等视角扩大的液晶显示装置、STN、TN、VA、IPS、OCS、FFS以及R-OCB等。这些方式例如在“EL、PDP、LCD显示器-技术与市场的最新动向-(东丽研究中心调查研究部门2001年发行)”的第43页中有记载。 
+	</div>
+      <div id="p0283" num="0283" class="description-paragraph">液晶显示装置除滤色片以外还由电极基板、偏振薄膜、相位差膜、背光源、隔离物、视角保障薄膜等各种部件构成。本发明的带遮光膜基板可以应用于用这些公知的部件构成的液晶显示装置。 
+	</div>
+      <div id="p0284" num="0284" class="description-paragraph">关于这些部件，例如在“94液晶显示器周边材料·化学的市场(岛健太郎、株式会社CMC 1994年发行)”、“2003液晶相关市场的现状与未来展望(下卷)(表 良吉、株式会社富士总研(Fuji Chimera Research InstituteInc.)2003年发行)”中有记载。 
+	</div>
+      <div id="p0285" num="0285" class="description-paragraph">关于背光源，在SID meeting Digest 1380(2005)(A.Konno et.al)、显示器月刊2005年12月号的18～24页(岛康裕)、显示器月刊25～30页(八木隆明)等中有记载。 
+	</div>
+      <div id="p0286" num="0286" class="description-paragraph">本发明的滤色片与目前公知的冷阴极管的三波长管组合时，能实现高对比度。此外，使用红、绿、蓝的LED光源(RGB-LED)作为背光源，能提供亮度高且颜色纯度高的颜色再现性好的液晶显示装置。 
+	</div>
+      <div id="p0287" num="0287" class="description-paragraph">[实施例] 
+	</div>
+      <div id="p0288" num="0288" class="description-paragraph">下面，列举实施例来更具体地说明本发明。下述实施例所示的材料、 试剂、比例、仪器、操作等，只要不脱离本发明的范围均可作适当变更。因此，本发明的范围不限于下述具体例子。另外，以下的实施例中，在无特殊说明的前提下，“％”和“份”表示“质量％”和“质量份”，分子量表示重均分子量。 
+	</div>
+      <div id="p0289" num="0289" class="description-paragraph">实施例1 
+	</div>
+      <div id="p0290" num="0290" class="description-paragraph">&lt;1.感光性黑色组合物的制备&gt; 
+	</div>
+      <div id="p0291" num="0291" class="description-paragraph">-炭黑分散液(K-1)的制备- 
+	</div>
+      <div id="p0292" num="0292" class="description-paragraph">按下述处方来制备炭黑分散液(K-1)。 
+	</div>
+      <div id="p0293" num="0293" class="description-paragraph">·炭黑(Degussa公司制的COLOR BLACK FW2)              …26.7份 
+	</div>
+      <div id="p0294" num="0294" class="description-paragraph">·分散剂(楠本化成制DISPARLON DA7500、酸值26、胺值40) 
+	</div>
+      <div id="p0295" num="0295" class="description-paragraph">                                                    …3.3份 
+	</div>
+      <div id="p0296" num="0296" class="description-paragraph">·甲基丙烯酸苄酯/甲基丙烯酸(＝72/28[摩尔比])共聚物 
+	</div>
+      <div id="p0297" num="0297" class="description-paragraph">(分子量30000、丙二醇单甲醚乙酸酯的50质量％溶液)     …10份 
+	</div>
+      <div id="p0298" num="0298" class="description-paragraph">·丙二醇单甲醚乙酸酯                                …60份 
+	</div>
+      <div id="p0299" num="0299" class="description-paragraph">将上述各成分在3000rpm的条件下使用匀质机搅拌1小时。将得到的混合溶液在采用0.3mm锆珠的珠分散机(商品名：DESPERMAT、GETZMANN公司制)中实施8小时微分散处理，得到炭黑分散液(K-1)。 
+	</div>
+      <div id="p0300" num="0300" class="description-paragraph">使用得到的炭黑分散液(K-1)，按下述处方来制备感光性黑色组合物涂布液CK-1。 
+	</div>
+      <div id="p0301" num="0301" class="description-paragraph">·分散液(K-1)    31.0g 
+	</div>
+      <div id="p0302" num="0302" class="description-paragraph">·树脂溶液       3.0g 
+	</div>
+      <div id="p0303" num="0303" class="description-paragraph">(甲基丙烯酸苄酯/甲基丙烯酸(＝85/15[摩尔比]共聚物、(Mw10000、丙二醇单甲醚乙酸酯的50质量％溶液) 
+	</div>
+      <div id="p0304" num="0304" class="description-paragraph">·UV固化性树脂   2.0g 
+	</div>
+      <div id="p0305" num="0305" class="description-paragraph">(商品名CYCLOMER P ACA-250大赛璐化学工业株式会社制[侧链具有脂环、COOH基和丙烯酰基的丙烯酸系共聚物、丙二醇单甲醚乙酸酯溶液(固体成分：50质量％)]
+	</div>
+      <div id="p0306" num="0306" class="description-paragraph">·聚合性化合物   2.2g 
+	</div>
+      <div id="p0307" num="0307" class="description-paragraph">(商品名TO-1382、东亚合成株式会社制(以二季戊四醇五丙烯酸酯的末端OH基的一部分被COOH基取代的5官能的具有丙烯酰基的单体为 主要成分) 
+	</div>
+      <div id="p0308" num="0308" class="description-paragraph">·引发剂                            0.8g 
+	</div>
+      <div id="p0309" num="0309" class="description-paragraph">(商品名“OXE-02”、汽巴精化公司制) 
+	</div>
+      <div id="p0310" num="0310" class="description-paragraph">·阻聚剂(甲氧基苯酚)                0.0002g 
+	</div>
+      <div id="p0311" num="0311" class="description-paragraph">·表面活性剂                        0.001g 
+	</div>
+      <div id="p0312" num="0312" class="description-paragraph">(商品名“MEGAFAC R30”、大日本油墨化学工业株式会社制) 
+	</div>
+      <div id="p0313" num="0313" class="description-paragraph">·溶剂：丙二醇单甲醚乙酸酯          17.6g 
+	</div>
+      <div id="p0314" num="0314" class="description-paragraph">甲乙酮                              34.7g 
+	</div>
+      <div id="p0315" num="0315" class="description-paragraph">环己酮                              8.7g 
+	</div>
+      <div id="p0316" num="0316" class="description-paragraph">&lt;2.利用涂布形成黑矩阵&gt; 
+	</div>
+      <div id="p0317" num="0317" class="description-paragraph">-感光性黑色组合物层形成工序- 
+	</div>
+      <div id="p0318" num="0318" class="description-paragraph">使用狭缝涂布机(型号HC6000、平田机工株式会社制)，调节狭缝与玻璃基板之间的间距以及喷出量以使后烘烤后的膜厚为2.0μm并以涂布速度为120mm/秒，在玻璃基板(Coming公司制的MILLENIUM、厚0.7mm)上涂布得到的感光性黑色组合物CK-1。然后，对形成的涂膜，用加热板在90℃下进行120秒加热(干燥处理：预烘烤处理)，形成感光性黑色组合物层。 
+	</div>
+      <div id="p0319" num="0319" class="description-paragraph">-曝光工序- 
+	</div>
+      <div id="p0320" num="0320" class="description-paragraph">接着，对形成的感光性黑色组合物层，使用镜像投影式曝光机(型号MPA-8000、佳能株式会社制)，在100mJ/cm<sup>2</sup>下曝光。 
+	</div>
+      <div id="p0321" num="0321" class="description-paragraph">-显影工序- 
+	</div>
+      <div id="p0322" num="0322" class="description-paragraph">然后，采用氢氧化钾系显影液CDK-1(富士胶片电子材料株式会社制)的1.0％显影液(即含有CDK-11质量份和纯水99质量份的稀释液、25℃)，设定喷淋压为0.20MPa，显影60秒，用纯水洗涤，得到显影后的黑矩阵。 
+	</div>
+      <div id="p0323" num="0323" class="description-paragraph">-烘烤工序- 
+	</div>
+      <div id="p0324" num="0324" class="description-paragraph">接着，在220℃的洁净烘箱(clean oven)中进行40分钟后烘烤处理，形成着色像素形成区域的开口为90μm×200μm、黑矩阵的厚度为2.0μm、黑矩阵的线宽约为25μm的格子状黑矩阵基板。 
+	</div>
+      <div id="p0325" num="0325" class="description-paragraph">使用X-Rite 361T(V)(SAKATA INX ENG.株式会社制)测定制得的黑矩阵的光学浓度(OD)，结果为4.0。 
+	</div>
+      <div id="p0326" num="0326" class="description-paragraph">&lt;3.感光性着色组合物的制备&gt; 
+	</div>
+      <div id="p0327" num="0327" class="description-paragraph">-3-1.红色(R)用感光性着色组合物涂布液CR-1的制备- 
+	</div>
+      <div id="p0328" num="0328" class="description-paragraph">按下述处方来制备红色(R)用分散液(R-1)。 
+	</div>
+      <div id="p0329" num="0329" class="description-paragraph">·颜料红254(SEM观察下的平均粒径为43nm)    …11份 
+	</div>
+      <div id="p0330" num="0330" class="description-paragraph">·颜料红177(SEM观察下的平均粒径为58nm)    …4份 
+	</div>
+      <div id="p0331" num="0331" class="description-paragraph">·下述分散树脂A-3                         …5份 
+	</div>
+      <div id="p0332" num="0332" class="description-paragraph">·分散剂(商品名：Disperbyk-161、BYK Chemie公司制) 
+	</div>
+      <div id="p0333" num="0333" class="description-paragraph">(丙二醇单甲醚乙酸酯的30％溶液)            …3份 
+	</div>
+      <div id="p0334" num="0334" class="description-paragraph">·碱可溶性树脂：甲基丙烯酸苄酯/甲基丙烯酸共聚物 
+	</div>
+      <div id="p0335" num="0335" class="description-paragraph">(＝75/25[摩尔比]共聚物、分子量30000、丙二醇单甲醚乙酸酯溶液(固体成分：50质量％))                              …9份 
+	</div>
+      <div id="p0336" num="0336" class="description-paragraph">·溶剂B：丙二醇单甲醚乙酸酯               …68份 
+	</div>
+      <div id="p0337" num="0337" class="description-paragraph">将上述各成分在3000rpm的条件下使用匀质机搅拌1小时。将得到的混合溶液在采用0.3mm锆珠的珠分散机(商品名：DESPERMAT、GETZMANN公司制)中实施4小时微分散处理，得到红色(R)用分散液(R-1)。 
+	</div>
+      <div id="p0338" num="0338" class="description-paragraph">使用得到的红色(R)用分散液(R-1)，按下述处方来制备红色(R)用感光性着色组合物涂布液CR-1。 
+	</div>
+      <div id="p0339" num="0339" class="description-paragraph">·红色(R)用分散液(R-1)                                    …100g 
+	</div>
+      <div id="p0340" num="0340" class="description-paragraph">·环氧树脂                                                …2g
+	</div>
+      <div id="p0341" num="0341" class="description-paragraph">(商品名EHPE3150大赛璐化学工业公司制) 
+	</div>
+      <div id="p0342" num="0342" class="description-paragraph">·聚合性化合物：二季戊四醇五·六丙烯酸酯                  …8g
+	</div>
+      <div id="p0343" num="0343" class="description-paragraph">·聚合引发剂：4-(邻溴对-N，N-二(乙氧基羰基甲基)氨基-苯基)-2，6-二(三氯甲基)-s-三嗪                                         …1g
+	</div>
+      <div id="p0344" num="0344" class="description-paragraph">·聚合引发剂：2-苄基-2-二甲基氨基-1-(4-吗啉代苯基)-丁酮-1                                                            …1g
+	</div>
+      <div id="p0345" num="0345" class="description-paragraph">·聚合引发剂：二乙基噻吨酮                                …0.5g 
+	</div>
+      <div id="p0346" num="0346" class="description-paragraph">·阻聚剂：对甲氧基苯酚                                    …0.001g 
+	</div>
+      <div id="p0347" num="0347" class="description-paragraph">·氟系表面活性剂                                          …0.01g 
+	</div>
+      <div id="p0348" num="0348" class="description-paragraph">(商品名：Megafac R30大日本油墨化学工业公司制) 
+	</div>
+      <div id="p0349" num="0349" class="description-paragraph">·非离子型表面活性剂              …0.2g 
+	</div>
+      <div id="p0350" num="0350" class="description-paragraph">(商品名：Tetronic R150ADEKA公司制) 
+	</div>
+      <div id="p0351" num="0351" class="description-paragraph">·溶剂：丙二醇单甲醚乙酸酯        …27.7g 
+	</div>
+      <div id="p0352" num="0352" class="description-paragraph">甲乙酮                            …81.8g 
+	</div>
+      <div id="p0353" num="0353" class="description-paragraph">环己酮                            …20.5g 
+	</div>
+      <div id="p0354" num="0354" class="description-paragraph">将上述成分混合搅拌，得到红色(R)用感光性着色组合物涂布液CR-1。 
+	</div>
+      <div id="p0355" num="0355" class="description-paragraph">-3-2.绿色(G)用感光性着色组合物涂布液CG-1的制备- 
+	</div>
+      <div id="p0356" num="0356" class="description-paragraph">按下述处方来制备绿色(G)用分散液(G-1)。 
+	</div>
+      <div id="p0357" num="0357" class="description-paragraph">·颜料绿36(SEM观察下的平均粒径为47nm)       …11份 
+	</div>
+      <div id="p0358" num="0358" class="description-paragraph">·颜料黄150(SEM观察下的平均粒径为39nm)      …7份 
+	</div>
+      <div id="p0359" num="0359" class="description-paragraph">·下述分散树脂A-3                           …5份 
+	</div>
+      <div id="p0360" num="0360" class="description-paragraph">·分散剂(商品名：Disperbyk-161、BYK Chemie公司制30％溶液) 
+	</div>
+      <div id="p0361" num="0361" class="description-paragraph">                                            …3份 
+	</div>
+      <div id="p0362" num="0362" class="description-paragraph">·碱可溶性树脂：甲基丙烯酸苄酯/甲基丙烯酸共聚物(＝85/15[摩尔比]共聚物、分子量30000、丙二醇单甲醚乙酸酯溶液(固体成分：50质量％))                                            …11份 
+	</div>
+      <div id="p0363" num="0363" class="description-paragraph">·溶剂：丙二醇单甲醚乙酸酯                  …70份 
+	</div>
+      <div id="p0364" num="0364" class="description-paragraph">将上述各成分在3000rpm的条件下使用匀质机搅拌1小时。将得到的混合溶液在采用0.3mm锆珠的珠分散机(商品名：DESPERMAT、GETZMANN公司制)中实施8小时微分散处理，得到绿色(G)用分散液(G-1)。 
+	</div>
+      <div id="p0365" num="0365" class="description-paragraph">使用得到的绿色(G)用分散液(G-1)，按下述处方来制备绿色(G)用感光性着色组合物涂布液CG-1。 
+	</div>
+      <div id="p0366" num="0366" class="description-paragraph">·绿色(G)用分散液(G-1)                            …100g 
+	</div>
+      <div id="p0367" num="0367" class="description-paragraph">·环氧树脂                                        …2g
+	</div>
+      <div id="p0368" num="0368" class="description-paragraph">(商品名EHPE3150大赛璐化学工业公司制) 
+	</div>
+      <div id="p0369" num="0369" class="description-paragraph">·聚合性化合物：二季戊四醇五·六丙烯酸酯          …8g
+	</div>
+      <div id="p0370" num="0370" class="description-paragraph">·聚合性化合物：季戊四醇的四(乙氧基丙烯酸酯)      …2g
+	</div>
+      <div id="p0371" num="0371" class="description-paragraph">·聚合引发剂：1，3-双三卤代甲基-5-苯并四氢呋喃三嗪…2g 
+	</div>
+      <div id="p0372" num="0372" class="description-paragraph">·聚合引发剂；2-苄基-2-二甲基氨基-1-(4-吗啉代苯基)-丁酮-1                                            …1g
+	</div>
+      <div id="p0373" num="0373" class="description-paragraph">·聚合引发剂：二乙基噻吨酮                …0.5g 
+	</div>
+      <div id="p0374" num="0374" class="description-paragraph">·阻聚剂：对甲氧基苯酚                    …0.001g 
+	</div>
+      <div id="p0375" num="0375" class="description-paragraph">·氟系表面活性剂                          …0.02g 
+	</div>
+      <div id="p0376" num="0376" class="description-paragraph">(商品名：Megafac R08大日本油墨化学工业公司制) 
+	</div>
+      <div id="p0377" num="0377" class="description-paragraph">·非离子型表面活性剂                      …0.5g 
+	</div>
+      <div id="p0378" num="0378" class="description-paragraph">(商品名：EMALGNE A-60花王公司制) 
+	</div>
+      <div id="p0379" num="0379" class="description-paragraph">·溶剂：丙二醇单甲醚乙酸酯                …37.3g 
+	</div>
+      <div id="p0380" num="0380" class="description-paragraph">甲乙酮                                    …90.2g 
+	</div>
+      <div id="p0381" num="0381" class="description-paragraph">环己酮                                    …22.6g 
+	</div>
+      <div id="p0382" num="0382" class="description-paragraph">将上述组成混合搅拌，得到绿色(G)用感光性着色组合物涂布液CG-1。 
+	</div>
+      <div id="p0383" num="0383" class="description-paragraph">-3-3.蓝色(B)用感光性着色组合物涂布液CB-1的制备- 
+	</div>
+      <div id="p0384" num="0384" class="description-paragraph">按下述处方来制备蓝色(B)用分散液(B-1)。 
+	</div>
+      <div id="p0385" num="0385" class="description-paragraph">·颜料蓝15:6(SEM观察下的平均粒径为55nm)    …14份 
+	</div>
+      <div id="p0386" num="0386" class="description-paragraph">·颜料紫23(SEM观察下的平均粒径为61nm)      …1份 
+	</div>
+      <div id="p0387" num="0387" class="description-paragraph">·下述分散树脂A-3                          …5份 
+	</div>
+      <div id="p0388" num="0388" class="description-paragraph">·分散剂(商品名：Disperbyk-161、BYK Chemie公司制30％溶液) 
+	</div>
+      <div id="p0389" num="0389" class="description-paragraph">                                           …3份 
+	</div>
+      <div id="p0390" num="0390" class="description-paragraph">·碱可溶性树脂：甲基丙烯酸苄酯/甲基丙烯酸共聚物(＝80/20[摩尔比]共聚物、分子量30000、丙二醇单甲醚乙酸酯溶液(固体成分：50质量％))                                           …4份 
+	</div>
+      <div id="p0391" num="0391" class="description-paragraph">·溶剂：丙二醇单甲醚乙酸酯                 …73份 
+	</div>
+      <div id="p0392" num="0392" class="description-paragraph">将上述各成分在3000rpm的条件下使用匀质机搅拌1小时。将得到的混合溶液在采用0.3mm锆珠的珠分散机(商品名：DESPERMAT、GETZMANN公司制)中实施4小时微分散处理，得到蓝色(B)用分散液(B-1)。 
+	</div>
+      <div id="p0393" num="0393" class="description-paragraph">使用得到的蓝色(B)用分散液(B-1)，按下述处方来制备蓝色(B)用感光性着色组合物涂布液CB-1。 
+	</div>
+      <div id="p0394" num="0394" class="description-paragraph">·蓝色(B)用分散液(B-1)                                …100g 
+	</div>
+      <div id="p0395" num="0395" class="description-paragraph">·碱可溶性树脂：甲基丙烯酸苄酯/甲基丙烯酸共聚物 
+	</div>
+      <div id="p0396" num="0396" class="description-paragraph">(＝80/20[摩尔比]共聚物、分子量30000)、丙二醇单甲醚乙酸酯溶液(固体成分：50质量％))                                        …7g
+	</div>
+      <div id="p0397" num="0397" class="description-paragraph">·环氧树脂                                            …2g
+	</div>
+      <div id="p0398" num="0398" class="description-paragraph">(商品名CELLOXIDE 2080大赛璐化学工业公司制) 
+	</div>
+      <div id="p0399" num="0399" class="description-paragraph">·UV固化性树脂                                        …4g
+	</div>
+      <div id="p0400" num="0400" class="description-paragraph">(商品名CYCLOMER P ACA-250大赛璐化学工业公司制) 
+	</div>
+      <div id="p0401" num="0401" class="description-paragraph">(侧链具有脂环、COOH基和丙烯酰基的丙烯酸系共聚物、丙二醇单甲醚乙酸酯溶液(固体成分：50质量％) 
+	</div>
+      <div id="p0402" num="0402" class="description-paragraph">·聚合性化合物：二季戊四醇五·六丙烯酸酯              …12g 
+	</div>
+      <div id="p0403" num="0403" class="description-paragraph">·聚合引发剂：1-(9-乙基-6-(2-甲基苯甲酰)-9H-咔唑-3-基)-1-(邻乙酰基肟)乙酮                                               …3g
+	</div>
+      <div id="p0404" num="0404" class="description-paragraph">·阻聚剂：对甲氧基苯酚                                …0.001g 
+	</div>
+      <div id="p0405" num="0405" class="description-paragraph">·氟系表面活性剂                                      …0.02g 
+	</div>
+      <div id="p0406" num="0406" class="description-paragraph">(商品名：Megafac R08大日本油墨化学工业公司制) 
+	</div>
+      <div id="p0407" num="0407" class="description-paragraph">·非离子型表面活性剂                                  …1.0g 
+	</div>
+      <div id="p0408" num="0408" class="description-paragraph">(商品名：EMALGNE A-60花王公司制) 
+	</div>
+      <div id="p0409" num="0409" class="description-paragraph">·溶剂：丙二醇单甲醚乙酸酯                            …44.8g 
+	</div>
+      <div id="p0410" num="0410" class="description-paragraph">甲乙酮                                                …100g 
+	</div>
+      <div id="p0411" num="0411" class="description-paragraph">环己酮                                                …25.1g 
+	</div>
+      <div id="p0412" num="0412" class="description-paragraph">将上述成分混合搅拌，得到蓝色(B)用感光性着色组合物涂布液CB-1。 
+	</div>
+      <div id="p0413" num="0413" class="description-paragraph">&lt;4.分散树脂A-3的合成&gt; 
+	</div>
+      <div id="p0414" num="0414" class="description-paragraph">(1.链转移剂A3的合成) 
+	</div>
+      <div id="p0415" num="0415" class="description-paragraph">将二季戊四醇六(3-巯基丙酸酯)[DPMP；堺化学工业株式会社制](下述化合物(33))7.83份以及具有吸附部位且具有碳-碳双键的下述化合物(m-6)4.55份溶解于丙二醇一甲基醚28.90份，在氮气流下加热至70℃。向其中加入2，2’-偶氮双(2，4-二甲基戊腈)[V-65、和光纯药工业株式会社制]0.04份，加热3小时。然后，加入0.04份V-65，在氮气流 下，于70℃反应3小时。冷却至室温，得到下示硫醇化合物(链转移剂A3)的30％溶液。 
+	</div>
+      <div id="p0416" num="0416" class="description-paragraph">
+        <div class="patent-image"><a href="https://patentimages.storage.googleapis.com/bc/7d/3c/084a737f5d1818/G2009101277538D00441.png"><img he="164" wi="700" file="G2009101277538D00441.GIF" img-content="drawing" img-format="gif" orientation="portrait" inline="no" width="2800" height="656" alt="Figure G2009101277538D00441" class="patent-full-image" src="https://patentimages.storage.googleapis.com/bc/7d/3c/084a737f5d1818/G2009101277538D00441.png"/></a></div>
+      </div>
+      <div id="p0417" num="0417" class="description-paragraph">(2.分散树脂A-3的合成) 
+	</div>
+      <div id="p0418" num="0418" class="description-paragraph">将上述得到的链转移剂A3的30％溶液4.99份、甲基丙烯酸甲酯19.0份、甲基丙烯酸1.0份以及丙二醇一甲基醚4.66份的混合溶液在氮气流下加热至90℃。一边搅拌该混合溶液，一边花2.5小时滴加2，2’-偶氮二异丁酸二甲酯[V-601、和光纯药工业株式会社制]0.139份、丙二醇一甲基醚5.36份、丙二醇单甲醚乙酸酯9.40份的混合溶液。滴加结束后，在90℃下反应2.5小时，然后加入2，2’-偶氮二异丁酸二甲酯0.046份、丙二醇单甲醚乙酸酯4.00份的混合溶液，再反应2小时。向反应液加入丙二醇一甲基醚1.52份、丙二醇单甲醚乙酸酯21.7份，冷却至室温，得到特定分散树脂A-3(由聚苯乙烯换算的重均分子量为24000)的溶液(特定分散树脂30质量％、丙二醇一甲基醚21质量％、丙二醇单甲醚乙酸酯49质量％)。 
+	</div>
+      <div id="p0419" num="0419" class="description-paragraph">该特定分散树脂A-3的酸值为48mg/g。分散树脂A-3的结构如下所示。 
+	</div>
+      <div id="p0420" num="0420" class="description-paragraph">
+        <div class="patent-image"><a href="https://patentimages.storage.googleapis.com/3a/b9/52/966236ed8ab00a/G2009101277538D00442.png"><img he="225" wi="700" file="G2009101277538D00442.GIF" img-content="drawing" img-format="gif" orientation="portrait" inline="no" width="2800" height="900" alt="Figure G2009101277538D00442" class="patent-full-image" src="https://patentimages.storage.googleapis.com/3a/b9/52/966236ed8ab00a/G2009101277538D00442.png"/></a></div>
+      </div>
+      <div id="p0421" num="0421" class="description-paragraph">&lt;滤色片的制作&gt; 
+	</div>
+      <div id="p0422" num="0422" class="description-paragraph">-感光性着色组合物层形成工序- 
+	</div>
+      <div id="p0423" num="0423" class="description-paragraph">将得到的红色(R)用感光性着色组合物涂布液CR-1涂布在上述黑矩阵基板的黑矩阵形成面侧。具体而言，与感光性黑色组合物层形成的情况相同，调节狭缝与黑矩阵基板之间的间距以及喷出量以使后烘烤后的感光性着色组合物层的层厚为约2.1μm，以涂布速度120mm/秒进行涂布，进行加热(预烘烤处理)。 
+	</div>
+      <div id="p0424" num="0424" class="description-paragraph">-着色层曝光工序- 
+	</div>
+      <div id="p0425" num="0425" class="description-paragraph">接着，使用镜像投影式曝光机(型号MPA-8000、佳能株式会社制)，在90mJ/cm<sup>2</sup>下曝光。 
+	</div>
+      <div id="p0426" num="0426" class="description-paragraph">-着色层显影工序、着色层烘烤工序- 
+	</div>
+      <div id="p0427" num="0427" class="description-paragraph">然后，采用氢氧化钾系显影液CDK-1(富士胶片电子材料株式会社制)的1.0％显影液(含有CDK-11质量份和纯水99质量份的稀释液、25℃)，设定喷淋压为0.2MPa，显影45秒，用纯水洗涤。 
+	</div>
+      <div id="p0428" num="0428" class="description-paragraph">接着，在220℃的洁净烘箱内后烘烤处理30分钟，形成经热处理的红色像素。 
+	</div>
+      <div id="p0429" num="0429" class="description-paragraph">然后，除了将上述感光性着色组合物层形成工序、着色层预烘烤工序、着色层曝光工序、着色层显影工序以及着色层烘烤工序中的红色(R)用感光性着色组合物涂布液CR-1改为绿色(G)用感光性着色组合物涂布液CG-1外，其余均同样操作来形成绿色像素。然后，除了将红色(R)用感光性着色组合物涂布液CR-1改为蓝色(B)用感光性着色组合物涂布液CB-1外，其余均同样操作来形成蓝色像素，得到滤色片。 
+	</div>
+      <div id="p0430" num="0430" class="description-paragraph">[评价] 
+	</div>
+      <div id="p0431" num="0431" class="description-paragraph">&lt;残留溶剂的测定&gt; 
+	</div>
+      <div id="p0432" num="0432" class="description-paragraph">如下测定得到的滤色片的黑矩阵以及用于形成各色像素的着色液体组合物层(感光性黑色组合物层、感光性着色组合物层)的残留溶剂量。 
+	</div>
+      <div id="p0433" num="0433" class="description-paragraph">在上述各着色液体组合物层的形成中，除了在玻璃基板上粘贴75μm基材外，同样地进行着色液体组合物的涂布，在同样的预烘烤条件下用加热板进行加热后，随即(5秒后)将形成了组合物层的75μmPET准确冲裁成10cm×10cm，裁成细段。将裁断物装入22cc的小瓶中并密封，注入气相色谱[(商品名；キヤピラリガスクロマトグラフ(型号；GC-2010)岛 津制作所公司制)、柱(商品名；キヤピラリカラム(挥发性化合物分析柱)(型号：DB-VRX)J&amp;W SCIENTIFIC公司制)]，根据预先测定的校正曲线，算出MMPG-Ac、MEK、环己酮、3-乙氧基乙基丙酸酯。 
+	</div>
+      <div id="p0434" num="0434" class="description-paragraph">&lt;线宽的测定&gt; 
+	</div>
+      <div id="p0435" num="0435" class="description-paragraph">用线宽测定系统MIM-L(MIKASA株式会社制)测定得到的滤色片中形成的黑矩阵的线宽。另外，将曝光使用的掩模的线宽与测定结果一起示出。 
+	</div>
+      <div id="p0436" num="0436" class="description-paragraph">&lt;电压保持率的测定&gt; 
+	</div>
+      <div id="p0437" num="0437" class="description-paragraph">将上述制作的滤色片削取0.015g。将削得的样品投入0.52g的液晶(向列型液晶；商品名MLC-6608，Merck公司制)，在120℃下煮1小时。将煮出的液晶的上清液利用抽吸法填充到2cm×2.5cm玻璃单元中，用密封剂(商品名UV-REJIN、型号LCB-601、EHC公司)封固，进行UV固化，制作液晶单元。在该液晶单元间施加直流电压，施加状态下于50℃保持16.7毫秒后测定电压，将与未投入滤色片削取样品的空白的电压之比作为电压保持率。(％；＝投入感光性树脂组合物的液晶的电压保持率/未投入感光性树脂组合物的液晶的电压保持率) 
+	</div>
+      <div id="p0438" num="0438" class="description-paragraph">(实施例2) 
+	</div>
+      <div id="p0439" num="0439" class="description-paragraph">除了将实施例1中感光性黑色组合物涂布液CK-1的预烘烤温度设为100℃以外，与实施例1同样地制作滤色片，进行评价。 
+	</div>
+      <div id="p0440" num="0440" class="description-paragraph">(实施例3) 
+	</div>
+      <div id="p0441" num="0441" class="description-paragraph">除了将实施例1中红色(R)用感光性着色组合物涂布液CR-1的预烘烤温度设为100℃以外，与实施例1同样地制作滤色片，进行评价。 
+	</div>
+      <div id="p0442" num="0442" class="description-paragraph">(实施例4) 
+	</div>
+      <div id="p0443" num="0443" class="description-paragraph">除了将实施例1中绿色(G)用感光性着色组合物涂布液CG-1的预烘烤温度设为100℃以外，与实施例1同样地制作滤色片，进行评价。 
+	</div>
+      <div id="p0444" num="0444" class="description-paragraph">(实施例5) 
+	</div>
+      <div id="p0445" num="0445" class="description-paragraph">除了将实施例1中蓝色(B)用感光性着色组合物涂布液CB-1的预烘烤温度设为100℃以外，与实施例1同样地制作滤色片，进行评价。 
+	</div>
+      <div id="p0446" num="0446" class="description-paragraph">(实施例6) 
+	</div>
+      <div id="p0447" num="0447" class="description-paragraph">除了将实施例1中感光性黑色组合物涂布液CK-1的预烘烤温度设为 100℃并进行150秒以外，与实施例1同样地制作滤色片，进行评价。
+	</div>
+      <div id="p0448" num="0448" class="description-paragraph">(实施例7) 
+	</div>
+      <div id="p0449" num="0449" class="description-paragraph">除了将实施例1中红色(R)用感光性着色组合物涂布液CR-1的预烘烤温度设为100℃并进行150秒以外，与实施例1同样地制作滤色片，进行评价。 
+	</div>
+      <div id="p0450" num="0450" class="description-paragraph">(实施例8) 
+	</div>
+      <div id="p0451" num="0451" class="description-paragraph">除了将实施例1中绿色(G)用感光性着色组合物涂布液CG-1的预烘烤温度设为100℃并进行150秒以外，与实施例1同样地制作滤色片，进行评价。 
+	</div>
+      <div id="p0452" num="0452" class="description-paragraph">(实施例9) 
+	</div>
+      <div id="p0453" num="0453" class="description-paragraph">除了将实施例1中蓝色(B)用感光性着色组合物涂布液CB-1的预烘烤温度设为100℃并进行150秒以外，与实施例1同样地制作滤色片，进行评价。 
+	</div>
+      <div id="p0454" num="0454" class="description-paragraph">(实施例10) 
+	</div>
+      <div id="p0455" num="0455" class="description-paragraph">除了将实施例1中用旋转涂布机(HI-DX(MIKASA)制)进行涂布作为涂布法以外，与实施例1同样地制作滤色片，进行评价。 
+	</div>
+      <div id="p0456" num="0456" class="description-paragraph">(实施例11) 
+	</div>
+      <div id="p0457" num="0457" class="description-paragraph">除了将实施例1中的感光性黑色组合物涂布液CK-1、红色(R)用感光性着色组合物涂布液CR-1、绿色(G)用感光性着色组合物涂布液CG-1、蓝色(B)用感光性着色组合物涂布液CB-1的处方按下述进行改变以外，与实施例1同样地制作滤色片，进行评价。 
+	</div>
+      <div id="p0458" num="0458" class="description-paragraph">&lt;感光性黑色组合物涂布液CK-2&gt; 
+	</div>
+      <div id="p0459" num="0459" class="description-paragraph">·分散液(K-1)    31.0g 
+	</div>
+      <div id="p0460" num="0460" class="description-paragraph">·树脂溶液       3.0g 
+	</div>
+      <div id="p0461" num="0461" class="description-paragraph">(甲基丙烯酸苄酯/甲基丙烯酸(＝85/15[摩尔比]共聚物、(Mw10000、丙二醇单甲醚乙酸酯的50质量％溶液) 
+	</div>
+      <div id="p0462" num="0462" class="description-paragraph">·UV固化性树脂    2.0g 
+	</div>
+      <div id="p0463" num="0463" class="description-paragraph">(商品名CYCLOMER P ACA-250大赛璐化学工业株式会社制[侧链具有脂环、COOH基和丙烯酰基的丙烯酸系共聚物、丙二醇单甲醚乙酸酯溶液(固体成分：50质量％)] 
+	</div>
+      <div id="p0464" num="0464" class="description-paragraph">·聚合性化合物                              2.2g 
+	</div>
+      <div id="p0465" num="0465" class="description-paragraph">(商品名TO-1382、东亚合成株式会社制(以二季戊四醇五丙烯酸酯的末端OH基的一部分被COOH基取代的5官能的具有丙烯酰基的单体为主要成分) 
+	</div>
+      <div id="p0466" num="0466" class="description-paragraph">·引发剂                                    0.8g 
+	</div>
+      <div id="p0467" num="0467" class="description-paragraph">(商品名“OXE-02”、汽巴精化公司制) 
+	</div>
+      <div id="p0468" num="0468" class="description-paragraph">·阻聚剂(甲氧基苯酚)                        0.0002g 
+	</div>
+      <div id="p0469" num="0469" class="description-paragraph">·表面活性剂                                0.001g 
+	</div>
+      <div id="p0470" num="0470" class="description-paragraph">(商品名“MEGAFAC R30”、大日本油墨化学工业株式会社制) 
+	</div>
+      <div id="p0471" num="0471" class="description-paragraph">·溶剂：丙二醇单甲醚乙酸酯                  46.0g 
+	</div>
+      <div id="p0472" num="0472" class="description-paragraph">3-乙氧基乙基丙酸酯(EEP)                     15.0g 
+	</div>
+      <div id="p0473" num="0473" class="description-paragraph">&lt;红色(R)用感光性着色组合物涂布液CR-2&gt; 
+	</div>
+      <div id="p0474" num="0474" class="description-paragraph">·红色(R)用分散液(R-1)                      …100g 
+	</div>
+      <div id="p0475" num="0475" class="description-paragraph">·环氧树脂                                  …2g
+	</div>
+      <div id="p0476" num="0476" class="description-paragraph">(商品名EHPE3150大赛璐化学工业公司制) 
+	</div>
+      <div id="p0477" num="0477" class="description-paragraph">·聚合性化合物：二季戊四醇五·六丙烯酸酯    …8g
+	</div>
+      <div id="p0478" num="0478" class="description-paragraph">·聚合引发剂：4-(邻溴对-N，N-二(乙氧基羰基甲基)氨基-苯基)-2，6-二(三氯甲基)-s-三嗪                           …1g
+	</div>
+      <div id="p0479" num="0479" class="description-paragraph">·聚合引发剂：2-苄基-2-二甲基氨基-1-(4-吗啉代苯基)-丁酮-1                                              …1g
+	</div>
+      <div id="p0480" num="0480" class="description-paragraph">·聚合引发剂：二乙基噻吨酮                  …0.5g 
+	</div>
+      <div id="p0481" num="0481" class="description-paragraph">·阻聚剂：对甲氧基苯酚                      …0.001g 
+	</div>
+      <div id="p0482" num="0482" class="description-paragraph">·氟系表面活性剂                            …0.01g 
+	</div>
+      <div id="p0483" num="0483" class="description-paragraph">(商品名：Megafac R30大日本油墨化学工业公司制) 
+	</div>
+      <div id="p0484" num="0484" class="description-paragraph">·非离子型表面活性剂                        …0.2g 
+	</div>
+      <div id="p0485" num="0485" class="description-paragraph">(商品名：Tetronic R150ADEKA公司制) 
+	</div>
+      <div id="p0486" num="0486" class="description-paragraph">·溶剂：丙二醇单甲醚乙酸酯                  …110.0g 
+	</div>
+      <div id="p0487" num="0487" class="description-paragraph">3-乙氧基乙基丙酸酯(EEP)                     …20.0g 
+	</div>
+      <div id="p0488" num="0488" class="description-paragraph">&lt;绿色(G)用感光性着色组合物涂布液CG-2&gt; 
+	</div>
+      <div id="p0489" num="0489" class="description-paragraph">·绿色(G)用分散液(G-1)                      …100g 
+	</div>
+      <div id="p0490" num="0490" class="description-paragraph">·环氧树脂                                            …2g
+	</div>
+      <div id="p0491" num="0491" class="description-paragraph">(商品名EHPE3150大赛璐化学工业公司制) 
+	</div>
+      <div id="p0492" num="0492" class="description-paragraph">·聚合性化合物：二季戊四醇五·六丙烯酸酯              …8g
+	</div>
+      <div id="p0493" num="0493" class="description-paragraph">·聚合性化合物：季戊四醇的四(乙氧基丙烯酸酯)          …2g
+	</div>
+      <div id="p0494" num="0494" class="description-paragraph">·聚合引发剂：1，3-双三卤代甲基-5-苯并四氢呋喃三嗪    …2g
+	</div>
+      <div id="p0495" num="0495" class="description-paragraph">·聚合引发剂：2-苄基-2-二甲基氨基-1-(4-吗啉代苯基)-丁酮-1                                                        …1g
+	</div>
+      <div id="p0496" num="0496" class="description-paragraph">·聚合引发剂；二乙基噻吨酮                            …0.5g 
+	</div>
+      <div id="p0497" num="0497" class="description-paragraph">·阻聚剂：对甲氧基苯酚                                …0.001g 
+	</div>
+      <div id="p0498" num="0498" class="description-paragraph">·氟系表面活性剂                                      …0.02g 
+	</div>
+      <div id="p0499" num="0499" class="description-paragraph">(商品名：Megafac R08大日本油墨化学工业公司制) 
+	</div>
+      <div id="p0500" num="0500" class="description-paragraph">·非离子型表面活性剂                                  …0.5g 
+	</div>
+      <div id="p0501" num="0501" class="description-paragraph">(商品名：EMALGNE A-60花王公司制) 
+	</div>
+      <div id="p0502" num="0502" class="description-paragraph">·溶剂：丙二醇单甲醚乙酸酯                            120.1g 
+	</div>
+      <div id="p0503" num="0503" class="description-paragraph">3-乙氧基乙基丙酸酯(EEP)                               30.0g 
+	</div>
+      <div id="p0504" num="0504" class="description-paragraph">&lt;蓝色(B)用感光性着色组合物涂布液CB-2&gt; 
+	</div>
+      <div id="p0505" num="0505" class="description-paragraph">·蓝色(B)用分散液(B-1)                                …100g 
+	</div>
+      <div id="p0506" num="0506" class="description-paragraph">·碱可溶性树脂：甲基丙烯酸苄酯/甲基丙烯酸共聚物 
+	</div>
+      <div id="p0507" num="0507" class="description-paragraph">(＝80/20[摩尔比]共聚物、分子量30000)、丙二醇单甲醚乙酸酯溶液(固体成分：50质量％))                                        …7g
+	</div>
+      <div id="p0508" num="0508" class="description-paragraph">·环氧树脂                                            …2g
+	</div>
+      <div id="p0509" num="0509" class="description-paragraph">(商品名CELLOXIDE 2080大赛璐化学工业公司制) 
+	</div>
+      <div id="p0510" num="0510" class="description-paragraph">·UV固化性树脂                                        …4g
+	</div>
+      <div id="p0511" num="0511" class="description-paragraph">(商品名CYCLOMER P ACA-250大赛璐化学工业公司制) 
+	</div>
+      <div id="p0512" num="0512" class="description-paragraph">(侧链具有脂环、COOH基和丙烯酰基的丙烯酸系共聚物、丙二醇单甲醚乙酸酯溶液(固体成分：50质量％) 
+	</div>
+      <div id="p0513" num="0513" class="description-paragraph">·聚合性化合物：二季戊四醇五·六丙烯酸酯              …12g 
+	</div>
+      <div id="p0514" num="0514" class="description-paragraph">·聚合引发剂：1-(9-乙基-6-(2-甲基苯甲酰)-9H-咔唑-3-基)-1-(邻乙酰基肟)乙酮                                               …3g
+	</div>
+      <div id="p0515" num="0515" class="description-paragraph">·阻聚剂：对甲氧基苯酚                                …0.001g 
+	</div>
+      <div id="p0516" num="0516" class="description-paragraph">·氟系表面活性剂                    …0.02g 
+	</div>
+      <div id="p0517" num="0517" class="description-paragraph">(商品名：Megafac R08大日本油墨化学工业公司制) 
+	</div>
+      <div id="p0518" num="0518" class="description-paragraph">·非离子型表面活性剂                …1.0g 
+	</div>
+      <div id="p0519" num="0519" class="description-paragraph">(商品名：EMALGNE A-60花王公司制) 
+	</div>
+      <div id="p0520" num="0520" class="description-paragraph">·溶剂：丙二醇单甲醚乙酸酯          …139.9g 
+	</div>
+      <div id="p0521" num="0521" class="description-paragraph">3-乙氧基乙基丙酸酯(EEP)             …30.0g 
+	</div>
+      <div id="p0522" num="0522" class="description-paragraph">(比较例1) 
+	</div>
+      <div id="p0523" num="0523" class="description-paragraph">除了将实施例1中感光性黑色组合物涂布液CK-1的预烘烤温度设为70℃以外，与实施例1同样地制作滤色片。 
+	</div>
+      <div id="p0524" num="0524" class="description-paragraph">(实施例12) 
+	</div>
+      <div id="p0525" num="0525" class="description-paragraph">除了将实施例1中感光性黑色组合物涂布液CK-1的预烘烤时间设为60秒以外，与实施例1同样地制作滤色片。 
+	</div>
+      <div id="p0526" num="0526" class="description-paragraph">(比较例2) 
+	</div>
+      <div id="p0527" num="0527" class="description-paragraph">除了将实施例1中的感光性黑色组合物涂布液CK-1、红色(R)用感光性着色组合物涂布液CR-1、绿色(G)用感光性着色组合物涂布液CG-1、蓝色(B)用感光性着色组合物涂布液CB-1的预烘烤时间定为90℃、60秒以外，与实施例1同样地制作滤色片。 
+	</div>
+      <div id="p0528" num="0528" class="description-paragraph">(实施例13) 
+	</div>
+      <div id="p0529" num="0529" class="description-paragraph">除了将实施例1中的感光性黑色组合物涂布液CK-1、红色(R)用感光性着色组合物涂布液CR-1、绿色(G)用感光性着色组合物涂布液CG-1、蓝色(B)用感光性着色组合物涂布液CB-1的处方按下述进行改变以外，与实施例1同样地制作滤色片，进行评价。 
+	</div>
+      <div id="p0530" num="0530" class="description-paragraph">&lt;感光性黑色组合物涂布液CK-3&gt;沸点100℃以上的溶剂量为24.0％ 
+	</div>
+      <div id="p0531" num="0531" class="description-paragraph">·分散液(K-1)     31.0g 
+	</div>
+      <div id="p0532" num="0532" class="description-paragraph">·树脂溶液        3.0g 
+	</div>
+      <div id="p0533" num="0533" class="description-paragraph">(甲基丙烯酸苄酯/甲基丙烯酸(＝85/15[摩尔比]共聚物、(Mw10000、丙二醇单甲醚乙酸酯的50质量％溶液) 
+	</div>
+      <div id="p0534" num="0534" class="description-paragraph">·UV固化性树脂    2.0g 
+	</div>
+      <div id="p0535" num="0535" class="description-paragraph">(商品名CYCLOMER P ACA-250大赛璐化学工业株式会社制[侧链具有脂环、COOH基和丙烯酰基的丙烯酸系共聚物、丙二醇单甲醚乙酸酯 溶液(固体成分：50质量％)]
+	</div>
+      <div id="p0536" num="0536" class="description-paragraph">·聚合性化合物                        2.2g 
+	</div>
+      <div id="p0537" num="0537" class="description-paragraph">(商品名TO-1382、东亚合成株式会社制(以二季戊四醇五丙烯酸酯的末端OH基的一部分被COOH基取代的5官能的具有丙烯酰基的单体为主要成分) 
+	</div>
+      <div id="p0538" num="0538" class="description-paragraph">·引发剂                                    0.8g 
+	</div>
+      <div id="p0539" num="0539" class="description-paragraph">(商品名“OXE-02”、汽巴精化公司制) 
+	</div>
+      <div id="p0540" num="0540" class="description-paragraph">·阻聚剂(甲氧基苯酚)                        0.0002g 
+	</div>
+      <div id="p0541" num="0541" class="description-paragraph">·表面活性剂                                0.001g 
+	</div>
+      <div id="p0542" num="0542" class="description-paragraph">(商品名“MEGAFAC R30”、大日本油墨化学工业株式会社制) 
+	</div>
+      <div id="p0543" num="0543" class="description-paragraph">·溶剂：甲乙酮                              61.0g 
+	</div>
+      <div id="p0544" num="0544" class="description-paragraph">&lt;红色(R)用感光性着色组合物涂布液CR-3&gt;沸点100℃以上的溶剂量为29.0％ 
+	</div>
+      <div id="p0545" num="0545" class="description-paragraph">·红色(R)用分散液(R-1)                      …100g 
+	</div>
+      <div id="p0546" num="0546" class="description-paragraph">·环氧树脂                                  …2g
+	</div>
+      <div id="p0547" num="0547" class="description-paragraph">(商品名EHPE3150大赛璐化学工业公司制) 
+	</div>
+      <div id="p0548" num="0548" class="description-paragraph">·聚合性化合物：二季戊四醇五·六丙烯酸酯    …8g
+	</div>
+      <div id="p0549" num="0549" class="description-paragraph">·聚合引发剂：4-(邻溴对-N，N-二(乙氧基羰基甲基)氨基-苯基)-2，6-二(三氯甲基)-s-三嗪                           …1g
+	</div>
+      <div id="p0550" num="0550" class="description-paragraph">·聚合引发剂：2-苄基-2-二甲基氨基-1-(4-吗啉代苯基)-丁酮-1                                              …1g
+	</div>
+      <div id="p0551" num="0551" class="description-paragraph">·聚合引发剂：二乙基噻吨酮                  …0.5g 
+	</div>
+      <div id="p0552" num="0552" class="description-paragraph">·阻聚剂：对甲氧基苯酚                      …0.001g 
+	</div>
+      <div id="p0553" num="0553" class="description-paragraph">·氟系表面活性剂                            …0.01g 
+	</div>
+      <div id="p0554" num="0554" class="description-paragraph">(商品名：Megafac R30大日本油墨化学工业公司制) 
+	</div>
+      <div id="p0555" num="0555" class="description-paragraph">·非离子型表面活性剂                        …0.2g 
+	</div>
+      <div id="p0556" num="0556" class="description-paragraph">(商品名；Tetronic R150ADEKA公司制) 
+	</div>
+      <div id="p0557" num="0557" class="description-paragraph">·溶剂：甲乙酮                              …156.6g 
+	</div>
+      <div id="p0558" num="0558" class="description-paragraph">&lt;绿色(G)用感光性着色组合物涂布液CG-3&gt;沸点100℃以上的溶剂量为29.0％ 
+	</div>
+      <div id="p0559" num="0559" class="description-paragraph">·绿色(G)用分散液(G-1)                            …100g 
+	</div>
+      <div id="p0560" num="0560" class="description-paragraph">·环氧树脂                                        …2g
+	</div>
+      <div id="p0561" num="0561" class="description-paragraph">(商品名EHPE3150大赛璐化学工业公司制) 
+	</div>
+      <div id="p0562" num="0562" class="description-paragraph">·聚合性化合物：二季戊四醇五·六丙烯酸酯          …8g
+	</div>
+      <div id="p0563" num="0563" class="description-paragraph">·聚合性化合物：季戊四醇的四(乙氧基丙烯酸酯)      …2g
+	</div>
+      <div id="p0564" num="0564" class="description-paragraph">·聚合引发剂：1，3-双三卤代甲基-5-苯并四氢呋喃三嗪…2g
+	</div>
+      <div id="p0565" num="0565" class="description-paragraph">·聚合引发剂：2-苄基-2-二甲基氨基-1-(4-吗啉代苯基)-丁酮-1                                                    …1g
+	</div>
+      <div id="p0566" num="0566" class="description-paragraph">·聚合引发剂：二乙基噻吨酮                        …0.5g 
+	</div>
+      <div id="p0567" num="0567" class="description-paragraph">·阻聚剂：对甲氧基苯酚                            …0.001g 
+	</div>
+      <div id="p0568" num="0568" class="description-paragraph">·氟系表面活性剂                                  …0.02g 
+	</div>
+      <div id="p0569" num="0569" class="description-paragraph">(商品名：Megafac R08大日本油墨化学工业公司制) 
+	</div>
+      <div id="p0570" num="0570" class="description-paragraph">·非离子型表面活性剂                              …0.5g 
+	</div>
+      <div id="p0571" num="0571" class="description-paragraph">(商品名：EMALGNE A-60花王公司制) 
+	</div>
+      <div id="p0572" num="0572" class="description-paragraph">·溶剂：甲乙酮                                    156.4g 
+	</div>
+      <div id="p0573" num="0573" class="description-paragraph">&lt;蓝色(B)用感光性着色组合物涂布液CB-3&gt;沸点100℃以上的溶剂量为29.8％ 
+	</div>
+      <div id="p0574" num="0574" class="description-paragraph">·蓝色(B)用分散液(B-1)                            …100g 
+	</div>
+      <div id="p0575" num="0575" class="description-paragraph">·碱可溶性树脂：甲基丙烯酸苄酯/甲基丙烯酸共聚物 
+	</div>
+      <div id="p0576" num="0576" class="description-paragraph">(＝80/20[摩尔比]共聚物、分子量30000)、丙二醇单甲醚乙酸酯溶液(固体成分：50质量％))                                    …7g
+	</div>
+      <div id="p0577" num="0577" class="description-paragraph">·环氧树脂                                        …2g
+	</div>
+      <div id="p0578" num="0578" class="description-paragraph">(商品名CELLOXIDE 2080大赛璐化学工业公司制) 
+	</div>
+      <div id="p0579" num="0579" class="description-paragraph">·UV固化性树脂                                    …4g
+	</div>
+      <div id="p0580" num="0580" class="description-paragraph">(商品名CYCLOMER P ACA-250大赛璐化学工业公司制) 
+	</div>
+      <div id="p0581" num="0581" class="description-paragraph">(侧链具有脂环、COOH基和丙烯酰基的丙烯酸系共聚物、丙二醇单甲醚乙酸酯溶液(固体成分：50质量％) 
+	</div>
+      <div id="p0582" num="0582" class="description-paragraph">·聚合性化合物：二季戊四醇五·六丙烯酸酯         …12g 
+	</div>
+      <div id="p0583" num="0583" class="description-paragraph">·聚合引发剂：1-(9-乙基-6-(2-甲基苯甲酰)-9H-咔唑-3-基)-1-(邻乙酰基肟)乙酮                                          …3g 
+	</div>
+      <div id="p0584" num="0584" class="description-paragraph">·阻聚剂：对甲氧基苯酚        …0.001g 
+	</div>
+      <div id="p0585" num="0585" class="description-paragraph">·氟系表面活性剂              …0.02g 
+	</div>
+      <div id="p0586" num="0586" class="description-paragraph">(商品名：Megafac R08大日本油墨化学工业公司制) 
+	</div>
+      <div id="p0587" num="0587" class="description-paragraph">·非离子型表面活性剂          …1.0g 
+	</div>
+      <div id="p0588" num="0588" class="description-paragraph">(商品名：EMALGNE A-60花王公司制) 
+	</div>
+      <div id="p0589" num="0589" class="description-paragraph">·溶剂：甲乙酮                …169.9g 
+	</div>
+      <div id="p0590" num="0590" class="description-paragraph">这里，在实施例13中，残留溶剂量、电压保持率、线宽良好，在狭缝涂布机的狭缝喷嘴顶端未产生由着色液体组合物的干燥所引起的喷嘴堵塞。 
+	</div>
+      <div id="p0591" num="0591" class="description-paragraph">(比较例3) 
+	</div>
+      <div id="p0592" num="0592" class="description-paragraph">除了将实施例1中的感光性黑色组合物涂布液CK-1、红色(R)用感光性着色组合物涂布液CR-1、绿色(G)用感光性着色组合物涂布液CG-1、蓝色(B)用感光性着色组合物涂布液CB-1的处方按下述进行改变以外，与实施例1同样地制作滤色片，进行评价。 
+	</div>
+      <div id="p0593" num="0593" class="description-paragraph">&lt;感光性黑色组合物涂布液CK-4&gt;沸点100℃以上的溶剂量为77.6％ 
+	</div>
+      <div id="p0594" num="0594" class="description-paragraph">·分散液(K-1)                     31.0g 
+	</div>
+      <div id="p0595" num="0595" class="description-paragraph">·树脂溶液                        3.0g 
+	</div>
+      <div id="p0596" num="0596" class="description-paragraph">(甲基丙烯酸苄酯/甲基丙烯酸(＝85/15[摩尔比]共聚物、(Mw10000、丙二醇单甲醚乙酸酯的50质量％溶液) 
+	</div>
+      <div id="p0597" num="0597" class="description-paragraph">·UV固化性树脂                    2.0g 
+	</div>
+      <div id="p0598" num="0598" class="description-paragraph">(商品名CYCLOMER P ACA-250大赛璐化学工业株式会社制[侧链具有脂环、COOH基和丙烯酰基的丙烯酸系共聚物、丙二醇单甲醚乙酸酯溶液(固体成分：50质量％)]
+	</div>
+      <div id="p0599" num="0599" class="description-paragraph">·聚合性化合物                    2.2g 
+	</div>
+      <div id="p0600" num="0600" class="description-paragraph">(商品名TO-1382、东亚合成株式会社制(以二季戊四醇五丙烯酸酯的末端OH基的一部分被COOH基取代的5官能的具有丙烯酰基的单体为主要成分) 
+	</div>
+      <div id="p0601" num="0601" class="description-paragraph">·引发剂                          0.8g 
+	</div>
+      <div id="p0602" num="0602" class="description-paragraph">(商品名“OXE-02”、汽巴精化公司制) 
+	</div>
+      <div id="p0603" num="0603" class="description-paragraph">·阻聚剂(甲氧基苯酚)              0.0002g 
+	</div>
+      <div id="p0604" num="0604" class="description-paragraph">·表面活性剂                                        0.001g 
+	</div>
+      <div id="p0605" num="0605" class="description-paragraph">(商品名“MEGAFAC R30”、大日本油墨化学工业株式会社制) 
+	</div>
+      <div id="p0606" num="0606" class="description-paragraph">·溶剂：丙二醇单甲醚乙酸酯                          53.35g 
+	</div>
+      <div id="p0607" num="0607" class="description-paragraph">甲乙酮                                              7.65g 
+	</div>
+      <div id="p0608" num="0608" class="description-paragraph">&lt;红色(R)用感光性着色组合物涂布液CR-4&gt;沸点100℃以上的溶剂量为73.5％ 
+	</div>
+      <div id="p0609" num="0609" class="description-paragraph">·红色(R)用分散液(R-1)                              …100g 
+	</div>
+      <div id="p0610" num="0610" class="description-paragraph">·环氧树脂                                          …2g
+	</div>
+      <div id="p0611" num="0611" class="description-paragraph">(商品名EHPE3150大赛璐化学工业公司制) 
+	</div>
+      <div id="p0612" num="0612" class="description-paragraph">·聚合性化合物：二季戊四醇五·六丙烯酸酯            …8g
+	</div>
+      <div id="p0613" num="0613" class="description-paragraph">·聚合引发剂：4-(邻溴对-N，N-二(乙氧基羰基甲基)氨基-苯基)-2，6-二(三氯甲基)-s-三嗪                                   …1g
+	</div>
+      <div id="p0614" num="0614" class="description-paragraph">·聚合引发剂：2-苄基-2-二甲基氨基-1-(4-吗啉代苯基)-丁酮-1                                                      …1g
+	</div>
+      <div id="p0615" num="0615" class="description-paragraph">·聚合引发剂：二乙基噻吨酮                          …0.5g 
+	</div>
+      <div id="p0616" num="0616" class="description-paragraph">·阻聚剂：对甲氧基苯酚                              …0.001g 
+	</div>
+      <div id="p0617" num="0617" class="description-paragraph">·氟系表面活性剂                                    …0.01g 
+	</div>
+      <div id="p0618" num="0618" class="description-paragraph">(商品名：Megafac R30大日本油墨化学工业公司制) 
+	</div>
+      <div id="p0619" num="0619" class="description-paragraph">·非离子型表面活性剂                                …0.2g 
+	</div>
+      <div id="p0620" num="0620" class="description-paragraph">(商品名：Tetronic R150ADEKA公司制) 
+	</div>
+      <div id="p0621" num="0621" class="description-paragraph">·溶剂：丙二醇单甲醚乙酸酯                          100.15g 
+	</div>
+      <div id="p0622" num="0622" class="description-paragraph">甲乙酮                                              29.65g 
+	</div>
+      <div id="p0623" num="0623" class="description-paragraph">&lt;绿色(G)用感光性着色组合物涂布液CG-4&gt;沸点100℃以上的溶剂量为71.0％ 
+	</div>
+      <div id="p0624" num="0624" class="description-paragraph">·绿色(G)用分散液(G-1)                              …100g 
+	</div>
+      <div id="p0625" num="0625" class="description-paragraph">·环氧树脂                                          …2g
+	</div>
+      <div id="p0626" num="0626" class="description-paragraph">(商品名EHPE3150大赛璐化学工业公司制) 
+	</div>
+      <div id="p0627" num="0627" class="description-paragraph">·聚合性化合物：二季戊四醇五·六丙烯酸酯            …8g
+	</div>
+      <div id="p0628" num="0628" class="description-paragraph">·聚合性化合物：季戊四醇的四(乙氧基丙烯酸酯)        …2g
+	</div>
+      <div id="p0629" num="0629" class="description-paragraph">·聚合引发剂：1，3-双三卤代甲基-5-苯并四氢呋喃三嗪  …2g 
+	</div>
+      <div id="p0630" num="0630" class="description-paragraph">·聚合引发剂：2-苄基-2-二甲基氨基-1-(4-吗啉代苯基)-丁酮-1                                                …1g
+	</div>
+      <div id="p0631" num="0631" class="description-paragraph">·聚合引发剂：二乙基噻吨酮                    …0.5g 
+	</div>
+      <div id="p0632" num="0632" class="description-paragraph">·阻聚剂：对甲氧基苯酚                        …0.001g 
+	</div>
+      <div id="p0633" num="0633" class="description-paragraph">·氟系表面活性剂                              …0.02g 
+	</div>
+      <div id="p0634" num="0634" class="description-paragraph">(商品名：Megafac R08大日本油墨化学工业公司制) 
+	</div>
+      <div id="p0635" num="0635" class="description-paragraph">·非离子型表面活性剂                          …0.5g 
+	</div>
+      <div id="p0636" num="0636" class="description-paragraph">(商品名：EMALGNE A-60花王公司制) 
+	</div>
+      <div id="p0637" num="0637" class="description-paragraph">·溶剂：丙二醇单甲醚乙酸酯                    109.95g 
+	</div>
+      <div id="p0638" num="0638" class="description-paragraph">甲乙酮                                        40.15g 
+	</div>
+      <div id="p0639" num="0639" class="description-paragraph">&lt;蓝色(B)用感光性着色组合物涂布液CB-4&gt;沸点100℃以上的溶剂量为72.0％ 
+	</div>
+      <div id="p0640" num="0640" class="description-paragraph">·蓝色(B)用分散液(B-1)                        …100g 
+	</div>
+      <div id="p0641" num="0641" class="description-paragraph">·碱可溶性树脂：甲基丙烯酸苄酯/甲基丙烯酸共聚物 
+	</div>
+      <div id="p0642" num="0642" class="description-paragraph">(＝80/20[摩尔比]共聚物、分子量30000)、丙二醇单甲醚乙酸酯溶液(固体成分：50质量％))                                …7g
+	</div>
+      <div id="p0643" num="0643" class="description-paragraph">·环氧树脂                                    …2g
+	</div>
+      <div id="p0644" num="0644" class="description-paragraph">(商品名CELLOXIDE 2080大赛璐化学工业公司制) 
+	</div>
+      <div id="p0645" num="0645" class="description-paragraph">·UV固化性树脂                                …4g
+	</div>
+      <div id="p0646" num="0646" class="description-paragraph">(商品名CYCLOMER P ACA-250大赛璐化学工业公司制) 
+	</div>
+      <div id="p0647" num="0647" class="description-paragraph">(侧链具有脂环、COOH基和丙烯酰基的丙烯酸系共聚物、丙二醇单甲醚乙酸酯溶液(固体成分：50质量％) 
+	</div>
+      <div id="p0648" num="0648" class="description-paragraph">·聚合性化合物：二季戊四醇五·六丙烯酸酯      …12g 
+	</div>
+      <div id="p0649" num="0649" class="description-paragraph">·聚合引发剂：1-(9-乙基-6-(2-甲基苯甲酰)-9H-咔唑-3-基)-1-(邻乙酰基肟)乙酮                                       …3g
+	</div>
+      <div id="p0650" num="0650" class="description-paragraph">·阻聚剂：对甲氧基苯酚                        …0.001g 
+	</div>
+      <div id="p0651" num="0651" class="description-paragraph">·氟系表面活性剂                              …0.02g 
+	</div>
+      <div id="p0652" num="0652" class="description-paragraph">(商品名：Megafac R08大日本油墨化学工业公司制) 
+	</div>
+      <div id="p0653" num="0653" class="description-paragraph">·非离子型表面活性剂                          …1.0g 
+	</div>
+      <div id="p0654" num="0654" class="description-paragraph">(商品名：EMALGNE A-60花王公司制) 
+	</div>
+      <div id="p0655" num="0655" class="description-paragraph">·溶剂：丙二醇单甲醚乙酸酯    129.12g 
+	</div>
+      <div id="p0656" num="0656" class="description-paragraph">甲乙酮                        40.78g 
+	</div>
+      <div id="p0657" num="0657" class="description-paragraph">(比较例4) 
+	</div>
+      <div id="p0658" num="0658" class="description-paragraph">除了将实施例1中的感光性黑色组合物涂布液CK-1、红色(R)用感光性着色组合物涂布液CR-1、绿色(G)用感光性着色组合物涂布液CG-1、蓝色(B)用感光性着色组合物涂布液CB-1的处方按下述进行改变以外，与实施例1同样地制作滤色片，进行评价。 
+	</div>
+      <div id="p0659" num="0659" class="description-paragraph">&lt;感光性黑色组合物涂布液CK-5&gt; 
+	</div>
+      <div id="p0660" num="0660" class="description-paragraph">·分散液(K-1)                        31.0g 
+	</div>
+      <div id="p0661" num="0661" class="description-paragraph">·树脂溶液                           3.0g 
+	</div>
+      <div id="p0662" num="0662" class="description-paragraph">(甲基丙烯酸苄酯/甲基丙烯酸(＝85/15[摩尔比]共聚物、(Mw10000、丙二醇单甲醚乙酸酯的50质量％溶液) 
+	</div>
+      <div id="p0663" num="0663" class="description-paragraph">·UV固化性树脂                       2.0g 
+	</div>
+      <div id="p0664" num="0664" class="description-paragraph">(商品名CYCLOMER P ACA-250大赛璐化学工业株式会社制[侧链具有脂环、COOH基和丙烯酰基的丙烯酸系共聚物、丙二醇单甲醚乙酸酯溶液(固体成分：50质量％)]
+	</div>
+      <div id="p0665" num="0665" class="description-paragraph">·聚合性化合物                       2.2g 
+	</div>
+      <div id="p0666" num="0666" class="description-paragraph">(商品名TO-1382、东亚合成株式会社制(以二季戊四醇五丙烯酸酯的末端OH基的一部分被COOH基取代的5官能的具有丙烯酰基的单体为主要成分) 
+	</div>
+      <div id="p0667" num="0667" class="description-paragraph">·引发剂                             0.8g 
+	</div>
+      <div id="p0668" num="0668" class="description-paragraph">(商品名“OXE-02”、汽巴精化公司制) 
+	</div>
+      <div id="p0669" num="0669" class="description-paragraph">·阻聚剂(甲氧基苯酚)                 0.0002g 
+	</div>
+      <div id="p0670" num="0670" class="description-paragraph">·表面活性剂                         0.001g 
+	</div>
+      <div id="p0671" num="0671" class="description-paragraph">(商品名“MEGAFAC R30”、大日本油墨化学工业株式会社制) 
+	</div>
+      <div id="p0672" num="0672" class="description-paragraph">·溶剂：丙二醇单甲醚乙酸酯           46.0g 
+	</div>
+      <div id="p0673" num="0673" class="description-paragraph">丙二醇一甲醚(MFG)                    15.0g 
+	</div>
+      <div id="p0674" num="0674" class="description-paragraph">&lt;红色(R)用感光性着色组合物涂布液CR-5&gt; 
+	</div>
+      <div id="p0675" num="0675" class="description-paragraph">·红色(R)用分散液(R-1)               …100g 
+	</div>
+      <div id="p0676" num="0676" class="description-paragraph">·环氧树脂                           …2g 
+	</div>
+      <div id="p0677" num="0677" class="description-paragraph">(商品名EHPE3150大赛璐化学工业公司制) 
+	</div>
+      <div id="p0678" num="0678" class="description-paragraph">·聚合性化合物：二季戊四醇五·六丙烯酸酯            …8g
+	</div>
+      <div id="p0679" num="0679" class="description-paragraph">·聚合引发剂：4-(邻溴对-N，N-二(乙氧基羰基甲基)氨基-苯基)-2，6-二(三氯甲基)-s-三嗪                                   …1g
+	</div>
+      <div id="p0680" num="0680" class="description-paragraph">·聚合引发剂：2-苄基-2-二甲基氨基-1-(4-吗啉代苯基)-丁酮-1                                                      …1g
+	</div>
+      <div id="p0681" num="0681" class="description-paragraph">·聚合引发剂：二乙基噻吨酮                          …0.5g 
+	</div>
+      <div id="p0682" num="0682" class="description-paragraph">·阻聚剂：对甲氧基苯酚                              …0.001g 
+	</div>
+      <div id="p0683" num="0683" class="description-paragraph">·氟系表面活性剂                                    …0.01g 
+	</div>
+      <div id="p0684" num="0684" class="description-paragraph">(商品名：Megafac R30大日本油墨化学工业公司制) 
+	</div>
+      <div id="p0685" num="0685" class="description-paragraph">·非离子型表面活性剂                                …0.2g 
+	</div>
+      <div id="p0686" num="0686" class="description-paragraph">(商品名：Tetronic R150ADEKA公司制) 
+	</div>
+      <div id="p0687" num="0687" class="description-paragraph">·溶剂：丙二醇单甲醚乙酸酯                          110.0g 
+	</div>
+      <div id="p0688" num="0688" class="description-paragraph">丙二醇一甲醚(MFG)                                   20.0g 
+	</div>
+      <div id="p0689" num="0689" class="description-paragraph">&lt;绿色(G)用感光性着色组合物涂布液CG-5&gt; 
+	</div>
+      <div id="p0690" num="0690" class="description-paragraph">·绿色(G)用分散液(G-1)                              …100g 
+	</div>
+      <div id="p0691" num="0691" class="description-paragraph">·环氧树脂                                          …2g
+	</div>
+      <div id="p0692" num="0692" class="description-paragraph">(商品名EHPE3150大赛璐化学工业公司制) 
+	</div>
+      <div id="p0693" num="0693" class="description-paragraph">·聚合性化合物：二季戊四醇五·六丙烯酸酯            …8g
+	</div>
+      <div id="p0694" num="0694" class="description-paragraph">·聚合性化合物：季戊四醇的四(乙氧基丙烯酸酯)        …2g
+	</div>
+      <div id="p0695" num="0695" class="description-paragraph">·聚合引发剂：1，3-双三卤代甲基-5-苯并四氢呋喃三嗪  …2g
+	</div>
+      <div id="p0696" num="0696" class="description-paragraph">·聚合引发剂：2-苄基-2-二甲基氨基-1-(4-吗啉代苯基)-丁酮-1                                                      …1g
+	</div>
+      <div id="p0697" num="0697" class="description-paragraph">·聚合引发剂：二乙基噻吨酮                          …0.5g 
+	</div>
+      <div id="p0698" num="0698" class="description-paragraph">·阻聚剂：对甲氧基苯酚                              …0.001g 
+	</div>
+      <div id="p0699" num="0699" class="description-paragraph">·氟系表面活性剂                                    …0.02g 
+	</div>
+      <div id="p0700" num="0700" class="description-paragraph">(商品名：Megafac R08大日本油墨化学工业公司制) 
+	</div>
+      <div id="p0701" num="0701" class="description-paragraph">·非离子型表面活性剂                                …0.5g 
+	</div>
+      <div id="p0702" num="0702" class="description-paragraph">(商品名：EMALGNE A-60花王公司制) 
+	</div>
+      <div id="p0703" num="0703" class="description-paragraph">·溶剂：丙二醇单甲醚乙酸酯                          120.1g 
+	</div>
+      <div id="p0704" num="0704" class="description-paragraph">丙二醇一甲醚(MFG)                                       30.0g 
+	</div>
+      <div id="p0705" num="0705" class="description-paragraph">&lt;蓝色(B)用感光性着色组合物涂布液CB-5&gt; 
+	</div>
+      <div id="p0706" num="0706" class="description-paragraph">·蓝色(B)用分散液(B-1)                                  …100g 
+	</div>
+      <div id="p0707" num="0707" class="description-paragraph">·碱可溶性树脂：甲基丙烯酸苄酯/甲基丙烯酸共聚物 
+	</div>
+      <div id="p0708" num="0708" class="description-paragraph">(＝80/20[摩尔比]共聚物、分子量30000)、丙二醇单甲醚乙酸酯溶液(固体成分：50质量％))                                          …7g
+	</div>
+      <div id="p0709" num="0709" class="description-paragraph">·环氧树脂                                              …2g
+	</div>
+      <div id="p0710" num="0710" class="description-paragraph">(商品名CELLOXIDE 2080大赛璐化学工业公司制) 
+	</div>
+      <div id="p0711" num="0711" class="description-paragraph">·UV固化性树脂                                          …4g
+	</div>
+      <div id="p0712" num="0712" class="description-paragraph">(商品名CYCLOMERP ACA-250大赛璐化学工业公司制) 
+	</div>
+      <div id="p0713" num="0713" class="description-paragraph">(侧链具有脂环、COOH基和丙烯酰基的丙烯酸系共聚物、丙二醇单甲醚乙酸酯溶液(固体成分：50质量％) 
+	</div>
+      <div id="p0714" num="0714" class="description-paragraph">·聚合性化合物：二季戊四醇五·六丙烯酸酯                …12g 
+	</div>
+      <div id="p0715" num="0715" class="description-paragraph">·聚合引发剂：1-(9-乙基-6-(2-甲基苯甲酰)-9H-咔唑-3-基)-1-(邻乙酰基肟)乙酮                                                 …3g
+	</div>
+      <div id="p0716" num="0716" class="description-paragraph">·阻聚剂：对甲氧基苯酚                                  …0.001g 
+	</div>
+      <div id="p0717" num="0717" class="description-paragraph">·氟系表面活性剂                                        …0.02g 
+	</div>
+      <div id="p0718" num="0718" class="description-paragraph">(商品名：Megafac R08大日本油墨化学工业公司制) 
+	</div>
+      <div id="p0719" num="0719" class="description-paragraph">·非离子型表面活性剂                                    …1.0g 
+	</div>
+      <div id="p0720" num="0720" class="description-paragraph">(商品名：EMALGNE A-60花王公司制) 
+	</div>
+      <div id="p0721" num="0721" class="description-paragraph">·溶剂：丙二醇单甲醚乙酸酯                              139.9g 
+	</div>
+      <div id="p0722" num="0722" class="description-paragraph">丙二醇一甲醚(MFG)                                       30.0g 
+	</div>
+      <div id="p0723" num="0723" class="description-paragraph">上述结果如表1～表3所示。 
+	</div>
+      <div id="p0724" num="0724" class="description-paragraph">表1 
+	</div>
+      <div id="p0725" num="0725" class="description-paragraph">
+        <div class="patent-image"><a href="https://patentimages.storage.googleapis.com/ad/14/eb/78eaf69a3135e5/G2009101277538D00591.png"><img he="462" wi="700" file="G2009101277538D00591.GIF" img-content="drawing" img-format="gif" orientation="portrait" inline="no" width="2800" height="1848" alt="Figure G2009101277538D00591" class="patent-full-image" src="https://patentimages.storage.googleapis.com/ad/14/eb/78eaf69a3135e5/G2009101277538D00591.png"/></a></div>
+      </div>
+      <div id="p0726" num="0726" class="description-paragraph">
+        <span class="patent-image-not-available"></span>
+      </div>
+      <div id="p0727" num="0727" class="description-paragraph">表2 
+	</div>
+      <div id="p0728" num="0728" class="description-paragraph">
+        <div class="patent-image"><a href="https://patentimages.storage.googleapis.com/67/ff/68/d689c68bb8ed30/G2009101277538D00601.png"><img he="460" wi="700" file="G2009101277538D00601.GIF" img-content="drawing" img-format="gif" orientation="portrait" inline="no" width="2800" height="1840" alt="Figure G2009101277538D00601" class="patent-full-image" src="https://patentimages.storage.googleapis.com/67/ff/68/d689c68bb8ed30/G2009101277538D00601.png"/></a></div>
+      </div>
+      <div id="p0729" num="0729" class="description-paragraph">
+        <div class="patent-image"><a href="https://patentimages.storage.googleapis.com/25/84/f4/61d2f7fe60bd0c/G2009101277538D00602.png"><img he="436" wi="700" file="G2009101277538D00602.GIF" img-content="drawing" img-format="gif" orientation="portrait" inline="no" width="2800" height="1744" alt="Figure G2009101277538D00602" class="patent-full-image" src="https://patentimages.storage.googleapis.com/25/84/f4/61d2f7fe60bd0c/G2009101277538D00602.png"/></a></div>
+      </div>
+      <div id="p0730" num="0730" class="description-paragraph">表3 
+	</div>
+      <div id="p0731" num="0731" class="description-paragraph">
+        <div class="patent-image"><a href="https://patentimages.storage.googleapis.com/5d/e6/ee/69dc5e467f2376/G2009101277538D00611.png"><img he="510" wi="700" file="G2009101277538D00611.GIF" img-content="drawing" img-format="gif" orientation="portrait" inline="no" width="2800" height="2040" alt="Figure G2009101277538D00611" class="patent-full-image" src="https://patentimages.storage.googleapis.com/5d/e6/ee/69dc5e467f2376/G2009101277538D00611.png"/></a></div>
+      </div>
+      <div id="p0732" num="0732" class="description-paragraph">另外，实施例和比较例中使用的溶剂如下所述。 
+	</div>
+      <div id="p0733" num="0733" class="description-paragraph">·MEK：甲乙酮(沸点：80℃) 
+	</div>
+      <div id="p0734" num="0734" class="description-paragraph">·PGMEA：丙二醇单甲醚乙酸酯(沸点：146℃) 
+	</div>
+      <div id="p0735" num="0735" class="description-paragraph">·EEP：3-乙氧基乙基丙酸酯(沸点：170℃) 
+	</div>
+      <div id="p0736" num="0736" class="description-paragraph">·环己酮(沸点：156℃) 
+	</div>
+      <div id="p0737" num="0737" class="description-paragraph">·MFG：丙二醇一甲基醚(沸点120℃) 
+	</div>
+      <div id="p0738" num="0738" class="description-paragraph">由上述结果可知，降低了预烘烤后的着色液组合物层中的残留溶剂量的本发明实施例与比较例相比，其显影性得到了提高的同时，可提高所得到的滤色片的电压保持率，得到高品质的图像。 
+	</div>
+    </mode-for-invention>
+  </div>
+  </div>
+  </section>
+
+  <section itemprop="claims" itemscope>
+    <h2>Claims (<span itemprop="count">3</span>)</h2>
+    
+    <div itemprop="content" html><div mxw-id="PCLM390431436" lang="ZH" load-source="patent-office" class="claims">
+    <div class="claim"> <div id="zh-cl0001" num="0001" class="claim">
+      <div class="claim-text">1.一种滤色片的制造方法，</div>
+      <div class="claim-text">其为在基板上具有色相互不相同的2种颜色以上的被图案化的着色像素以及位于该着色像素周围的黑矩阵的滤色片的制造方法，其特征在于，</div>
+      <div class="claim-text">将至少1种的着色液体组合物层的残留溶剂量控制为10μL/m<sup>2</sup>以下，且将用于形成各色的着色像素以及黑矩阵的所述着色液体组合物层的残留溶剂量的总和控制为40μL/m<sup>2</sup>以下，所述着色液体组合物层是为了形成着色像素或黑矩阵而在基板上形成着色液体组合物并将其刚预烘烤后的层。</div>
+    </div>
+    </div> <div class="claim-dependent"> <div id="zh-cl0002" num="0002" class="claim">
+      <div class="claim-text">
+        <claim-ref idref="zh-cl0001"> </claim-ref>
+      </div>
+      <div class="claim-text">2.根据权利要求1所述的滤色片的制造方法，其特征在于，</div>
+      <div class="claim-text">所述着色液体组合物的形成方法为旋涂法和狭缝涂布法中的任一种。</div>
+    </div>
+    </div> <div class="claim-dependent"> <div id="zh-cl0003" num="0003" class="claim">
+      <div class="claim-text">
+        <claim-ref idref="zh-cl0001"> </claim-ref>
+      </div>
+      <div class="claim-text">3.根据权利要求1所述的滤色片的制造方法，其特征在于，</div>
+      <div class="claim-text">所述预烘烤温度为60℃以上、140℃以下，</div>
+      <div class="claim-text">预烘烤时间为30秒以上、300秒以下。</div>
+    </div>
+  </div> </div>
+  </div>
+  </section>
+
+  <section itemprop="application" itemscope>
+
+    <section itemprop="metadata" itemscope>
+        <span itemprop="applicationNumber">CN2009101277538A</span>
+        <span itemprop="priorityDate">2008-03-31</span>
+        <span itemprop="filingDate">2009-03-25</span>
+        <span itemprop="title">滤色片制造方法 
+       </span>
+        <span itemprop="ifiStatus">Expired - Fee Related</span>
+        
+        <a href="/patent/CN101551481B/zh">
+            <span itemprop="representativePublication">CN101551481B</span>
+            (<span itemprop="primaryLanguage">zh</span>)
+        </a>
+    </section>
+
+    
+
+    <h2>Applications Claiming Priority (3)</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Application Number</th>
+                    <th>Priority Date</th>
+                    <th>Filing Date</th>
+                    <th>Title</th>
+                </tr>
+            </thead>
+            <tbody>
+            <tr itemprop="appsClaimingPriority" itemscope repeat>
+                <td>
+                   <span itemprop="applicationNumber">JP2008-091425</span>
+                   
+                <td itemprop="priorityDate"></td>
+                <td itemprop="filingDate">2008-03-31</td>
+                <td itemprop="title"></td>
+              </tr><tr itemprop="appsClaimingPriority" itemscope repeat>
+                <td>
+                   <span itemprop="applicationNumber">JP2008091425A</span>
+                   <a href="/patent/JP2009244619A/ja">
+                        <span itemprop="representativePublication">JP2009244619A</span>
+                          (<span itemprop="primaryLanguage">ja</span>)
+                      </a>
+                <td itemprop="priorityDate">2008-03-31</td>
+                <td itemprop="filingDate">2008-03-31</td>
+                <td itemprop="title">カラーフィルタ及びその製造方法、ならびに液晶表示装置 
+       </td>
+              </tr><tr itemprop="appsClaimingPriority" itemscope repeat>
+                <td>
+                   <span itemprop="applicationNumber">JP2008091425</span>
+                   
+                <td itemprop="priorityDate"></td>
+                <td itemprop="filingDate">2008-03-31</td>
+                <td itemprop="title"></td>
+              </tr>
+           </tbody>
+       </table>
+
+    
+
+    
+
+    <h2>Publications (2)</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Publication Number</th>
+                    <th>Publication Date</th>
+                </tr>
+            </thead>
+            <tbody>
+            <tr itemprop="pubs" itemscope repeat>
+                <td>
+                   <span itemprop="publicationNumber">CN101551481A</span>
+                   
+                   <a href="/patent/CN101551481A/zh">CN101551481A
+                       (<span itemprop="primaryLanguage">zh</span>)
+                   </a>
+                </td>
+                <td itemprop="publicationDate">2009-10-07</td>
+              </tr><tr itemprop="pubs" itemscope repeat>
+                <td>
+                   <span itemprop="publicationNumber">CN101551481B</span>
+                   
+                   <span itemprop="thisPatent">true</span>
+                   <a href="/patent/CN101551481B/zh">CN101551481B
+                       (<span itemprop="primaryLanguage">zh</span>)
+                   </a>
+                </td>
+                <td itemprop="publicationDate">2012-11-21</td>
+              </tr>
+           </tbody>
+        </table>
+
+  </section>
+
+  <section itemprop="family" itemscope>
+    <h1>Family</h1>
+    <h2>ID=41155820</h2>
+
+    <h2>Family Applications (1)</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Application Number</th>
+                    <th>Title</th>
+                    <th>Priority Date</th>
+                    <th>Filing Date</th>
+                </tr>
+            </thead>
+            <tbody>
+            <tr itemprop="applications" itemscope repeat>
+                <td>
+                    <span itemprop="applicationNumber">CN2009101277538A</span>
+                    <span itemprop="ifiStatus">Expired - Fee Related</span>
+                    
+                    <a href="/patent/CN101551481B/zh">
+                        <span itemprop="representativePublication">CN101551481B</span>
+                          (<span itemprop="primaryLanguage">zh</span>)
+                      </a>
+                </td>
+                <td itemprop="priorityDate">2008-03-31</td>
+                <td itemprop="filingDate">2009-03-25</td>
+                <td itemprop="title">滤色片制造方法 
+       </td>
+              </tr>
+           </tbody>
+        </table>
+
+    
+
+    
+
+    <h2>Country Status (2)</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Country</th>
+            <th>Link</th>
+          </tr>
+        </thead>
+        <tbody>
+        <tr itemprop="countryStatus" itemscope repeat>
+            <td>
+              <span itemprop="countryCode">JP</span>
+                (<span itemprop="num">1</span>)
+              
+            </td>
+            <td>
+              <a href="/patent/JP2009244619A/zh">
+                <span itemprop="representativePublication">JP2009244619A</span>
+                  (<span itemprop="primaryLanguage">zh</span>)
+              </a>
+            </td>
+          </tr><tr itemprop="countryStatus" itemscope repeat>
+            <td>
+              <span itemprop="countryCode">CN</span>
+                (<span itemprop="num">1</span>)
+              <meta itemprop="thisCountry" content="true">
+            </td>
+            <td>
+              <a href="/patent/CN101551481B/zh">
+                <span itemprop="representativePublication">CN101551481B</span>
+                  (<span itemprop="primaryLanguage">zh</span>)
+              </a>
+            </td>
+          </tr>
+      </tbody>
+    </table>
+
+    
+
+    <h2>Families Citing this family (2)</h2>
+    <table>
+      <caption>* Cited by examiner, † Cited by third party</caption>
+      <thead>
+        <tr>
+          <th>Publication number</th>
+          <th>Priority date</th>
+          <th>Publication date</th>
+          <th>Assignee</th>
+          <th>Title</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr itemprop="forwardReferencesFamily" itemscope repeat>
+          <td>
+            
+            
+            <a href="/patent/CN102331596B/zh">
+              <span itemprop="publicationNumber">CN102331596B</span>
+              (<span itemprop="primaryLanguage">zh</span>)
+            </a>
+            <span itemprop="examinerCited">*</span>
+            
+          </td>
+          <td itemprop="priorityDate">2011-10-09</td>
+          <td itemprop="publicationDate">2013-12-04</td>
+          <td><span itemprop="assigneeOriginal">华映视讯（吴江）有限公司</span></td>
+          <td itemprop="title">彩色树脂组合物与形成多色彩色滤光片的方法 
+       </td>
+        </tr><tr itemprop="forwardReferencesFamily" itemscope repeat>
+          <td>
+            
+            
+            <a href="/patent/CN104423088B/zh">
+              <span itemprop="publicationNumber">CN104423088B</span>
+              (<span itemprop="primaryLanguage">zh</span>)
+            </a>
+            
+            
+          </td>
+          <td itemprop="priorityDate">2013-09-10</td>
+          <td itemprop="publicationDate">2018-09-11</td>
+          <td><span itemprop="assigneeOriginal">京东方科技集团股份有限公司</span></td>
+          <td itemprop="title">一种彩膜基板的制备方法 
+       </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>Citations (2)</h2>
+    <table>
+      <caption>* Cited by examiner, † Cited by third party</caption>
+      <thead>
+        <tr>
+          <th>Publication number</th>
+          <th>Priority date</th>
+          <th>Publication date</th>
+          <th>Assignee</th>
+          <th>Title</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr itemprop="backwardReferencesOrig" itemscope repeat>
+          <td>
+            
+            
+            <a href="/patent/CN1542067A/zh">
+              <span itemprop="publicationNumber">CN1542067A</span>
+              (<span itemprop="primaryLanguage">zh</span>)
+            </a>
+            <span itemprop="examinerCited">*</span>
+            
+          </td>
+          <td itemprop="priorityDate">2003-03-28</td>
+          <td itemprop="publicationDate">2004-11-03</td>
+          <td><span itemprop="assigneeOriginal">株式会社日本触媒</span></td>
+          <td itemprop="title">固化性树脂组合物及其用途 
+     </td>
+        </tr><tr itemprop="backwardReferencesOrig" itemscope repeat>
+          <td>
+            
+            
+            <a href="/patent/CN101081941A/zh">
+              <span itemprop="publicationNumber">CN101081941A</span>
+              (<span itemprop="primaryLanguage">zh</span>)
+            </a>
+            <span itemprop="examinerCited">*</span>
+            
+          </td>
+          <td itemprop="priorityDate">2006-06-02</td>
+          <td itemprop="publicationDate">2007-12-05</td>
+          <td><span itemprop="assigneeOriginal">富士胶片株式会社</span></td>
+          <td itemprop="title">有机纳米粒子及其分散组合物、感光性树脂组合物、转印材料、滤色器、液晶显示装置及ccd器件 
+       </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>Family Cites Families (2)</h2>
+    <table>
+      <caption>* Cited by examiner, † Cited by third party</caption>
+      <thead>
+        <tr>
+          <th>Publication number</th>
+          <th>Priority date</th>
+          <th>Publication date</th>
+          <th>Assignee</th>
+          <th>Title</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr itemprop="backwardReferencesFamily" itemscope repeat>
+          <td>
+            
+            
+            <a href="/patent/JP2005181859A/ja">
+              <span itemprop="publicationNumber">JP2005181859A</span>
+              (<span itemprop="primaryLanguage">ja</span>)
+            </a>
+            <span itemprop="examinerCited">*</span>
+            
+          </td>
+          <td itemprop="priorityDate">2003-12-22</td>
+          <td itemprop="publicationDate">2005-07-07</td>
+          <td><span itemprop="assigneeOriginal">Dainippon Printing Co Ltd</span></td>
+          <td itemprop="title">塗料組成物およびそれを用いたカラーフィルターの製造方法、並びにその方法によって得られたカラーフィルター 
+       </td>
+        </tr><tr itemprop="backwardReferencesFamily" itemscope repeat>
+          <td>
+            
+            
+            <a href="/patent/JP4571087B2/ja">
+              <span itemprop="publicationNumber">JP4571087B2</span>
+              (<span itemprop="primaryLanguage">ja</span>)
+            </a>
+            <span itemprop="examinerCited">*</span>
+            
+          </td>
+          <td itemprop="priorityDate">2006-03-23</td>
+          <td itemprop="publicationDate">2010-10-27</td>
+          <td><span itemprop="assigneeOriginal">富士フイルム株式会社</span></td>
+          <td itemprop="title">感光性組成物並びにそれを用いた表示装置用遮光膜形成用材料及び感光性転写材料 
+       </td>
+        </tr>
+      </tbody>
+    </table>
+
+    
+    <ul>
+      
+      <li itemprop="applicationsByYear" itemscope repeat>
+        <span itemprop="year">2008</span>
+        <ul>
+          
+          <li itemprop="application" itemscope repeat>
+            <span itemprop="filingDate">2008-03-31</span>
+            <span itemprop="countryCode">JP</span>
+            <span itemprop="applicationNumber">JP2008091425A</span>
+            <a href="/patent/JP2009244619A/ja"><span itemprop="documentId">patent/JP2009244619A/ja</span></a>
+            <span itemprop="legalStatusCat">active</span>
+            <span itemprop="legalStatus">Pending</span>
+            
+          </li>
+          
+        </ul>
+      </li>
+      
+      <li itemprop="applicationsByYear" itemscope repeat>
+        <span itemprop="year">2009</span>
+        <ul>
+          
+          <li itemprop="application" itemscope repeat>
+            <span itemprop="filingDate">2009-03-25</span>
+            <span itemprop="countryCode">CN</span>
+            <span itemprop="applicationNumber">CN2009101277538A</span>
+            <a href="/patent/CN101551481B/zh"><span itemprop="documentId">patent/CN101551481B/zh</span></a>
+            <span itemprop="legalStatusCat">not_active</span>
+            <span itemprop="legalStatus">Expired - Fee Related</span>
+            
+            <span itemprop="thisApp" content="true" bool></span>
+            
+          </li>
+          
+        </ul>
+      </li>
+      
+    </ul>
+    
+
+    </section>
+
+  <section>
+    <h2>Patent Citations (2)</h2>
+    <table>
+      <caption>* Cited by examiner, † Cited by third party</caption>
+      <thead>
+        <tr>
+          <th>Publication number</th>
+          <th>Priority date</th>
+          <th>Publication date</th>
+          <th>Assignee</th>
+          <th>Title</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr itemprop="backwardReferences" itemscope repeat>
+          <td>
+            
+            
+            <a href="/patent/CN1542067A/zh">
+              <span itemprop="publicationNumber">CN1542067A</span>
+              (<span itemprop="primaryLanguage">zh</span>)
+            </a>
+            <span itemprop="examinerCited">*</span>
+            
+          </td>
+          <td itemprop="priorityDate">2003-03-28</td>
+          <td itemprop="publicationDate">2004-11-03</td>
+          <td><span itemprop="assigneeOriginal">株式会社日本触媒</span></td>
+          <td itemprop="title">固化性树脂组合物及其用途 
+     </td>
+        </tr><tr itemprop="backwardReferences" itemscope repeat>
+          <td>
+            
+            
+            <a href="/patent/CN101081941A/zh">
+              <span itemprop="publicationNumber">CN101081941A</span>
+              (<span itemprop="primaryLanguage">zh</span>)
+            </a>
+            <span itemprop="examinerCited">*</span>
+            
+          </td>
+          <td itemprop="priorityDate">2006-06-02</td>
+          <td itemprop="publicationDate">2007-12-05</td>
+          <td><span itemprop="assigneeOriginal">富士胶片株式会社</span></td>
+          <td itemprop="title">有机纳米粒子及其分散组合物、感光性树脂组合物、转印材料、滤色器、液晶显示装置及ccd器件 
+       </td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section>
+    <h2>Non-Patent Citations (3)</h2>
+    <table>
+      <caption>* Cited by examiner, † Cited by third party</caption>
+      <thead>
+        <tr>
+          <th>Title</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr itemprop="detailedNonPatentLiterature" itemscope repeat>
+          <td>
+            <span itemprop="title">JP特开2005-181859A 2005.07.07</span>
+            
+            
+          </td>
+        </tr><tr itemprop="detailedNonPatentLiterature" itemscope repeat>
+          <td>
+            <span itemprop="title">JP特开2005-292306A 2005.10.20</span>
+            
+            
+          </td>
+        </tr><tr itemprop="detailedNonPatentLiterature" itemscope repeat>
+          <td>
+            <span itemprop="title">JP特开平7-35915A 1995.02.07</span>
+            
+            
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  
+
+  <section>
+    <h2>Also Published As</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Publication number</th>
+          <th>Publication date</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr itemprop="docdbFamily" itemscope repeat>
+          <td>
+            
+            
+            <a href="/patent/JP2009244619A/ja">
+              <span itemprop="publicationNumber">JP2009244619A</span>
+              (<span itemprop="primaryLanguage">ja</span>)
+            </a>
+          </td>
+          <td itemprop="publicationDate">2009-10-22</td>
+        </tr><tr itemprop="docdbFamily" itemscope repeat>
+          <td>
+            
+            
+            <a href="/patent/CN101551481A/zh">
+              <span itemprop="publicationNumber">CN101551481A</span>
+              (<span itemprop="primaryLanguage">zh</span>)
+            </a>
+          </td>
+          <td itemprop="publicationDate">2009-10-07</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section>
+    <h2>Similar Documents</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Publication</th>
+          <th>Publication Date</th>
+          <th>Title</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr itemprop="similarDocuments" itemscope repeat>
+          <td>
+            <meta itemprop="isPatent" content="true">
+              
+              
+              <a href="/patent/CN101343422B/zh">
+                <span itemprop="publicationNumber">CN101343422B</span>
+                (<span itemprop="primaryLanguage">zh</span>)
+              </a>
+            
+            
+          </td>
+          <td>
+            <time itemprop="publicationDate" datetime="2013-05-22">2013-05-22</time>
+            
+            
+          </td>
+          <td itemprop="title">颜料分散液、可固化组合物、滤色器和固态成像器件 
+       </td>
+        </tr><tr itemprop="similarDocuments" itemscope repeat>
+          <td>
+            <meta itemprop="isPatent" content="true">
+              
+              
+              <a href="/patent/CN101295134B/zh">
+                <span itemprop="publicationNumber">CN101295134B</span>
+                (<span itemprop="primaryLanguage">zh</span>)
+              </a>
+            
+            
+          </td>
+          <td>
+            <time itemprop="publicationDate" datetime="2012-06-13">2012-06-13</time>
+            
+            
+          </td>
+          <td itemprop="title">着色光聚合组合物、使用该组合物的滤色器及其制备方法 
+       </td>
+        </tr><tr itemprop="similarDocuments" itemscope repeat>
+          <td>
+            <meta itemprop="isPatent" content="true">
+              
+              
+              <a href="/patent/CN101852989A/zh">
+                <span itemprop="publicationNumber">CN101852989A</span>
+                (<span itemprop="primaryLanguage">zh</span>)
+              </a>
+            
+            
+          </td>
+          <td>
+            <time itemprop="publicationDate" datetime="2010-10-06">2010-10-06</time>
+            
+            
+          </td>
+          <td itemprop="title">感光性着色组合物、滤色片及其制造法以及液晶显示装置 
+       </td>
+        </tr><tr itemprop="similarDocuments" itemscope repeat>
+          <td>
+            <meta itemprop="isPatent" content="true">
+              
+              
+              <a href="/patent/CN101971094B/zh">
+                <span itemprop="publicationNumber">CN101971094B</span>
+                (<span itemprop="primaryLanguage">zh</span>)
+              </a>
+            
+            
+          </td>
+          <td>
+            <time itemprop="publicationDate" datetime="2013-05-01">2013-05-01</time>
+            
+            
+          </td>
+          <td itemprop="title">着色固化性组合物、滤色器和滤色器的制造方法 
+       </td>
+        </tr><tr itemprop="similarDocuments" itemscope repeat>
+          <td>
+            <meta itemprop="isPatent" content="true">
+              
+              
+              <a href="/patent/CN101842444B/zh">
+                <span itemprop="publicationNumber">CN101842444B</span>
+                (<span itemprop="primaryLanguage">zh</span>)
+              </a>
+            
+            
+          </td>
+          <td>
+            <time itemprop="publicationDate" datetime="2013-06-05">2013-06-05</time>
+            
+            
+          </td>
+          <td itemprop="title">颜料分散组合物、着色固化性组合物、滤色器及其制造方法 
+       </td>
+        </tr><tr itemprop="similarDocuments" itemscope repeat>
+          <td>
+            <meta itemprop="isPatent" content="true">
+              
+              
+              <a href="/patent/CN101592752A/zh">
+                <span itemprop="publicationNumber">CN101592752A</span>
+                (<span itemprop="primaryLanguage">zh</span>)
+              </a>
+            
+            
+          </td>
+          <td>
+            <time itemprop="publicationDate" datetime="2009-12-02">2009-12-02</time>
+            
+            
+          </td>
+          <td itemprop="title">滤色片及其制造方法以及液晶显示装置 
+     </td>
+        </tr><tr itemprop="similarDocuments" itemscope repeat>
+          <td>
+            <meta itemprop="isPatent" content="true">
+              
+              
+              <a href="/patent/CN102478766A/zh">
+                <span itemprop="publicationNumber">CN102478766A</span>
+                (<span itemprop="primaryLanguage">zh</span>)
+              </a>
+            
+            
+          </td>
+          <td>
+            <time itemprop="publicationDate" datetime="2012-05-30">2012-05-30</time>
+            
+            
+          </td>
+          <td itemprop="title">着色感光性树脂组合物、图案形成方法、彩色滤光片及其制造方法、以及显示装置 
+       </td>
+        </tr><tr itemprop="similarDocuments" itemscope repeat>
+          <td>
+            <meta itemprop="isPatent" content="true">
+              
+              
+              <a href="/patent/JPH0980225A/ja">
+                <span itemprop="publicationNumber">JPH0980225A</span>
+                (<span itemprop="primaryLanguage">ja</span>)
+              </a>
+            
+            
+          </td>
+          <td>
+            <time itemprop="publicationDate" datetime="1997-03-28">1997-03-28</time>
+            
+            
+          </td>
+          <td itemprop="title">液晶ディスプレーカラーフィルター用顔料分散フォトレジスト組成物 
+       </td>
+        </tr><tr itemprop="similarDocuments" itemscope repeat>
+          <td>
+            <meta itemprop="isPatent" content="true">
+              
+              
+              <a href="/patent/CN101680984B/zh">
+                <span itemprop="publicationNumber">CN101680984B</span>
+                (<span itemprop="primaryLanguage">zh</span>)
+              </a>
+            
+            
+          </td>
+          <td>
+            <time itemprop="publicationDate" datetime="2012-08-08">2012-08-08</time>
+            
+            
+          </td>
+          <td itemprop="title">滤色片用固化性组合物及其制造方法、着色固化性树脂组合物、着色图案及其形成方法、滤色片及其制造方法、以及液晶显示元件 
+       </td>
+        </tr><tr itemprop="similarDocuments" itemscope repeat>
+          <td>
+            <meta itemprop="isPatent" content="true">
+              
+              
+              <a href="/patent/CN101493648B/zh">
+                <span itemprop="publicationNumber">CN101493648B</span>
+                (<span itemprop="primaryLanguage">zh</span>)
+              </a>
+            
+            
+          </td>
+          <td>
+            <time itemprop="publicationDate" datetime="2013-10-02">2013-10-02</time>
+            
+            
+          </td>
+          <td itemprop="title">滤色器及其制造方法以及液晶显示装置 
+       </td>
+        </tr><tr itemprop="similarDocuments" itemscope repeat>
+          <td>
+            <meta itemprop="isPatent" content="true">
+              
+              
+              <a href="/patent/CN102236256A/zh">
+                <span itemprop="publicationNumber">CN102236256A</span>
+                (<span itemprop="primaryLanguage">zh</span>)
+              </a>
+            
+            
+          </td>
+          <td>
+            <time itemprop="publicationDate" datetime="2011-11-09">2011-11-09</time>
+            
+            
+          </td>
+          <td itemprop="title">着色感光性树脂组合物、图案形成方法、滤色器及其制造方法、及显示装置 
+       </td>
+        </tr><tr itemprop="similarDocuments" itemscope repeat>
+          <td>
+            <meta itemprop="isPatent" content="true">
+              
+              
+              <a href="/patent/CN101625526A/zh">
+                <span itemprop="publicationNumber">CN101625526A</span>
+                (<span itemprop="primaryLanguage">zh</span>)
+              </a>
+            
+            
+          </td>
+          <td>
+            <time itemprop="publicationDate" datetime="2010-01-13">2010-01-13</time>
+            
+            
+          </td>
+          <td itemprop="title">紫外线激光用着色感光性树脂组合物、图案形成方法、滤色器及其制造方法、显示装置 
+       </td>
+        </tr><tr itemprop="similarDocuments" itemscope repeat>
+          <td>
+            <meta itemprop="isPatent" content="true">
+              
+              
+              <a href="/patent/CN101802659A/zh">
+                <span itemprop="publicationNumber">CN101802659A</span>
+                (<span itemprop="primaryLanguage">zh</span>)
+              </a>
+            
+            
+          </td>
+          <td>
+            <time itemprop="publicationDate" datetime="2010-08-11">2010-08-11</time>
+            
+            
+          </td>
+          <td itemprop="title">滤色器及其制造方法以及液晶显示装置 
+       </td>
+        </tr><tr itemprop="similarDocuments" itemscope repeat>
+          <td>
+            <meta itemprop="isPatent" content="true">
+              
+              
+              <a href="/patent/CN101657739B/zh">
+                <span itemprop="publicationNumber">CN101657739B</span>
+                (<span itemprop="primaryLanguage">zh</span>)
+              </a>
+            
+            
+          </td>
+          <td>
+            <time itemprop="publicationDate" datetime="2012-05-30">2012-05-30</time>
+            
+            
+          </td>
+          <td itemprop="title">滤色器、液晶显示装置以及在其制造中使用的固化性组合物 
+       </td>
+        </tr><tr itemprop="similarDocuments" itemscope repeat>
+          <td>
+            <meta itemprop="isPatent" content="true">
+              
+              
+              <a href="/patent/CN101546006A/zh">
+                <span itemprop="publicationNumber">CN101546006A</span>
+                (<span itemprop="primaryLanguage">zh</span>)
+              </a>
+            
+            
+          </td>
+          <td>
+            <time itemprop="publicationDate" datetime="2009-09-30">2009-09-30</time>
+            
+            
+          </td>
+          <td itemprop="title">滤色片及其制造方法以及液晶显示装置 
+       </td>
+        </tr><tr itemprop="similarDocuments" itemscope repeat>
+          <td>
+            <meta itemprop="isPatent" content="true">
+              
+              
+              <a href="/patent/CN101196685B/zh">
+                <span itemprop="publicationNumber">CN101196685B</span>
+                (<span itemprop="primaryLanguage">zh</span>)
+              </a>
+            
+            
+          </td>
+          <td>
+            <time itemprop="publicationDate" datetime="2012-08-08">2012-08-08</time>
+            
+            
+          </td>
+          <td itemprop="title">滤色器用着色固化性组合物、滤色器及其制造方法 
+       </td>
+        </tr><tr itemprop="similarDocuments" itemscope repeat>
+          <td>
+            <meta itemprop="isPatent" content="true">
+              
+              
+              <a href="/patent/CN101493649A/zh">
+                <span itemprop="publicationNumber">CN101493649A</span>
+                (<span itemprop="primaryLanguage">zh</span>)
+              </a>
+            
+            
+          </td>
+          <td>
+            <time itemprop="publicationDate" datetime="2009-07-29">2009-07-29</time>
+            
+            
+          </td>
+          <td itemprop="title">滤色器及其制造方法以及液晶显示装置 
+       </td>
+        </tr><tr itemprop="similarDocuments" itemscope repeat>
+          <td>
+            <meta itemprop="isPatent" content="true">
+              
+              
+              <a href="/patent/CN101750655B/zh">
+                <span itemprop="publicationNumber">CN101750655B</span>
+                (<span itemprop="primaryLanguage">zh</span>)
+              </a>
+            
+            
+          </td>
+          <td>
+            <time itemprop="publicationDate" datetime="2013-10-02">2013-10-02</time>
+            
+            
+          </td>
+          <td itemprop="title">滤色片及其制造方法以及液晶显示装置 
+       </td>
+        </tr><tr itemprop="similarDocuments" itemscope repeat>
+          <td>
+            <meta itemprop="isPatent" content="true">
+              
+              
+              <a href="/patent/CN101551481B/zh">
+                <span itemprop="publicationNumber">CN101551481B</span>
+                (<span itemprop="primaryLanguage">zh</span>)
+              </a>
+            
+            
+          </td>
+          <td>
+            <time itemprop="publicationDate" datetime="2012-11-21">2012-11-21</time>
+            
+            
+          </td>
+          <td itemprop="title">滤色片制造方法 
+       </td>
+        </tr><tr itemprop="similarDocuments" itemscope repeat>
+          <td>
+            <meta itemprop="isPatent" content="true">
+              
+              
+              <a href="/patent/CN101673011B/zh">
+                <span itemprop="publicationNumber">CN101673011B</span>
+                (<span itemprop="primaryLanguage">zh</span>)
+              </a>
+            
+            
+          </td>
+          <td>
+            <time itemprop="publicationDate" datetime="2013-05-22">2013-05-22</time>
+            
+            
+          </td>
+          <td itemprop="title">滤色片基板及液晶显示装置 
+       </td>
+        </tr><tr itemprop="similarDocuments" itemscope repeat>
+          <td>
+            <meta itemprop="isPatent" content="true">
+              
+              
+              <a href="/patent/CN101276147A/zh">
+                <span itemprop="publicationNumber">CN101276147A</span>
+                (<span itemprop="primaryLanguage">zh</span>)
+              </a>
+            
+            
+          </td>
+          <td>
+            <time itemprop="publicationDate" datetime="2008-10-01">2008-10-01</time>
+            
+            
+          </td>
+          <td itemprop="title">着色图案形成用组合物、着色图案形成方法、滤色器及其制造方法、以及液晶显示元件 
+     </td>
+        </tr><tr itemprop="similarDocuments" itemscope repeat>
+          <td>
+            <meta itemprop="isPatent" content="true">
+              
+              
+              <a href="/patent/CN101520526B/zh">
+                <span itemprop="publicationNumber">CN101520526B</span>
+                (<span itemprop="primaryLanguage">zh</span>)
+              </a>
+            
+            
+          </td>
+          <td>
+            <time itemprop="publicationDate" datetime="2012-07-25">2012-07-25</time>
+            
+            
+          </td>
+          <td itemprop="title">液晶显示元件用滤色器 
+       </td>
+        </tr><tr itemprop="similarDocuments" itemscope repeat>
+          <td>
+            <meta itemprop="isPatent" content="true">
+              
+              
+              <a href="/patent/CN101533223B/zh">
+                <span itemprop="publicationNumber">CN101533223B</span>
+                (<span itemprop="primaryLanguage">zh</span>)
+              </a>
+            
+            
+          </td>
+          <td>
+            <time itemprop="publicationDate" datetime="2012-08-29">2012-08-29</time>
+            
+            
+          </td>
+          <td itemprop="title">着色固化性树脂组合物、着色图案及形成方法、滤色器及制造方法、液晶显示元件 
+       </td>
+        </tr><tr itemprop="similarDocuments" itemscope repeat>
+          <td>
+            <meta itemprop="isPatent" content="true">
+              
+              
+              <a href="/patent/JP2010020146A/ja">
+                <span itemprop="publicationNumber">JP2010020146A</span>
+                (<span itemprop="primaryLanguage">ja</span>)
+              </a>
+            
+            
+          </td>
+          <td>
+            <time itemprop="publicationDate" datetime="2010-01-28">2010-01-28</time>
+            
+            
+          </td>
+          <td itemprop="title">カラーフィルタ及びその製造方法、並びに液晶表示装置 
+       </td>
+        </tr><tr itemprop="similarDocuments" itemscope repeat>
+          <td>
+            <meta itemprop="isPatent" content="true">
+              
+              
+              <a href="/patent/CN101663601A/zh">
+                <span itemprop="publicationNumber">CN101663601A</span>
+                (<span itemprop="primaryLanguage">zh</span>)
+              </a>
+            
+            
+          </td>
+          <td>
+            <time itemprop="publicationDate" datetime="2010-03-03">2010-03-03</time>
+            
+            
+          </td>
+          <td itemprop="title">滤色片及其制造方法以及显示装置 
+       </td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section>
+    <h2>Legal Events</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Date</th>
+          <th>Code</th>
+          <th>Title</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        
+        <tr itemprop="legalEvents" itemscope repeat>
+          <td><time itemprop="date" datetime="2009-10-07">2009-10-07</time></td>
+          <td itemprop="code">C06</td>
+          <td itemprop="title">Publication</td>
+          <td>
+            
+          </td>
+        </tr>
+        <tr itemprop="legalEvents" itemscope repeat>
+          <td><time itemprop="date" datetime="2009-10-07">2009-10-07</time></td>
+          <td itemprop="code">PB01</td>
+          <td itemprop="title">Publication</td>
+          <td>
+            
+          </td>
+        </tr>
+        <tr itemprop="legalEvents" itemscope repeat>
+          <td><time itemprop="date" datetime="2011-04-27">2011-04-27</time></td>
+          <td itemprop="code">C10</td>
+          <td itemprop="title">Entry into substantive examination</td>
+          <td>
+            
+          </td>
+        </tr>
+        <tr itemprop="legalEvents" itemscope repeat>
+          <td><time itemprop="date" datetime="2011-04-27">2011-04-27</time></td>
+          <td itemprop="code">SE01</td>
+          <td itemprop="title">Entry into force of request for substantive examination</td>
+          <td>
+            
+          </td>
+        </tr>
+        <tr itemprop="legalEvents" itemscope repeat>
+          <td><time itemprop="date" datetime="2012-11-21">2012-11-21</time></td>
+          <td itemprop="code">C14</td>
+          <td itemprop="title">Grant of patent or utility model</td>
+          <td>
+            
+          </td>
+        </tr>
+        <tr itemprop="legalEvents" itemscope repeat>
+          <td><time itemprop="date" datetime="2012-11-21">2012-11-21</time></td>
+          <td itemprop="code">GR01</td>
+          <td itemprop="title">Patent grant</td>
+          <td>
+            
+          </td>
+        </tr>
+        <tr itemprop="legalEvents" itemscope repeat>
+          <td><time itemprop="date" datetime="2016-05-11">2016-05-11</time></td>
+          <td itemprop="code">CF01</td>
+          <td itemprop="title">Termination of patent right due to non-payment of annual fee</td>
+          <td>
+            
+            <p itemprop="attributes" itemscope repeat>
+              <strong itemprop="label">Granted publication date</strong>:
+              <span itemprop="value">20121121</span>
+            </p>
+            <p itemprop="attributes" itemscope repeat>
+              <strong itemprop="label">Termination date</strong>:
+              <span itemprop="value">20150325</span>
+            </p>
+          </td>
+        </tr>
+        <tr itemprop="legalEvents" itemscope repeat>
+          <td><time itemprop="date" datetime="2016-05-11">2016-05-11</time></td>
+          <td itemprop="code">EXPY</td>
+          <td itemprop="title">Termination of patent right or utility model</td>
+          <td>
+            
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+</article>
+
+    </search-app>
+    <script type="text/javascript" src="//www.gstatic.com/feedback/api.js"></script>
+    <script type="text/javascript" src="//www.gstatic.com/feedback/js/help/prod/service/lazy.min.js"></script>
+    <script type="text/javascript">
+      if (window.help && window.help.service) {
+        helpApi = window.help.service.Lazy.create(0, {apiKey: 'AIzaSyDTEI_0tLX4varJ7bwK8aT-eOI5qr3BmyI', locale: 'en-US'});
+
+        helpApi.requestSurvey({
+          triggerId: 'YXTwAsvoW0kedxbuTdH0RArc9VhT',
+          enableTestingMode: false,
+          callback: (requestSurveyCallbackParam) => {
+            if (!requestSurveyCallbackParam.surveyData) {
+              return;
+            }
+            helpApi.presentSurvey({
+              productData: {
+                productVersion: window.version,
+                experimentIds: [],
+              },
+              surveyData: requestSurveyCallbackParam.surveyData,
+              colorScheme: 1,
+              customZIndex: 10000,
+            });
+          }
+        });
+      }
+    </script>
+    
+    <script src="/sw/null_loader.js"></script>
+    
+  </body>
+</html>
