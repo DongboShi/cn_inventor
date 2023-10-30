@@ -90,6 +90,11 @@ disambiguate inventors of Chinese patents
 ## 技术路线
 
 1. 公安局法人账号（史冬波）
+
+山西中京翼隆商贸有限公司
+91140400MA0HMFK35U
+密码:Lp123456
+
 2. 高德解析缺失地址（张繁）
 
 高德的api账号为，之前使用的参考代码放在文件夹gaodeapi里面，忽略其中的sql相关部分代码（这部分代码是因为之前的专利储存在sql里面）
