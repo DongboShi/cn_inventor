@@ -87,6 +87,9 @@ disambiguate inventors of Chinese patents
 
 科学家专利申请列表，阳性准确集样本
 
+9. name_dist.csv
+基于10万个科学家的记录信息
+
 ## 技术路线
 
 1. 公安局法人账号（史冬波）
@@ -94,6 +97,8 @@ disambiguate inventors of Chinese patents
 山西中京翼隆商贸有限公司
 91140400MA0HMFK35U
 密码:Lp123456
+
+已经放入科学家名字分布信息在name_dist.csv
 
 2. 高德解析缺失地址（张繁）
 
