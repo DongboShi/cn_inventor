@@ -114,4 +114,8 @@ disambiguate inventors of Chinese patents
 
 包括专利的description和引用信息，专利引用解析Patent Citations和Family Cites Families这两个表。
 
+## 1106进度
 
+1. 岩钧已完成谷歌专利获取与解析的脚本；
+
+2. 张繁（待补充）
