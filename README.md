@@ -90,6 +90,20 @@ disambiguate inventors of Chinese patents
 9. name_dist.csv
 基于10万个科学家的记录信息
 
+10.app_pub_number.txt |分割
+
+|变量|说明|
+|-------------------|---------------|
+|pnr|专利公开号|
+|ida           |专利申请号|
+|country           |国家代码|
+|kind         |类型|
+|pct|pct号|
+|fmlyid|专利族号|
+
+从这表里面筛出来中国的专利，注意ida和pnr有“-”要删除一下。然后这个没有表头，需要读入的时候自己加一下。
+
+
 ## 技术路线
 
 1. 公安局法人账号（史冬波）
