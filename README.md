@@ -85,7 +85,7 @@ disambiguate inventors of Chinese patents
 
 8.scientist.csv
 
-科学家专利申请列表，阳性准确集样本
+科学家专利申请列表，阳性准确集样本；scientists2.xlsx加了几十个科学家
 
 9. name_dist.csv
 基于10万个科学家的记录信息
