@@ -103,6 +103,9 @@ disambiguate inventors of Chinese patents
 
 从这表里面筛出来中国的专利，注意ida和pnr有“-”要删除一下。然后这个没有表头，需要读入的时候自己加一下。
 
+11. cn_e_cite_all.csv 专利间的引用关系
+
+使用citing_ida（施引专利的申请号）和cited_ida（被引专利的申请号）
 
 ## 技术路线
 
