@@ -54,7 +54,7 @@ def features_merge(inventor_folder, scientists_date_lst, cnp_pnr_ida_dict):
         for file in sorted_files:
             with open(file, 'r', encoding="utf-8") as f:
                 content = f.readlines()
-                feature_lst.append([content[p] for p in pair_n_lst if p < len(content)])
+                feature_lst.append([content[p] for p in pair_n_lst if p <= len(content)])
         feature_lst.append(diff_days_lst)
 
         for row in zip(*feature_lst):
