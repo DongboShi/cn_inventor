@@ -1,23 +1,18 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Nov 27 11:23:00 2023
-
-@author: Killlua
-"""
-
-from tqdm import tqdm
+import numpy as np
+import pandas as pd
 import os
-import json
 import gc
 import re
+import time
 
 import Levenshtein
 
-import jieba
 import jieba.analyse
+from jieba.analyse import extract_tags
+from ast import literal_eval
 from concurrent.futures import ThreadPoolExecutor
 
-# 遍历文件夹中所有文件，将文件路径传入list
+
 def show_files(path, all_files):
     file_list = os.listdir(path)
     for file in file_list:
@@ -40,8 +35,6 @@ def show_folders(path):
                 all_folders.append(os.path.join(home, dir))
     return all_folders
 
-
-# 姓名作为文件名，把不能放入文件名的字符替换为下划线
 def replace_special_chars(string):
     # 定义正则表达式，匹配不能用于文件名的特殊字符
     pattern = r'[\\/:*?"<>|,]'
@@ -58,6 +51,13 @@ def lst_intersec(a,b):
     else:
         return 0
 
+def lst_per(a,b):
+    try:
+        value = a/b
+    except:
+        value = 0
+    return value
+
 # values exist
 def zeroifs(x,y):
     if (x != None) and (y != None):
@@ -68,7 +68,7 @@ def zeroifs(x,y):
     else:
         return 0
 
-# 字符串相似度
+# strings' similarity
 def match_name_lr(name1,name2):
     if (name1 != None) and (name2 != None):
         d = Levenshtein.ratio(name1,name2)
@@ -79,53 +79,53 @@ def match_name_lr(name1,name2):
     else:
         return 0
 
-# 地理位置匹配度
-def calculate_geo_score(patents, i, j):   
-    if (patents[i]['country'] != patents[j]['country']) or ((patents[i]['country'] == '')and(patents[j]['country'] == '')):
+# Checking each level of geographic similarity 
+def calculate_geo_score(i, j, country, province, city, district, road, latitude, longitude):
+    if (country[i] != country[j]) or any([country[i]=='',country[j]=='']):
         geo = 0
-    if (patents[i]['country'] == patents[j]['country']) and (patents[i]['country'] != '') and (patents[j]['country'] != '') and ((patents[i]['province'] != patents[j]['province']) or ((patents[i]['province'] == '') and (patents[j]['province'] == ''))):
+    if (country[i] == country[j]) and all([country[i] != '', country[j] != '']) and ((province[i] != province[j]) or any([province[i]=='',province[j]==''])):
         geo = 1
-    if (patents[i]['country'] == patents[j]['country']) and (patents[i]['province'] != '') and (patents[j]['province'] != '') and (patents[i]['province'] == patents[j]['province']) and ((patents[i]['city'] != patents[j]['city']) or ((patents[i]['city'] == '') and (patents[j]['city'] == ''))):
+    if (country[i] == country[j]) and all([province[i] != '', province[j] != '']) and (province[i] == province[j]) and ((city[i] != city[j]) or any([city[i]=='',city[j]==''])):
         geo = 2
-    if (patents[i]['province'] == patents[j]['province']) and (patents[i]['city'] != '') and (patents[j]['city'] != '') and (patents[i]['city'] == patents[j]['city']) and ((patents[i]['district'] != patents[j]['district']) or ((patents[i]['district'] == '') and (patents[j]['district'] == ''))):
+    if (province[i] == province[j]) and all([city[i] != '', city[j] != '']) and (city[i] == city[j]) and ((district[i] != district[j]) or any([district[i]=='',district[j]==''])):
         geo = 3
-    if (patents[i]['country'] == patents[j]['country']) and (patents[i]['province'] == patents[j]['province']) and (patents[i]['city'] == patents[j]['city']) and (patents[i]['district'] != '') and (patents[j]['district'] != '') and (patents[i]['district'] == patents[j]['district']) and ((patents[i]['road'] != patents[j]['road']) or ((patents[i]['road'] == '') and (patents[j]['road'] == ''))):
+    if (country[i] == country[j]) and (province[i] == province[j]) and (city[i] == city[j]) and (district[i] != '') and (district[j] != '') and (district[i] == district[j]) and ((road[i] != road[j]) or any([road[i]=='',road[j]==''])):
         geo = 4
-    if (patents[i]['country'] == patents[j]['country']) and (patents[i]['province'] == patents[j]['province']) and (patents[i]['city'] == patents[j]['city']) and (patents[i]['district'] == patents[j]['district']) and (patents[i]['road'] != '') and (patents[j]['road'] != '')  and (patents[i]['road'] == patents[j]['road']):
+    if (country[i] == country[j]) and (province[i] == province[j]) and (city[i] == city[j]) and (district[i] == district[j]) and (road[i] != '') and (road[j] != '')  and (road[i] == road[j]):
         geo = 5
-    if (patents[i]['latitude'] != '') and (patents[i]['longitude'] != '') and (patents[j]['latitude'] != '') and (patents[j]['longitude'] != '') and (patents[i]['latitude'] == patents[j]['latitude']) and (patents[i]['longitude'] == patents[j]['longitude']):
+    if (latitude[i] != '') and (longitude[i] != '') and (latitude[j] != '') and (longitude[j] != '') and (latitude[i] == latitude[j]) and (longitude[i] == longitude[j]):
         geo = 6
     return geo
 
-# 地理位置是否存在
-def geo_exist(patents, i, j, geo):
+# geo exists
+def geo_exist(i, j, geo, country, province, city, district, road, latitude, longitude):
     if geo == 0:
-        if (patents[i]['country'] != '') and (patents[j]['country'] != ''):
+        if (country[i] != '') and (country[j] != ''):
             geo_est = 1
         else:
             geo_est = 0
     elif geo == 1:
-        if (patents[i]['province'] != '') and (patents[j]['province'] != ''):
+        if (province[i] != '') and (province[j] != ''):
             geo_est = 1
         else:
             geo_est = 0
     elif geo == 2:
-        if (patents[i]['city'] != '') and (patents[j]['city'] != ''):
+        if (city[i] != '') and (city[j] != ''):
             geo_est = 1
         else:
             geo_est = 0
     elif geo == 3:
-        if (patents[i]['district'] != '') and (patents[j]['district'] != ''):
+        if (district[i] != '') and (district[j] != ''):
             geo_est = 1
         else:
             geo_est = 0
     elif geo == 4:
-        if (patents[i]['road'] != '') and (patents[j]['road'] != ''):
+        if (road[i] != '') and (road[j] != ''):
             geo_est = 1
         else:
             geo_est = 0
     elif geo == 5:
-        if (patents[i]['latitude'] != '') and (patents[i]['longitude'] != '') and (patents[j]['latitude'] != '') and (patents[j]['longitude'] != ''):
+        if (latitude[i] != '') and (longitude[i] != '') and (latitude[j] != '') and (longitude[j] != ''):
             geo_est = 1
         else:
             geo_est = 0
@@ -133,28 +133,28 @@ def geo_exist(patents, i, j, geo):
         geo_est = 1
     return geo_est
 
-# 是否存在引用关系
-def citing_relationship(patents, i, j):
-    if patents[j]["citing_lst"] and (patents[i]["ida"] in patents[j]["citing_lst"]):
+# citing/cited relationship
+def citing_relationship(i, j, citing_lst, cited_lst, ida):
+    if citing_lst[j] and (ida[i] in citing_lst[j]):
         return 1
-    elif patents[j]["cited_lst"] and (patents[i]["ida"] in patents[j]["cited_lst"]):
+    elif cited_lst[j] and (ida[i] in cited_lst[j]):
         return 1
-    elif patents[i]["citing_lst"] and (patents[j]["ida"] in patents[i]["citing_lst"]):
+    elif citing_lst[i] and (ida[j] in citing_lst[i]):
         return 1
-    elif patents[i]["cited_lst"] and (patents[j]["ida"] in patents[i]["cited_lst"]):
+    elif cited_lst[i] and (ida[j] in cited_lst[i]):
         return 1
     else:
         return 0
 
-# 有无引用关系的特征值
-def citing_rp_est(patents, i, j):
-    if patents[i]["citing_lst"] != None and patents[i]["cited_lst"] != None and patents[j]["citing_lst"] != None and patents[j]["cited_lst"] != None:
+# citing/cited relationship exists
+def citing_rp_est(i, j, citing_lst, cited_lst):
+    if citing_lst[i] != None and cited_lst[i] != None and citing_lst[j] != None and cited_lst[j] != None:
         citing_lst_est = 1
         cited_lst_est = 1
-    elif (patents[i]["citing_lst"] == None and patents[i]["cited_lst"] != None) or (patents[j]["citing_lst"] == None and patents[j]["cited_lst"] != None):
+    elif (citing_lst[i] == None and cited_lst[i] != None) or (citing_lst[j] == None and cited_lst[j] != None):
         citing_lst_est = 0
         cited_lst_est = 1
-    elif (patents[i]["citing_lst"] != None and patents[i]["cited_lst"] == None) or (patents[j]["citing_lst"] != None and patents[j]["cited_lst"] == None):
+    elif (citing_lst[i] != None and cited_lst[i] == None) or (citing_lst[j] != None and cited_lst[j] == None):
         citing_lst_est = 1
         cited_lst_est = 0
     else:
@@ -162,165 +162,208 @@ def citing_rp_est(patents, i, j):
         cited_lst_est = 0
     return [citing_lst_est, cited_lst_est]
 
-# 生成特征值
-def process_patents(json_path):
-    # 读取block文件
-    with open(json_path, mode='r', encoding='utf-8') as file:
-        block = json.load(file)
-        inventor = list(block.keys())[0]
-        patents = block[inventor]
-    features_list = []           
-    # app_i
-    app_lst = [patent['applicants_lst'] for patent in patents]
-    
-    if app_lst:
-        app_i = [[lst_intersec(a,b) for b in app_lst] for a in app_lst]
-        app_i_est = [[zeroifs(a,b) for b in app_lst] for a in app_lst]
-    else:
-        app_i = [[0 for patentb in patents] for patenta in patents]
-        app_i_est= [[0 for patentb in patents] for patenta in patents]
-        
-    # inventor_i
-    co_inventor_lst = [patent['inventor_lst'] for patent in patents]
-    
-    if co_inventor_lst:
-        co_inventor_i = [[lst_intersec(a,b) for b in co_inventor_lst] for a in co_inventor_lst]
-        co_inventor_i_est = [[zeroifs(a,b) for b in co_inventor_lst] for a in co_inventor_lst]
-    else:
-        co_inventor_i = [[0 for patentb in patents] for patenta in patents]
-        co_inventor_i_est= [[0 for patentb in patents] for patenta in patents]
-        
-    # ipc_c
-    ipc_c_lst = [patent['ipc_class'] for patent in patents]
-    
-    if ipc_c_lst:
-        ipc_c_i = [[lst_intersec(a,b) for b in ipc_c_lst] for a in ipc_c_lst]
-        ipc_c_i_est = [[zeroifs(a,b) for b in ipc_c_lst] for a in ipc_c_lst]
-    else:
-        ipc_c_i = [[0 for patentb in patents] for patenta in patents]
-        ipc_c_i_est= [[0 for patentb in patents] for patenta in patents]
-        
-    # ipc_g
-    ipc_g_lst = [patent['ipc_group'] for patent in patents]
-    
-    if ipc_g_lst:
-        ipc_g_i = [[lst_intersec(a,b) for b in ipc_g_lst] for a in ipc_g_lst]
-        ipc_g_i_est = [[zeroifs(a,b) for b in ipc_g_lst] for a in ipc_g_lst]
-    else:
-        ipc_g_i = [[0 for patentb in patents] for patenta in patents]
-        ipc_g_i_est= [[0 for patentb in patents] for patenta in patents]
-        
+def process_file(file):
+    try:
+        with open(file, 'r', encoding="utf-8") as f:
+            content = f.readlines()
+        block_name = os.path.splitext(os.path.basename(file))[0]
+        block_values = [p.strip() for p in content]
+        return block_name, block_values
+    except Exception as e:
+        print(f"Error reading {file}: {e}")
+        return block_name, []
 
-    # app_s
-    app_first_lst = [patent['app_first'] for patent in patents]
-    
-    if app_first_lst:
-        app_first_s = [[match_name_lr(a, b) for b in app_first_lst] for a in app_first_lst]
-        app_first_s_est = [[zeroifs(a,b) for b in app_first_lst] for a in app_first_lst]
-    else:
-        app_first_s = [[0 for patentb in patents] for patenta in patents]
-        app_first_s_est = [[0 for patentb in patents] for patenta in patents]
-        
-    # address_s
-    da_lst = [patent['detailed_address'] for patent in patents]
-    
-    if da_lst:
-        da_s = [[match_name_lr(a, b) for b in da_lst] for a in da_lst]
-        da_s_est = [[zeroifs(a,b) for b in da_lst] for a in da_lst]
-    else:
-        da_s = [[0 for patentb in patents] for patenta in patents]
-        da_s_est = [[0 for patentb in patents] for patenta in patents]
-        
-    # title
-    titles = [patent['patent_title'] for patent in patents]
-    if (len(titles)!=0) and (all(not s for s in titles) != True):
-        title = [[match_name_lr(t1, t2) for t2 in titles] for t1 in titles]
-        title_est = [[zeroifs(t1,t2) for t2 in titles] for t1 in titles]
-        # keyword similarity
-        keywords = [jieba.analyse.extract_tags(patent['patent_title'],topK = 2) for patent in patents]
-        # 为每对标题计算关键词相似度
-        for i in tqdm(range(len(keywords)), desc='features processing', total=len(keywords)):
-            for j in range(i + 1, len(keywords)):
-                # 计算每一对标题的关键词相似度
-                if patents[i]["ida"] != patents[j]["ida"]:
-                    kw_sim_1 = match_name_lr(keywords[i][0], keywords[j][0]) if len(keywords[i]) > 0 and len(keywords[j]) > 0 else 0
-                    kw_sim_2 = match_name_lr(keywords[i][1], keywords[j][1]) if len(keywords[i]) > 1 and len(keywords[j]) > 1 else 0
-                    kw_sim_1_est = zeroifs(keywords[i][0], keywords[j][0]) if len(keywords[i]) > 0 and len(keywords[j]) > 0 else 0
-                    kw_sim_2_est = zeroifs(keywords[i][1], keywords[j][1]) if len(keywords[i]) > 1 and len(keywords[j]) > 1 else 0
-                    geo = calculate_geo_score(patents, i, j)                   
-                    geo_est = geo_exist(patents, i, j, geo)
-                    
-                    citing_rp = citing_relationship(patents, i, j)
-                    citing_lst_est = citing_rp_est(patents, i, j)[0]
-                    cited_lst_est = citing_rp_est(patents, i, j)[1]
-                        
-                    features_list.append([f'{patents[i]["ida"]}_{patents[j]["ida"]}',
-                                          app_i[i][j], app_i_est[i][j], 
-                                          app_first_s[i][j], app_first_s_est[i][j], 
-                                          co_inventor_i[i][j], co_inventor_i_est[i][j],
-                                          ipc_c_i[i][j], ipc_c_i_est[i][j], 
-                                          ipc_g_i[i][j], ipc_g_i_est[i][j], 
-                                          title[i][j], title_est[i][j], 
-                                          kw_sim_1, kw_sim_1_est, 
-                                          kw_sim_2, kw_sim_2_est, 
-                                          da_s[i][j], da_s_est[i][j], 
-                                          geo, geo_est,
-                                          citing_rp, citing_lst_est, cited_lst_est])
-    else:
-        for i in tqdm(range(len(patents)), desc='features processing', total=len(patents)):
-            for j in range(i + 1, len(patents)):
-                if patents[i]["ida"] != patents[j]["ida"]:
-                    geo = calculate_geo_score(patents, i, j)
-                    geo_est = geo_exist(patents, i, j, geo)
-                    
-                    citing_rp = citing_relationship(patents, i, j)
-                    citing_lst_est = citing_rp_est(patents, i, j)[0]
-                    cited_lst_est = citing_rp_est(patents, i, j)[1]
-                    
-                    features_list.append([f'{patents[i]["ida"]}_{patents[j]["ida"]}',
-                                          app_i[i][j], app_i_est[i][j], 
-                                          app_first_s[i][j], app_first_s_est[i][j], 
-                                          co_inventor_i[i][j], co_inventor_i_est[i][j],
-                                          ipc_c_i[i][j], ipc_c_i_est[i][j], 
-                                          ipc_g_i[i][j], ipc_g_i_est[i][j], 
-                                          0, 0, 
-                                          0, 0, 
-                                          0, 0, 
-                                          da_s[i][j], da_s_est[i][j], 
-                                          geo, geo_est,
-                                          citing_rp, citing_lst_est, cited_lst_est])                       
+def output_file(file, features_data):
+    with open(file, 'w', encoding="utf-8") as f:
+        for i in features_data[os.path.basename(file).replace('.txt','')]:
+            f.write(f'{i}\n')
 
-    # 生成feature.json的存储路径
-    file_path = json_path.replace('blocks', 'features')
-    os.makedirs(file_path.replace(f'{os.path.splitext(os.path.basename(file_path))[0]}.json', ''), exist_ok=True)
-    with open(file_path, mode='w', encoding='utf-8') as json_file:
-        json.dump({inventor:features_list}, json_file, ensure_ascii = False, indent = 4, sort_keys = False)
-
-
-
-
-
-
-if __name__ == "__main__":
-    # 加载分词字典
-    jieba.load_userdict('raw_data/lexicon.txt')
-
-    # 已有的train数据特征值，把这部分剔除，不必在重复生成
-    sample_path = show_files('blocks_sample', [])
-    sample_files = [os.path.splitext(os.path.basename(path))[0] for path in sample_path]
-    print(sample_files)
-    del sample_path
+def process_patents(scientist_folder, cnp_pnr_ida_dict, key_lst):
+    block_files = show_files(scientist_folder,[])
+    start_input = time.time()
+    patents_data = {}
+    with ThreadPoolExecutor(max_workers=12) as executor:
+        # 提交所有文件处理任务，并保留futures以保持顺序
+        futures = [executor.submit(process_file, file) for file in block_files]
+        for future in futures:
+            try:
+                # 尝试解包future的结果
+                block_name, block_values = future.result()
+                patents_data[block_name] = block_values
+            except ValueError as e:
+                print(f"Error unpacking future result: {e}")
+    print(f'{scientist_folder} input costs {time.time() - start_input}s')
+    patent_title = patents_data['patent_title']
+    ida = patents_data['ida']
+    latitude = patents_data['latitude']
+    country = patents_data['country']
+    inventor_lst = patents_data['inventor_lst']
+    citing_lst = patents_data['citing_lst']
+    detailed_address = patents_data['detailed_address']
+    cited_lst = patents_data['cited_lst']
+    road = patents_data['road']
+    ipc_class = patents_data['ipc_class']
+    applicants_lst = patents_data['applicants_lst']
+    longitude = patents_data['longitude']
+    province = patents_data['province']
+    district = patents_data['district']
+    city = patents_data['city']
+    ipc_group = patents_data['ipc_group']
+    housenumber = patents_data['housenumber']
+    app_first = patents_data['app_first']
+    del patents_data
     gc.collect()
-    
-    # 提取block文件所在文件夹
-    blocks_path = show_folders('blocks')
-    # thread pool
-    with ThreadPoolExecutor(10) as t:
-        for jf in tqdm(blocks_path, desc='features processing', total=len(blocks_path)):
-            json_lst = show_files(jf, [])
-            for block in json_lst:
-                if os.path.splitext(os.path.basename(block))[0] not in sample_files:
-                    t.submit(process_patents, block)
-            
-    print('features.json finished.')
- 
+    start = time.time()
+    patents_cp = []
+    app_i = []
+    app_i_est = []
+    app_i_per = []
+    app_s = []
+    app_s_est = []
+    inventor_i = []
+    inventor_i_est = []
+    inventor_i_per = []
+    ipc_c = []
+    ipc_c_est = []
+    ipc_c_per = []
+    ipc_g = []
+    ipc_g_est = []
+    ipc_g_per = []
+    title = []
+    title_est = []
+    keyword1 = []
+    keyword2 = []
+    keyword1_est = []
+    keyword2_est = []
+    geo = []
+    geo_est = []
+    citing_rp = []
+    citing_lst_est = []
+    cited_lst_est = []
+    diff_days = []
+    address_s = []
+    address_s_est = []
+
+    if (len(patent_title)!=0) and (all(not s for s in patent_title) != True):
+        for i in range(len(patent_title)):
+            for j in range(i + 1, len(patent_title)):
+                if i != j:
+                    patents_cp.append(f'{ida[i]}_{ida[j]}')
+                    # app_i
+                    app_i_value = lst_intersec(literal_eval(applicants_lst[i]),literal_eval(applicants_lst[j]))
+                    app_i.append(app_i_value)
+                    app_i_est.append(zeroifs(literal_eval(applicants_lst[i]),literal_eval(applicants_lst[j])))
+                    app_i_per.append(max(lst_per(app_i_value, len(literal_eval(applicants_lst[i]))), lst_per(app_i_value, len(literal_eval(applicants_lst[j])))))
+                    # app_s
+                    app_s.append(match_name_lr(app_first[i], app_first[j]))
+                    app_s_est.append(zeroifs(app_first[i], app_first[j]))
+                    # inventor_i
+                    inventor_i_value = lst_intersec(literal_eval(inventor_lst[i]), literal_eval(inventor_lst[j]))
+                    inventor_i.append(inventor_i_value)
+                    inventor_i_est.append(zeroifs(literal_eval(inventor_lst[i]), literal_eval(inventor_lst[j])))
+                    inventor_i_per.append(max(lst_per(inventor_i_value, len(literal_eval(inventor_lst[i]))),
+                                         lst_per(inventor_i_value, len(literal_eval(inventor_lst[j])))))
+                    # ipc_c
+                    ipc_c_value = lst_intersec(literal_eval(ipc_class[i]), literal_eval(ipc_class[j]))
+                    ipc_c.append(ipc_c_value)
+                    ipc_c_est.append(zeroifs(literal_eval(ipc_class[i]), literal_eval(ipc_class[j])))
+                    ipc_c_per.append(max(lst_per(ipc_c_value, len(literal_eval(ipc_class[i]))),
+                                              lst_per(ipc_c_value, len(literal_eval(ipc_class[j])))))
+
+                    # ipc_g
+                    ipc_g_value = lst_intersec(literal_eval(ipc_group[i]), literal_eval(ipc_group[j]))
+                    ipc_g.append(ipc_g_value)
+                    ipc_g_est.append(zeroifs(literal_eval(ipc_group[i]), literal_eval(ipc_group[j])))
+                    ipc_g_per.append(max(lst_per(ipc_g_value, len(literal_eval(ipc_group[i]))),
+                                              lst_per(ipc_g_value, len(literal_eval(ipc_group[j])))))
+
+                    # title
+                    title.append(match_name_lr(patent_title[i], patent_title[j]))
+                    title_est.append(zeroifs(patent_title[i], patent_title[j]))
+                    # keywords
+                    keywords_i = extract_tags(patent_title[i], topK=2)
+                    keywords_j = extract_tags(patent_title[j], topK=2)
+                    for keywords in [keywords_i, keywords_j]:
+                        if len(keywords) < 2:
+                            keywords += [None] * (2 - len(keywords))
+                    keyword1.append(match_name_lr(keywords_i[0], keywords_j[0]))
+                    keyword2.append(match_name_lr(keywords_i[1], keywords_j[1]))
+                    keyword1_est.append(zeroifs(keywords_i[0], keywords_j[0]))
+                    keyword2_est.append(zeroifs(keywords_i[1], keywords_j[1]))
+                    # geo
+                    geo_value = calculate_geo_score(i, j, country, province, city, district, road, latitude, longitude)
+                    geo.append(geo_value)
+                    geo_est.append(geo_exist(i, j, geo_value, country, province, city, district, road, latitude, longitude))
+                    # citing
+                    citing_rp.append(citing_relationship(i, j, citing_lst, cited_lst, ida))
+                    citing_lst_est.append(citing_rp_est(i, j, citing_lst, cited_lst)[0])
+                    cited_lst_est.append(citing_rp_est(i, j, citing_lst, cited_lst)[1])
+                    # diff_days
+                    adate_i = np.datetime64(cnp_pnr_ida_dict.get(ida[i], '9999-12-31'))
+                    adate_j = np.datetime64(cnp_pnr_ida_dict.get(ida[j], '9999-12-31'))
+                    diff_days.append(np.abs(adate_i - adate_j).astype('timedelta64[D]').astype(int))
+                    # address_s
+                    address_s.append(match_name_lr(detailed_address[i], detailed_address[j]))
+                    address_s_est.append(zeroifs(detailed_address[i], detailed_address[j]))
+    print(f'{scientist_folder} calculation costs {time.time()-start}s')
+    features_data = {}
+    features_data['patents_cp'] = patents_cp
+    features_data['app_i'] = app_i
+    features_data['app_i_est'] = app_i_est
+    features_data['app_i_per'] = app_i_per
+    features_data['app_s'] = app_s
+    features_data['app_s_est'] = app_s_est
+    features_data['inventor_i'] = inventor_i
+    features_data['inventor_i_est'] = inventor_i_est
+    features_data['inventor_i_per'] = inventor_i_per
+    features_data['ipc_c'] = ipc_c
+    features_data['ipc_c_est'] = ipc_c_est
+    features_data['ipc_c_per'] = ipc_c_per
+    features_data['ipc_g'] = ipc_g
+    features_data['ipc_g_est'] = ipc_g_est
+    features_data['ipc_g_per'] = ipc_g_per
+    features_data['title'] = title
+    features_data['title_est'] = title_est
+    features_data['keyword1'] = keyword1
+    features_data['keyword2'] = keyword2
+    features_data['keyword1_est'] = keyword1_est
+    features_data['keyword2_est'] = keyword2_est
+    features_data['geo'] = geo
+    features_data['geo_est'] = geo_est
+    features_data['citing_rp'] = citing_rp
+    features_data['citing_lst_est'] = citing_lst_est
+    features_data['cited_lst_est'] = cited_lst_est
+    features_data['diff_days'] = diff_days
+    features_data['address_s'] = address_s
+    features_data['address_s_est'] = address_s_est
+    start_output = time.time()
+    file_path = scientist_folder.replace('blocks', 'features')
+    os.makedirs(file_path, exist_ok=True)
+    with ThreadPoolExecutor(max_workers=12) as t:
+        for key in key_lst:
+            t.submit(output_file, os.path.join(file_path,f'{key}.txt'),features_data)
+    print(f'{file_path} output costs {time.time()-start_output}s')
+
+jieba.load_userdict('raw_data/lexicon.txt')
+
+
+key_lst = ['patents_cp', 'app_i', 'app_i_est', 'app_i_per', 'app_s', 'app_s_est',
+               'inventor_i', 'inventor_i_est', 'inventor_i_per', 'ipc_c', 'ipc_c_est', 'ipc_c_per',
+               'ipc_g', 'ipc_g_est', 'ipc_g_per', 'title', 'title_est',
+               'keyword1', 'keyword1_est',
+               'keyword2', 'keyword2_est',
+               'address_s', 'address_s_est',
+               'geo', 'geo_est',
+               'citing_rp', 'citing_lst_est', 'cited_lst_est', 'diff_days']
+if __name__ == "__main__":
+    blocks_lst = show_folders('blocks_total_split')
+    cnp_pnr_ida = pd.read_csv('../cnp_pnr_ida.csv')
+    cnp_pnr_ida_dict = dict(zip(cnp_pnr_ida['ida'], cnp_pnr_ida['adate']))
+    del cnp_pnr_ida
+    gc.collect()
+
+    with ThreadPoolExecutor(16) as t:
+        for jf in blocks_lst:
+            t.submit(process_patents, jf, cnp_pnr_ida_dict, key_lst)
+
+    print('features_total_split finished.')
