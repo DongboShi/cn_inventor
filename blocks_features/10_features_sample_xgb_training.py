@@ -156,7 +156,7 @@ key_lst = ['patents_cp', 'app_i', 'app_i_est', 'app_s', 'app_s_est',
 
 if __name__ == '__main__':
     df_rarename = features_df('rarename_features/0', key_lst)
-    print('over')
+    print('rarename over')
     # surnames = [os.path.splitext(os.path.basename(file))[0] for file in show_folders('rarename_features/0')]
     # df_rarename_sur = list(df_rarename['inventor'].unique())
     # lost_surnames = set(surnames)-set(df_rarename_sur)
