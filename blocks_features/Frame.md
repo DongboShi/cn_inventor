@@ -8,5 +8,5 @@
 8. **get_features_json_threadpool.py**：根据拆分的blocks计算features，存入features_total_split（需要优化）；
 9. get_features_json_threadpool_rarename.py：根据拆分的blocks计算稀有姓名集features，存入rarename_features（和get_features_json_threadpool.py结构一致，需要优化）
 10. features_sample_xgb_training.py: 稀有姓名集+科学家阳性样本预测模型训练，模型存入model；
-11. <img src="Y:\2.skd\2.schumpeter\nlp\15-154394_jojo-to-be-continued-png-calligraphy-clipart.png" alt="15-154394_jojo-to-be-continued-png-calligraphy-clipart" style="zoom:15%;" />
+11. To be continued...
 
