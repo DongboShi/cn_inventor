@@ -189,7 +189,7 @@ if __name__ == '__main__':
     df_sci_neg = pd.read_csv('clean_data/features_scientists_neg.csv')
     df_sci_pos = pd.read_csv('clean_data/features_scientists_pos_new.csv')
     df_sci_neg['label'] = 0
-    df_sci_pos['label'] = 1
+    # df_sci_pos['label'] = 1
     data = pd.concat([df_sci_neg, df_sci_pos], ignore_index=True)
     del df_sci_neg
     del df_sci_pos
